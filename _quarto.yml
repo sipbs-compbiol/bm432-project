@@ -1,0 +1,56 @@
+project:
+  type: website
+
+website:
+  title: "BM432 Project Pages"
+  site-url: https://sipbs-compbiol.github.io/bm432-project
+  navbar:
+    logo: ./assets/images/sipbs_compbio.png
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "Project Guidance"
+        menu: 
+          - text: "Key Dates"
+            href: calendar.qmd
+          - text: "Project Expectations"
+            href: expectations.qmd
+          - text: "Project and Time Management"
+            href: time_management.qmd
+      - text: "Computational Biology"
+        menu:
+          - text: "Learning Resources"
+            href: learning_resources.qmd
+          - text: "Online Resources"
+            href: online_resources.qmd
+          - text: "Software Tools"
+            href: software.qmd
+      - text: "Thesis and Presentation"
+        menu: 
+          - text: "Thesis"
+            href: thesis.qmd
+          - text: "Presentation"
+            href: presentation.qmd
+          - text: "Science Communication"
+            href: scicomm.qmd
+      - icon: github
+        href: https://github.com/sipbs-compbiol/sipbs-internships
+      - icon: twitter
+        href: https://twitter.com/scompbiol
+      - icon: rss
+        href: index.xml  
+  page-footer: 
+    left: This site © University of Strathclyde 2023
+
+
+format:
+  html:
+    theme: simplex
+    toc: true
+    css: styles.css
+    embed-resources: true
+
+editor: source
+
+execute:
+  freeze: auto

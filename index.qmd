@@ -1,0 +1,48 @@
+---
+title: "SIPBS CompBiol BM432 Project Pages"
+image: ./assets/images/sipbs_compbio.png
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+---
+
+Welcome to the SIPBS CompBiol Group BM432 project pages!
+
+## What is this site for?
+
+This site is designed to assist you as you complete your final year honours project and thesis in the SIPBS CompBiol group. These pages should be read in conjunction with the official SIPBS Internship Materials available on the course [MyPlace page]({{< var myplace.link >}})
+
+We have grouped information under three main headings: 
+
+- Project Guidance, which includes key dates, and tips on project and time management
+- Computational Biology, providing links to online learning, databases, software, and other resources that may be helpful to you
+- Thesis and Presentation, with links and advice on how to structure and present your work for others
+
+## Getting Started
+
+### Project Work
+
+Please do read the [Project Expectations](expectations.qmd) page, and keep the [Key Dates](calendar.qmd) in mind as you carry out your project, as these outline what you should be doing, and when, to keep on track with the project. Especially if this is your first time working on a long-form scientific project, or producing a dissertation of this length, please also take time to read our advice on [Project and Time Management](time_management.qmd), and how to go about [writing a thesis](thesis.qmd).
+
+We also provide advice on [giving scientific presentations](presentation.qmd) - an important component of your project - and [Science Communication](scicomm.qmd) in general. While tailored towards the BM432 project, the advice is quite general and we hope it will be helpful for some time to come.
+
+### Computational Biology and Bioinformatics
+
+If you are new to computational biology and bioinformatics, projects in this area can be quite challenging. While we design our projects to be as accessible as possible to students with no background in the field, it is unavoidable that you will need to learn new concepts, skills, and tools. We have compiled sets of [Learning Resources](learning_resources.qmd) that can help you with the self-directed learning you may need.
+
+As you may be unfamiliar with the wide scope of bioinformatics and computational biology tools and resources available, we have also compiled sets of [Online Resources](online_resources.qmd) - databases, online services, and other important sites - that may be directly useful for your project. We have also compiled sets of [Software Tools](software.qmd) that you may be able to download and use on your own computer.
+
+## Acknowledgements
+
+These pages were originally developed in 2023 by Dr {{< var admin.name >}} and Dr Morgan Feeney, and are currently maintained by, [Dr {{< var admin.name >}}](%7B%7B%3C%20var%20admin.homepage%20%3E%7D%7D).
+
+These materials are © University of Strathclyde, and licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). Linked and embedded materials are governed by their own licenses. I assume that all external materials used or embedded here are covered under the educational fair use policy. If this is not the case and any material displayed here violates copyright, please let [me](%7B%7B%3C%20var%20admin.email%20%3E%7D%7D) know and I will remove it.
