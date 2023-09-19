@@ -1,0 +1,98 @@
+---
+title: "Project Expectations"
+description: |
+ General expectations of students and staff undertaking final year projects
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: trueull
+---
+
+This may be your first time working on a scientific project, and/or your first time producing a scientific document (thesis). These guidelines are here to give you an idea of what to expect, and should be read in conjunction with the BM432 learning agreement [(MyPlace {{< bi link >}})]({{< var myplace.agreement >}}).
+{
+::: {.callout-important}
+Please read through these expectations and bring any questions or concerns that you would like to discuss with Dr. Pritchard to our first meeting.
+:::
+
+## Conducting Your Project
+
+### Science:
+
+-   Maintain a lab notebook, either on paper or electronically. Human memory is fallible! Your notebook should be thorough and legible -- if you come back to it in a month's time, you should be able to reconstruct what you did.
+    -   For each experiment, please write: Objective Background Methods, including deviations from established methods Results Conclusion
+-   Files should be saved with clear, concise file names and saved where you can find them again. **Back up your work frequently and in more than one place** -- you do not want to lose all of your data!
+-   At the end of the project, I expect you to provide me with the raw data files from your work: e.g. for a phylogenetic tree, I expect the .fasta file containing all of the sequences, the multiple sequence alignment of the sequences, and the .newick file for the tree. This is so that projects can be continued/expanded in future years.
+
+### Teamwork/collegiality:
+
+-   Science is a team effort and it benefits from people working together in groups -- we can accomplish more together than one person working alone can.
+-   Listen respectfully to each other, learn from each other, and contribute as you can.
+-   Be respectful of others' different life experiences, learn from them when appropriate, and contribute when appropriate. Do not insult or put down people who share their experiences. Harassment, sexism, racism, or exclusionary comments are not appropriate and prevent people from participating in science.
+-   Recognize that every person will bring strengths and weaknesses with them. Highlight each others strengths, and help each other overcome our weaknesses.
+-   If you find that you have made a mistake: listen, offer a genuine apology, and commit to learning and doing better.
+
+### Kindness:
+
+-   Be kind to yourself. Be mindful of your limits, and aware of the fact that you are still in the middle of a global pandemic -- give yourself credit for the hard work that you're doing every day.
+-   Be kind to others. Give them the benefit of the doubt when needed; remember that online communication often misses nuance or meaning. Remember that everyone is struggling right now and may not be able to be their best selves.
+-   Be patient. Science can be hard work -- things take longer to accomplish, particularly at first; you may need to repeat experiments or start over with a new dataset. This is all part of the process -- you are making progress, even though it may not be readily apparent.
+
+### Communication:
+
+-   Clear, open, honest communication -- I cannot help if you don't let me know that there's a problem.
+-   Meetings at least once a week in person or via Zoom (individual and/or group meetings). Zoom etiquette: turning your camera, microphone on/off is completely up to you, no pressure either way.
+-   Between meetings, I'm available by e-mail to answer questions or you can schedule a drop-in Zoom (depending on our schedules).
+-   Don't be afraid to ask for help:
+    -   Me (...this is literally my job!)
+    -   Each other
+    -   The Microbiology group
+    -   Ask questions in your lectures/open office sessions
+    -   Twitter (a great place to crowdsource science questions)
+-   **How to ask for help**: ... after Google, reading papers, looking at manuals and FAQs has proven unhelpful!
+    -   Be detailed and specific! ("I tried it and it didn't work" is not a useful question).
+    -   Explain what you were trying to do, exactly how you tried to do it, exactly what happened (e.g. what error message you got) -- include screenshots if they help to illustrate the problem. This will save a lot of time and back-and-forth e-mails
+-   Take ownership of your project: I am here to help and to guide you, but this is not my thesis (I have already done one!) Come prepared to meetings Think independently and critically Read broadly All of the above contributes to your project performance mark
+-   Don't be afraid to tell me that I'm wrong:
+    -   Your data may well contradict my hypotheses or ideas
+    -   You might find something in the literature that I wasn't aware of
+    -   You may well have insights and clever thoughts that I won't have
+    -   Doing science is about being able to challenge the accepted dogma and prove ideas wrong
+
+## What you can expect from me: 
+
+-   Kindness, team-work, and collegiality
+-   Advice and guidance on planning and carrying out your experiments
+-   Guidance on how to write a scientific document
+-   Feedback on drafts and practice presentation
+-   Good communication
+-   E-mail responses within 24h (I will do my absolute best)
+-   Feedback on project performance
+-   References
+  
+::: {.callout-note}
+When naming me as a reference there's no need to ask for permission, but I do appreciate as much notice as possible. If you can send me your CV and a couple of points you'd like me to highlight, so much the better!
+:::
+
+::: {.callout-tip}
+## A few tips and suggestions for success
+
+- Take care of yourself (a healthy mind requires a healthy body)
+- Stay organized: set yourself deadlines (but be flexible when need be)
+- Don't feel the need to write your draft in one go -- it's much better to work on it a little bit every day (marathon, not a sprint)
+- Break it down into small tasks
+- Get into the habit of writing at least a few sentences daily
+- Take breaks and let your mind rest/process ideas (take a walk, wash the dishes, drink some tea).
+- Take breaks from the screen.
+- When you read papers, and go to seminars/journal clubs: pay attention to the way that other people explain their science (what works? what doesn't?)
+:::
