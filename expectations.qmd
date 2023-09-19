@@ -80,12 +80,12 @@ I cannot help if you don't let me know that there's a problem.
 - Between meetings, I'm available by email to answer questions or you can schedule a drop-in Zoom (depending on our schedules).
 - **Don't be afraid to ask for help**. You have many resources to call on, including:
   - Me (...this is literally my job!)
-    - Each other. **Please do talk to and help each other!** - we call this "_Peer Learning_" and it's deliberately part of the project. It's not cheating or plagiarism.
-    - Anyone else in the SIPBS CompBiol Group
-    - The Microbiology group
-    - Ask questions in your lectures/open office sessions
-    - [Stack Overflow](https://stackoverflow.com/), [Bioinformatics Stack Exchange](https://bioinformatics.stackexchange.com/) and other specialist sites
-    - Social Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)
+  - Each other. **Please do talk to and help each other!** - we call this "_Peer Learning_" and it's deliberately part of the project. It's not cheating or plagiarism.
+  - Anyone else in the SIPBS CompBiol Group
+  - The Microbiology group
+  - Ask questions in your lectures/open office sessions
+  - [Stack Overflow](https://stackoverflow.com/), [Bioinformatics Stack Exchange](https://bioinformatics.stackexchange.com/) and other specialist sites
+  - Social Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)
 - **Take ownership of your project**. I am here to help and to guide you, but this is not my thesis (I have already done one!) 
   - Come to meetings prepared.
   - Think independently and critically
