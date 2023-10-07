@@ -1,0 +1,80 @@
+---
+title: "Online Resources"
+description: |
+ Online bioinformatics and computational biology resources
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+Computational Biology is unusually accessible as an applied science in part because so much can be done by an individual on modest hardware without access to a laboratory or computing cluster. All you need to bring is your brain.
+
+A large part of the reason for the accessibility of the topic is the sustained drive for Open Science practised by bioinformatics, computational biologists, and other scientists. These have encouraged, and sometimes demanded, open, free, [FAIR](https://en.wikipedia.org/wiki/FAIR_data) (findable, accessible, interoperable, reusable) data, which has benefited us all.
+
+This page lists some of the incredibly valuable, open data resources that might be of use to you in your project. It is not an exhaustive list.
+
+## Sequence data repositories (including annotated genome data)
+
+- [NCBI](https://www.ncbi.nlm.nih.gov/) - _the repository of record for many datasets, not just sequence data_
+  - [Assembly](https://www.ncbi.nlm.nih.gov/assembly) - _assembled genomes and other metadata_
+  - [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) - _all publicly available DNA sequences_
+  - [Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) - _aggregated data from GenBank, RefSeq, and elsewhere_
+  - [RefSeq](https://www.ncbi.nlm.nih.gov/RefSeq/) - _curated, non-redundant, gDNA, transcript, and protein sequences_
+  - [SRA](https://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?) - _sequencing read data_
+- [UniProt](https://www.uniprot.org/) - _protein sequence and annotation data_
+- [Ensembl](https://www.ensembl.org/index.html) - _vertebrate genome data_
+  - [Ensembl Bacteria](https://bacteria.ensembl.org/index.html) - _bacterial genome data_
+  - [Ensembl Fungi](https://fungi.ensembl.org/index.html) - _fungal genome data_
+  - [Ensembl Plants](https://plants.ensembl.org/index.html) - _plant genome data_
+  - [Ensembl Protists](https://protists.ensembl.org/index.html) - _protist genome data_
+- [InterPro](https://www.ebi.ac.uk/interpro) - _protein families and sequence domains_
+
+## Structural data repositories
+
+- [RCSB-PBD](https://www.rcsb.org/) - _the repository of record for biomolecular structure data_
+- [EMBL AlphaFold](https://www.alphafold.ebi.ac.uk/) - _EMBL's AlphaFold predictions for multiple organisms_
+
+## Transcriptome data repositories
+
+- [GEO](https://www.ncbi.nlm.nih.gov/geo/) - _transcriptome experiment (microarray, RNAseq etc., data_
+- [HTCA](https://www.htcatlas.org/) - _human transcriptome cell atlas_
+
+## Molecular interaction databases
+
+- [STRING](https://string-db.org/) - _known and predicted interactions_
+- [BioGrid](https://thebiogrid.org/) - _curated interactions and post-translational modifications_
+- [IntAct](https://www.ebi.ac.uk/intact/home) - _EMBL-EBI's database of interactions_
+
+## Biological models
+
+- [BioModels](https://www.ebi.ac.uk/biomodels/) - _mathematical models of biological systems_
+
+## Specialised functional databases
+
+- [PHI-Base](http://www.phi-base.org/) - _curated database of pathogen-host interactions_
+- [CAZy](http://www.cazy.org/) - _curated database of carbohydrate-acive enzymes_
+
+## Taxonomic and other classification resources
+
+- [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
+  - _Widely-used, but not as widely trusted, as it is often at odds with other classification databases - LP_
+- [GTDB](https://gtdb.ecogenomic.org/)
+  - _Excellent genome-based microbial taxonomy and classification database and resource - LP_
+- [genomeRxiv]()
+  - _Genome-based, taxonomy-independent classification. I work on this - LP_
+- [Enterobase](https://enterobase.warwick.ac.uk/)
+  - _The central resource for enteric bacteria genomic variation and classification - LP_
+- [PhytoBacExplorer](https://phytobacexplorer.warwick.ac.uk/)
+  - _Like Enterobase, but for plant pathogenic bacteria - LP_
