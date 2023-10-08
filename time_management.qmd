@@ -21,6 +21,10 @@ html:
 
 This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice.
 
+::: {.callout-warning}
+**Make sure you back up your thesis work.** IT issues such as computer failure are not considered grounds for an extension.
+:::
+
 ::: {.callout-caution}
 These articles come from external sources and are opinions. You will find a range of opinions within the group, as well as online. Some approaches are objectively better than others, and some are personal preference. Find what works for you, and **discussion is encouraged**!
 :::
@@ -36,6 +40,26 @@ These Notebooks on data and project management were prepared by Dr. Pritchard an
     - [04-Keeping a Lab Notebook to Document Your Project](https://sipbs-compbiol.github.io/BM432/notebooks/03-04-keeping_a_lab_notebook.html)
     - [05-Reference Management](https://sipbs-compbiol.github.io/BM432/notebooks/03-05-reference_management.html)
     - [06-How to Use Reference Management Software](https://sipbs-compbiol.github.io/BM432/notebooks/03-06-using_a_reference_manager.html)
+
+- [NCSC advice for backing up your data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+
+### How Dr Pritchard backs up his data
+
+::: {.callout-tip}
+The university has a [set of recommendations](https://www.strath.ac.uk/professionalservices/informationservices/it/saveshare/) for how you should save, share, and back up your data.
+:::
+
+For each individual computer I use:
+
+- I work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.
+  - I work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites.
+    - Ways to do this include [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage), [iCloud](https://www.icloud.com/), [DropBox](https://www.dropbox.com/), [GitHub](https://www.dropbox.com/), [GitLab](https://gitlab.com/users/sign_in), [BitBucket](https://bitbucket.org/) and so on
+- I back up each computer to a local dedicated storage system, e.g. a [NAS (network-attached storage)](https://en.wikipedia.org/wiki/Network-attached_storage) with a high-availability file system (i.e. running a variant of [RAID](https://en.wikipedia.org/wiki/RAID) or similar)
+  - This backup is run using an automated tool, such as Apple's [Time Machine](https://support.apple.com/en-gb/HT201250), or [Carbon Copy Cloner](https://bombich.com/download)
+- I additionally back up each computer to an external hard drive
+  - I use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals
+  - This backup is also run using an automated tool, such as Apple's [Time Machine](https://support.apple.com/en-gb/HT201250), or [Carbon Copy Cloner](https://bombich.com/download)
+
 
 ## Laboratory Notebooks: Advice
 
@@ -64,17 +88,17 @@ These Notebooks on data and project management were prepared by Dr. Pritchard an
 ## Time and Project Management: Resources
 
 - [Trello](https://trello.com/)
-  - A widely-used project management tool, but tailored towards teams. It probably does more than you need - LP_
+  - _A widely-used project management tool, but tailored towards teams. It probably does more than you need - LP_
 - [Asana](https://asana.com/)
-  - Seems to be similar to Trello. I haven't used it, myself - LP_
+  - _Seems to be similar to Trello. I haven't used it, myself - LP_
 - [Benchling](https://www.benchling.com/)
-  - An electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I'm told - LP_
+  - _An electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I'm told - LP_
 - [Pomodoro Timer](https://pomofocus.io/)
-  - Free timer for Pomodoro. Just does the timing, which may be all you need - LP_
+  - _Free timer for Pomodoro. Just does the timing, which may be all you need - LP_
 - [BeFocused](https://apps.apple.com/us/app/be-focused-focus-timer/id973130201)
-  - Pomodoro timer with additional project management and time categorisation features. It's the tool I use - LP_
+  - _Pomodoro timer with additional project management and time categorisation features. It's the tool I use - LP_
 - [Forest](https://www.forestapp.cc/)
-  - A focusing app. I hear good things but I don't use it - LP_
+  - _A focusing app. I hear good things but I don't use it - LP_
 - [EverNote](https://evernote.com/)
-  - Note-taking app. I know people who love it, but it didn't grab me - LP_
+  - _Note-taking app. I know people who love it, but it didn't grab me - LP_
 
