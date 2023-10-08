@@ -1,5 +1,6 @@
 ---
 title: "Project and Time Management"
+image: ./assets/images/time_management.jpg
 description: |
  Advice for managing your project, and your time
 number-sections: true
@@ -22,7 +23,7 @@ html:
 This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice.
 
 ::: {.callout-warning}
-**Make sure you back up your thesis work.** IT issues such as computer failure are not considered grounds for an extension.
+**Make sure you back up all of your project work.** IT issues such as computer failure are not considered grounds for an extension.
 :::
 
 ::: {.callout-caution}
@@ -49,15 +50,15 @@ These Notebooks on data and project management were prepared by Dr. Pritchard an
 The university has a [set of recommendations](https://www.strath.ac.uk/professionalservices/informationservices/it/saveshare/) for how you should save, share, and back up your data.
 :::
 
-For each individual computer I use:
+For each individual computer I:
 
-- I work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.
-  - I work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites.
-    - Ways to do this include [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage), [iCloud](https://www.icloud.com/), [DropBox](https://www.dropbox.com/), [GitHub](https://www.dropbox.com/), [GitLab](https://gitlab.com/users/sign_in), [BitBucket](https://bitbucket.org/) and so on
-- I back up each computer to a local dedicated storage system, e.g. a [NAS (network-attached storage)](https://en.wikipedia.org/wiki/Network-attached_storage) with a high-availability file system (i.e. running a variant of [RAID](https://en.wikipedia.org/wiki/RAID) or similar)
+- …work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.
+  - I work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites, and automatically reproduces the material at several goegraphical locations in the cloud.
+  - Ways to do this include [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage), [iCloud](https://www.icloud.com/), [DropBox](https://www.dropbox.com/), [GitHub](https://www.dropbox.com/), [GitLab](https://gitlab.com/users/sign_in), [BitBucket](https://bitbucket.org/) and so on
+- …back up each computer to a local dedicated storage system, e.g. a [NAS (network-attached storage)](https://en.wikipedia.org/wiki/Network-attached_storage) with a high-availability file system (i.e. running a variant of [RAID](https://en.wikipedia.org/wiki/RAID) or similar)
   - This backup is run using an automated tool, such as Apple's [Time Machine](https://support.apple.com/en-gb/HT201250), or [Carbon Copy Cloner](https://bombich.com/download)
-- I additionally back up each computer to an external hard drive
-  - I use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals
+- …additionally back up each computer to an external hard drive
+  - I use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals (usually weekly)
   - This backup is also run using an automated tool, such as Apple's [Time Machine](https://support.apple.com/en-gb/HT201250), or [Carbon Copy Cloner](https://bombich.com/download)
 
 

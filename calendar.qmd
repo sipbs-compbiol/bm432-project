@@ -1,5 +1,6 @@
 ---
 title: "Key Dates"
+image: ./assets/images/key_dates.jpg
 description: |
  Key Dates for {{< var ay >}} BM432 Final Year Projects
 tbl-colwidths: [5, 10, 50, 5]

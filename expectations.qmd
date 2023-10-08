@@ -1,5 +1,6 @@
 ---
 title: "Project Expectations"
+image: ./assets/images/expectations.jpg
 description: |
  General expectations of students and staff during final year projects
 number-sections: true

@@ -1,5 +1,6 @@
 ---
 title: "Online Resources"
+image: ./assets/images/online_resources.jpg
 description: |
  Online bioinformatics and computational biology resources
 number-sections: true
