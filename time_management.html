@@ -4547,7 +4547,10 @@ vertical-align: -.125em;
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#data-and-project-management" id="toc-data-and-project-management" class="nav-link active" data-scroll-target="#data-and-project-management"><span class="header-section-number">1</span> Data and Project Management</a></li>
+  <li><a href="#data-and-project-management" id="toc-data-and-project-management" class="nav-link active" data-scroll-target="#data-and-project-management"><span class="header-section-number">1</span> Data and Project Management</a>
+  <ul class="collapse">
+  <li><a href="#how-dr-pritchard-backs-up-his-data" id="toc-how-dr-pritchard-backs-up-his-data" class="nav-link" data-scroll-target="#how-dr-pritchard-backs-up-his-data"><span class="header-section-number">1.1</span> How Dr Pritchard backs up his data</a></li>
+  </ul></li>
   <li><a href="#laboratory-notebooks-advice" id="toc-laboratory-notebooks-advice" class="nav-link" data-scroll-target="#laboratory-notebooks-advice"><span class="header-section-number">2</span> Laboratory Notebooks: Advice</a></li>
   <li><a href="#time-and-project-management-advice" id="toc-time-and-project-management-advice" class="nav-link" data-scroll-target="#time-and-project-management-advice"><span class="header-section-number">3</span> Time and Project Management: Advice</a></li>
   <li><a href="#time-and-project-management-resources" id="toc-time-and-project-management-resources" class="nav-link" data-scroll-target="#time-and-project-management-resources"><span class="header-section-number">4</span> Time and Project Management: Resources</a></li>
@@ -4573,6 +4576,19 @@ vertical-align: -.125em;
 </header> <main class="content" id="quarto-document-content">
 
 <p>This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Make sure you back up your thesis work.</strong> IT issues such as computer failure are not considered grounds for an extension.</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -4599,7 +4615,43 @@ Caution
 <li><a href="https://sipbs-compbiol.github.io/BM432/notebooks/03-05-reference_management.html">05-Reference Management</a></li>
 <li><a href="https://sipbs-compbiol.github.io/BM432/notebooks/03-06-using_a_reference_manager.html">06-How to Use Reference Management Software</a></li>
 </ul></li>
+<li><a href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data">NCSC advice for backing up your data</a></li>
 </ul>
+<section id="how-dr-pritchard-backs-up-his-data" class="level3" data-number="1.1">
+<h3 data-number="1.1" data-anchor-id="how-dr-pritchard-backs-up-his-data"><span class="header-section-number">1.1</span> How Dr Pritchard backs up his data</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The university has a <a href="https://www.strath.ac.uk/professionalservices/informationservices/it/saveshare/">set of recommendations</a> for how you should save, share, and back up your data.</p>
+</div>
+</div>
+<p>For each individual computer I use:</p>
+<ul>
+<li>I work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.
+<ul>
+<li>I work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites.
+<ul>
+<li>Ways to do this include <a href="https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage">OneDrive</a>, <a href="https://www.icloud.com/">iCloud</a>, <a href="https://www.dropbox.com/">DropBox</a>, <a href="https://www.dropbox.com/">GitHub</a>, <a href="https://gitlab.com/users/sign_in">GitLab</a>, <a href="https://bitbucket.org/">BitBucket</a> and so on</li>
+</ul></li>
+</ul></li>
+<li>I back up each computer to a local dedicated storage system, e.g. a <a href="https://en.wikipedia.org/wiki/Network-attached_storage">NAS (network-attached storage)</a> with a high-availability file system (i.e. running a variant of <a href="https://en.wikipedia.org/wiki/RAID">RAID</a> or similar)
+<ul>
+<li>This backup is run using an automated tool, such as Apple’s <a href="https://support.apple.com/en-gb/HT201250">Time Machine</a>, or <a href="https://bombich.com/download">Carbon Copy Cloner</a></li>
+</ul></li>
+<li>I additionally back up each computer to an external hard drive
+<ul>
+<li>I use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals</li>
+<li>This backup is also run using an automated tool, such as Apple’s <a href="https://support.apple.com/en-gb/HT201250">Time Machine</a>, or <a href="https://bombich.com/download">Carbon Copy Cloner</a></li>
+</ul></li>
+</ul>
+</section>
 </section>
 <section id="laboratory-notebooks-advice" class="level2" data-number="2">
 <h2 data-number="2" data-anchor-id="laboratory-notebooks-advice"><span class="header-section-number">2</span> Laboratory Notebooks: Advice</h2>
@@ -4652,31 +4704,31 @@ Caution
 <ul>
 <li><a href="https://trello.com/">Trello</a>
 <ul>
-<li>A widely-used project management tool, but tailored towards teams. It probably does more than you need - LP_</li>
+<li><em>A widely-used project management tool, but tailored towards teams. It probably does more than you need - LP</em></li>
 </ul></li>
 <li><a href="https://asana.com/">Asana</a>
 <ul>
-<li>Seems to be similar to Trello. I haven’t used it, myself - LP_</li>
+<li><em>Seems to be similar to Trello. I haven’t used it, myself - LP</em></li>
 </ul></li>
 <li><a href="https://www.benchling.com/">Benchling</a>
 <ul>
-<li>An electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP_</li>
+<li><em>An electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP</em></li>
 </ul></li>
 <li><a href="https://pomofocus.io/">Pomodoro Timer</a>
 <ul>
-<li>Free timer for Pomodoro. Just does the timing, which may be all you need - LP_</li>
+<li><em>Free timer for Pomodoro. Just does the timing, which may be all you need - LP</em></li>
 </ul></li>
 <li><a href="https://apps.apple.com/us/app/be-focused-focus-timer/id973130201">BeFocused</a>
 <ul>
-<li>Pomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP_</li>
+<li><em>Pomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP</em></li>
 </ul></li>
 <li><a href="https://www.forestapp.cc/">Forest</a>
 <ul>
-<li>A focusing app. I hear good things but I don’t use it - LP_</li>
+<li><em>A focusing app. I hear good things but I don’t use it - LP</em></li>
 </ul></li>
 <li><a href="https://evernote.com/">EverNote</a>
 <ul>
-<li>Note-taking app. I know people who love it, but it didn’t grab me - LP_</li>
+<li><em>Note-taking app. I know people who love it, but it didn’t grab me - LP</em></li>
 </ul></li>
 </ul>
 
