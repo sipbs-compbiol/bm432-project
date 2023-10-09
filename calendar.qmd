@@ -47,7 +47,7 @@ This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{
 | **4** | w/b Mon 9/10 | **Suggested activities** <br> Continue literature search Outline thesis introduction | |
 | **4** | **Fri 13/10** <br> 14:00-15:00 <br> HW324 | **Project Group Meeting**  <br> How to write a project thesis | **LP** |
 | **4** | **Fri 13/10** | **Complete Workshop 5 quizzes - Ethics** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | w/b Mon 16/10 | **Suggested activities** <br> Continue literature search Writing thesis introduction | |
+| **5** | w/b Mon 16/10 | **Suggested activities** <br> Continue literature search <br> Writing thesis introduction | |
 | **5** | **Mon 16/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
 | **5** | **Fri 20/10** <br> 14:00-15:00 <br> HW324 | **Project Group Meeting** <br> - Feedback/discussion of thesis outlines  <br> - Project planning discussion | **LP** |
 | **6** | w/b Mon 23/10 | **Suggested activities** <br> Project work | |
