@@ -1,0 +1,57 @@
+---
+title: "Writing Bioinformatics Methods"
+image: ./assets/images/methods.jpg
+description: |
+ Advice for writing bioinformatics methods
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+::: {.callout-important}
+Bioinformatics methods sections should convey the same level of information as a wet-lab methods section. They should be:
+
+- clear
+- reproducible
+- adequately cite the tools used
+:::
+
+::: {.callout-caution}
+Be careful if using a published paper as a template for your own methods section. Many published papers do not include sufficient information in their bioinformatics sections to be reproducible, and make for bad examples.
+:::
+
+- [Annotated example of how to write a methods section](./assets/docs/methods_example.docx)  - _An example of a generally good methods section and some key points where it might be improved - LP_
+
+## Tips for Writing a Great Methods Section
+
+- Describe your experimental methods in **enough detail that your reader could replicate the experiments**.
+- Your methods section is **not** a protocol (a step-by-step list of everything that was done.) You may assume that your reader is a competent scientist with the skills to perform basic lab calculations, techniques, etc.
+- Cite the appropriate literature (i.e. for any recipes, tools _including software_, and protocols you have used).
+- Do not include results or rationale for performing experiments (these belong elsewhere in your thesis).
+- Be clear and concise; eliminate unnecessary words and steps.
+- Make sure that your methods section includes **all** of the materials and methods you used in your thesis (This includes any bioinformatics methods such as BLAST!)
+- Ask a friend or colleague to read your methods section and give feedback.
+
+::: {.callout-tip}
+Look at papers that have used similar methods: how are these methods sections written? Though take care as many papers underdescribe bioinformatics methods.
+:::
+
+You want to make sure that your methods section generally follows the conventions in your field, so that readers will be able to understand it more easily.
+
+A few examples of specific conventions:
+
+-   for wet-lab projects, centrifuge speeds are always given in xg, not in rpm or rcf
+-   for science communication projects, the design of your intervention/survey belongs in the methods section
+-   for bioinformatics projects, always include the version number and citation for any software used and details of parameters, etc.
