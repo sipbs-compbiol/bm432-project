@@ -1,0 +1,62 @@
+---
+title: "Preparing Thesis Figures"
+image: ./assets/images/figures.jpg
+description: |
+ How to prepare figures for your thesis
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## Figure Preparation checklist
+
+1. Determine what message you want the reader to take from your figure, and the most effective way of conveying that point
+2. Remove any extraneous or distracting data that distracts from the main message of your figure (taking care not to make the figure misleading by doing so)
+3. Determine how large the figure needs to be: how much space will it take up on a page?
+4. Will it be easy for your reader to see key details if the figure is this size?
+5. Check that the figure is clear and not pixellated: will your reader be able to see all the important details? Is the resolution good enough?
+  - You should always prepare figures in _vector format_ (i.e. PDF, PS, or SVG) where possible to avoid pixellation issues.
+6. Check that the colour scheme you have chosen is colour-blind friendly and not visually jarring
+7. Check that any fonts used are legible at the size printed
+8. Figure titles should give a concise "take-home message" conveying the result(s) shown in the figure
+9. Figure legends should give enough detail about the experiment for the reader to understand what was done (the figure should be able to stand on its own)
+
+- [Dr Feeney's guidance on writing good figure titles and legends (with examples)](./assets/docs/FigureTitleLegend.docx)
+
+## A guide to figure preparation
+
+- Refer back to the [Data presentation and figure preparation](https://sipbs-compbiol.github.io/BM432/notebooks/04-data_presentation_workshop.html) (BM432 workshop 6 materials) as needed.
+- [Points of View](https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column) - _In my opinion the definitive guide to graphic design for scientific figures - LP_
+- [Making model figures](./Making_model_figures_workshop.pptx) (slides used in our regular meeting discussion)
+- [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128) - _A compelling case for why you should **never** use bar graphs, and especially not dynamite plots - LP_
+- [Read Ten Simple Rules for Better Figures](https://doi.org/10.1371/journal.pcbi.1003833) - _Yet another excellent "Ten Simple Rules…" article - LP_
+- [Digital Images Are Data: And Should Be Treated as Such](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210356/) - _It's natural to think of images as being "neutral" in some way, but they are not - LP_
+- [Ten common statistical mistakes to watch out for when writing or reviewing a manuscript](https://elifesciences.org/articles/48175) - _Another "Ten Simple Rules…" article - LP_
+- [Fundamentals of graphic design---essential tools for effective visual science communication](https://www.facetsjournal.com/doi/10.1139/facets-2018-0049) - _A good, short summary of graphic design principles relevant to scientific communication - LP_
+- [11 Graphic Design Tips to Create Images Like a Pro](https://blog.snappa.com/graphic-design-tips/) - _Economical advice for powerful graphic design - LP_
+
+## Other Useful Resources
+
+- [Biorender](https://www.biorender.com/) - _Useful clipart and images for building your own figures - LP_
+- [ImageJ Basics](https://imagej.nih.gov/ij/docs/pdfs/ImageJ.pdf) - _The standard open source image analysis software - LP_
+- [Coblis --- Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) - _It's kind to consider the needs of others, so always check your images for colourblindness accessibility - LP_
+- [Data visualization with ggplot2 :: Cheat Sheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html?_gl=1*yq93b*_ga*NDg4Mzg2NDQ4LjE2OTI4ODYzNzY.*_ga_2C0WZ1JHG0*MTY5MzIyOTcyMy41LjAuMTY5MzIyOTcyMy4wLjAuMA..) - _`ggplot` is an amazing way to generate powerful graphs, though there can be a learning curve, especially if you don't yet know `R` - LP_
+
+## Dr Feeney's pet peeves for figures
+
+- [Why You *Must* Plot Your Growth Data On a Semi-log Graph](https://schaechter.asmblog.org/schaechter/2018/07/why-you-must-plot-your-growth-data-on-semi-log-graph-paper.html) - _TBH, this is trivial to do now in most graphic packages, so there's no excuse - LP_
+- Make sure you include a scale on any images that need them (e.g., micrographs, phylogenetic trees)
+- By convention, figure titles and legends are presented **below** the corresponding figure, while table titles are presented **above** the corresponding table.
+- Make sure your text is formatted correctly within your figure (e.g., species names should be italicized, gene and protein names should be formatted correctly)
