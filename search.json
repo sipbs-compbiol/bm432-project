@@ -35,193 +35,11 @@
     "text": "4 Other Computing Skills\n\nPrinciples for Writing Clean Code - However you choose to learn to code, in whatever language, encountering and using these principles will make your life so much easier - LP\nHow Much Can Your Computer Do In A Second - Some things that seem like they might be hard on a computer are quite easy; some things that seems like they should be easy are actually hard. It’s worth gaining an intuition about the difference - LP\nCryptoHack - Learn modern cryptography while playing games - LP\nProject Euler - A series of mathematical problems to test your coding skills - LP\n\n\n4.1 Git\n\nOh My Git! - Gamified introduction to git - LP\nGitHub Minesweeper - Learn collaborative git project management with a bot - LP\nBitbucket git Tutorial - An introduction to git provided by Bitbucket - LP\nLearn git Branching - Interactive introduction to git branching - LP"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SIPBS CompBiol BM432 Project Pages",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Welcome to the SIPBS CompBiol Group BM432 project pages!"
-  },
-  {
-    "objectID": "index.html#what-is-this-site-for",
-    "href": "index.html#what-is-this-site-for",
-    "title": "SIPBS CompBiol BM432 Project Pages",
-    "section": "What is this site for?",
-    "text": "What is this site for?\nThis site is designed to assist you as you complete your final year honours project and thesis in the SIPBS CompBiol group. These pages should be read in conjunction with the official SIPBS Internship Materials available on the course MyPlace page\nWe have grouped information under three main headings:\n\nProject Guidance, which includes key dates, and tips on project and time management\nComputational Biology, providing links to online learning, databases, software, and other resources that may be helpful to you\nThesis and Presentation, with links and advice on how to structure and present your work for others"
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "SIPBS CompBiol BM432 Project Pages",
-    "section": "Getting Started",
-    "text": "Getting Started\n\nProject Work\nPlease do read the Project Expectations page, and keep the Key Dates in mind as you carry out your project, as these outline what you should be doing, and when, to keep on track with the project. Especially if this is your first time working on a long-form scientific project, or producing a dissertation of this length, please also take time to read our advice on Project and Time Management, and how to go about writing a thesis.\nWe also provide advice on giving scientific presentations - an important component of your project - and Science Communication in general. While tailored towards the BM432 project, the advice is quite general and we hope it will be helpful for some time to come.\n\n\nComputational Biology and Bioinformatics\nIf you are new to computational biology and bioinformatics, projects in this area can be quite challenging. While we design our projects to be as accessible as possible to students with no background in the field, it is unavoidable that you will need to learn new concepts, skills, and tools. We have compiled sets of Learning Resources that can help you with the self-directed learning you may need.\nAs you may be unfamiliar with the wide scope of bioinformatics and computational biology tools and resources available, we have also compiled sets of Online Resources - databases, online services, and other important sites - that may be directly useful for your project. We have also compiled sets of Software Tools that you may be able to download and use on your own computer."
-  },
-  {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "SIPBS CompBiol BM432 Project Pages",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThese pages were originally developed in 2023 by Dr Leighton Pritchard and Dr Morgan Feeney, and are currently maintained by, Dr Leighton Pritchard.\nThese materials are © University of Strathclyde, and licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Linked and embedded materials are governed by their own licenses. I assume that all external materials used or embedded here are covered under the educational fair use policy. If this is not the case and any material displayed here violates copyright, please let me know and I will remove it."
-  },
-  {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Think about exactly what you want to convey\n\n\ntell a story\nkeep it simple\nkeep the number of results you show small (≈3-4) and the message from each clear\n\n\nPrepare figures for your slides (the “backbone” of your talk)\n\n\n\n\n\n\n\nTip\n\n\n\nThe figures for your slides will rarely, if ever, be exatly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.\nPresenting too much data on a single slide can be overwhelming and your audience may disengage or read the slide instead of listening to you.\n\n\n\nIntroduction: think about what your audience needs to know (context) to understand your work\n\n\nwhat didn’t you know, at the beginning of your project?\nkeep it simple: the minimum to contextualise your story\n\n\nFor each experiment, explain (in this order):\nwhat you were trying to do (aim)\nhow you did it (method)\nwhat you found (results)\nwhat your results mean (significance)\nFinish with your conclusions/significance of your work\n\n\nwhat have you learned?\nhow have you contributed to the field?\nwhat would you do as the next step?\n\n\nGo back through your talk and make sure it “flows” in a logical order\nEdit, proofread, improve your slides.\n\n\nask other students in the group for feedback and incorporate it.\n\n\nPractice, practice, practice!\n\n\nget your timing right (it always takes longer than you think)\n\n\nRepeat steps 7 and 8 iteratively until you are happy with your presentation and feel confident in your delivery."
-  },
-  {
-    "objectID": "presentation.html#preparing-for-your-talk-checklist",
-    "href": "presentation.html#preparing-for-your-talk-checklist",
-    "title": "Presentations",
-    "section": "",
-    "text": "Think about exactly what you want to convey\n\n\ntell a story\nkeep it simple\nkeep the number of results you show small (≈3-4) and the message from each clear\n\n\nPrepare figures for your slides (the “backbone” of your talk)\n\n\n\n\n\n\n\nTip\n\n\n\nThe figures for your slides will rarely, if ever, be exatly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.\nPresenting too much data on a single slide can be overwhelming and your audience may disengage or read the slide instead of listening to you.\n\n\n\nIntroduction: think about what your audience needs to know (context) to understand your work\n\n\nwhat didn’t you know, at the beginning of your project?\nkeep it simple: the minimum to contextualise your story\n\n\nFor each experiment, explain (in this order):\nwhat you were trying to do (aim)\nhow you did it (method)\nwhat you found (results)\nwhat your results mean (significance)\nFinish with your conclusions/significance of your work\n\n\nwhat have you learned?\nhow have you contributed to the field?\nwhat would you do as the next step?\n\n\nGo back through your talk and make sure it “flows” in a logical order\nEdit, proofread, improve your slides.\n\n\nask other students in the group for feedback and incorporate it.\n\n\nPractice, practice, practice!\n\n\nget your timing right (it always takes longer than you think)\n\n\nRepeat steps 7 and 8 iteratively until you are happy with your presentation and feel confident in your delivery."
-  },
-  {
-    "objectID": "presentation.html#some-presentation-guidesresources",
-    "href": "presentation.html#some-presentation-guidesresources",
-    "title": "Presentations",
-    "section": "2 Some presentation guides/resources",
-    "text": "2 Some presentation guides/resources\n\nGiving a Scientific Presentation - Prepared by Dr Feeney and Dr Pritchard for BM432 in 2022\n\n07-01: Presentations - Intro\n07-02: Presentations - Content\n07-03: Presentations - Figures\n07-04: Presentations - Aesthetics\n07-05: Presentations - Slide Preparation\n07-06: Presentations - Delivery\n\nScientific presentations: a cheat sheet - Good general advice for presentations, and not just scientific presentations - LP\nTen Simple Rules for Making Good Oral Presentations - More good advice from the reliable “Ten Simple Rules…” series - LP"
-  },
-  {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Key Dates",
-    "section": "",
-    "text": "BM432 Project Timeline (MyPlace )\nBM432 Running Order (Workshops) (MyPlace )"
-  },
-  {
-    "objectID": "calendar.html#calendar",
-    "href": "calendar.html#calendar",
-    "title": "Key Dates",
-    "section": "1 Calendar",
-    "text": "1 Calendar\nThis is an indicative calendar for SIPBS CompBiol Group BM432 projects in AY2023-24.\n\n\n\n\n\n\nWarning\n\n\n\nThis calendar is indicative only. Please consult with the official course MyPlace page for submission dates, deadlines, and other timings. Links to useful documents are provided above.\n\n\n\n1.1 Semester 1\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n1\nw/b Mon 18/9\nSuggested activities  - read papers in project description  - literature search \n\n\n\n1\nThu 21/9  14:00-15:00  HW324\nProject Group Meeting  - Introductions  - Project descriptions  - Project expectations  - Learning agreement  - Project management resources\nLP\n\n\n1\nFri 22/9\nSubmit Learning Agreement  (MyPlace)\nStudents\n\n\n2\nw/b Mon 25/9\nSuggested activities  - Continue literature search  - Practice project management tools\n\n\n\n2\nThu 28/9  14:00-15:00  HW324\nProject Group Meeting  - Discuss task for next week (choose one paper each for mini journal club)  - Computational and bioinformatics tools\nLP\n\n\n3\nw/b Mon 2/10\nSuggested activities  - Continue literature search  - Practice computational and bioinformatics tools\n\n\n\n3\nFri 6/10  14:00-15:00  HW324\nProject Group Meeting  - Mini journal club. Each student leads a short (15min) discussion of their chosen paper.\nLP\n\n\n3\nFri 6/10\nComplete Workshop 4 - Safety tasks\nStudents\n\n\n4\nw/b Mon 9/10\nSuggested activities  Continue literature search Outline thesis introduction\n\n\n\n4\nFri 13/10  14:00-15:00  HW324\nProject Group Meeting  How to write a project thesis\nLP\n\n\n4\nFri 13/10\nComplete Workshop 5 quizzes - Ethics  (MyPlace)\nStudents\n\n\n5\nw/b Mon 16/10\nSuggested activities  Continue literature search Writing thesis introduction\n\n\n\n5\nMon 16/10\nSubmit draft Introduction/Literature Review  (MyPlace)\nStudents\n\n\n5\nFri 20/10  14:00-15:00  HW324\nProject Group Meeting  - Feedback/discussion of thesis outlines  - Project planning discussion\nLP\n\n\n6\nw/b Mon 23/10\nSuggested activities  Project work\n\n\n\n6\nFri 27/10  14:00-15:00  HW324\nProject Group Meeting  Project planning discussion\nLP\n\n\n7\nw/b Mon 30/10\nSuggested activities  Project work\n\n\n\n7\nFri 3/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n8\nw/b Mon 6/11\nSuggested activities  Project work\n\n\n\n8\nFri 10/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n9\nw/b Mon 13/11\nSuggested activities  Project work\n\n\n\n9\nFri 17/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n10\nw/b Mon 20/11\nSuggested activities  Project work\n\n\n\n10\nFri 24/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n11\nw/b Mon 27/11\nSuggested activities  Project work\n\n\n\n11\nMon 27/11\nSubmit presentation PowerPoint File  (MyPlace)\nStudents\n\n\n11\nThu 30/11\nProject Presentations\nStudents\n\n\n11\nFri 31/11  14:00-15:00  HW324\nFINAL Project Group Meeting  Project updates and discussion\nLP\n\n\n\n\n\n1.2 Semester 2\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n3\nMon 29/1\nSubmit draft thesis  (MyPlace)\nStudents\n\n\n3\nMon 26/2\nSubmit final thesis  (MyPlace)\nStudents"
-  },
-  {
-    "objectID": "scicomm.html",
-    "href": "scicomm.html",
-    "title": "Science Communication",
-    "section": "",
-    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
-  },
-  {
-    "objectID": "scicomm.html#science-communication-resources",
-    "href": "scicomm.html#science-communication-resources",
-    "title": "Science Communication",
-    "section": "",
-    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
-  },
-  {
-    "objectID": "time_management.html",
-    "href": "time_management.html",
-    "title": "Project and Time Management",
-    "section": "",
-    "text": "This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice."
-  },
-  {
-    "objectID": "time_management.html#data-and-project-management",
-    "href": "time_management.html#data-and-project-management",
-    "title": "Project and Time Management",
-    "section": "1 Data and Project Management",
-    "text": "1 Data and Project Management\nThese Notebooks on data and project management were prepared by Dr. Pritchard and Dr. Feeney for the 2022 session of BM432\n\nProject management guidelines\n\n01-Data Analysis in the Research Cycle\n02-Data and Project Management\n03-Reproducibility, Replicability, and FAIR Guidelines\n04-Keeping a Lab Notebook to Document Your Project\n05-Reference Management\n06-How to Use Reference Management Software\n\nNCSC advice for backing up your data\n\n\n1.1 How Dr Pritchard backs up his data\n\n\n\n\n\n\nTip\n\n\n\nThe university has a set of recommendations for how you should save, share, and back up your data.\n\n\nFor each individual computer I:\n\n…work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.\n\nI work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites, and automatically reproduces the material at several goegraphical locations in the cloud.\nWays to do this include OneDrive, iCloud, DropBox, GitHub, GitLab, BitBucket and so on\n\n…back up each computer to a local dedicated storage system, e.g. a NAS (network-attached storage) with a high-availability file system (i.e. running a variant of RAID or similar)\n\nThis backup is run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner\n\n…additionally back up each computer to an external hard drive\n\nI use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals (usually weekly)\nThis backup is also run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner"
-  },
-  {
-    "objectID": "time_management.html#laboratory-notebooks-advice",
-    "href": "time_management.html#laboratory-notebooks-advice",
-    "title": "Project and Time Management",
-    "section": "2 Laboratory Notebooks: Advice",
-    "text": "2 Laboratory Notebooks: Advice\n\nA Quick Guide to Organizing Computational Biology Projects\n\nMy favourite introduction to the topic. It clearly lays out a template and a rationale for each decision - LP\n\nHow to Keep a Lab Notebook for Bioinformatic Analyses\n\nA guest blog at AddGene which makes some choices I would question. They’re probably fine for one small project, but I’d worry about scaling up, and lack of clarity in the longer term - LP\n\nTen Simple Rules for a Computational Biologist’s Laboratory Notebook\n\nOverall sound advice, but short on recommending specific solutions - LP\n\n10 File Management Tips to Keep Your Electronic Files Organized\n\nGood general advice, and not only for bioinformatics projects - LP\n\nHow to keep a lab notebook\n\nFirst-hand experience in quotes from a number of scientists. Learn from their fails - LP\n\n10 Tips For Organizing Your Lab Book\n\nVery lab-focused, but good general points - LP"
-  },
-  {
-    "objectID": "time_management.html#time-and-project-management-advice",
-    "href": "time_management.html#time-and-project-management-advice",
-    "title": "Project and Time Management",
-    "section": "3 Time and Project Management: Advice",
-    "text": "3 Time and Project Management: Advice\n\n8 Time Management Tips for Students\n\nReally good general advice, from Harvard - LP\n\nKanban boards\n\nKanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn’t require any particular tool or software (I used to use sticky notes), but Trello does a good job of this - LP\n\nPomodoro Technique\n\nI use the Pomodoro technique (with BeFocused, see below) to help me focus when I need to get through long writing tasks. I find it most useful to avoid burning out on a large piece of work - LP"
-  },
-  {
-    "objectID": "time_management.html#time-and-project-management-resources",
-    "href": "time_management.html#time-and-project-management-resources",
-    "title": "Project and Time Management",
-    "section": "4 Time and Project Management: Resources",
-    "text": "4 Time and Project Management: Resources\n\nTrello\n\nA widely-used project management tool, but tailored towards teams. It probably does more than you need - LP\n\nAsana\n\nSeems to be similar to Trello. I haven’t used it, myself - LP\n\nBenchling\n\nAn electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP\n\nPomodoro Timer\n\nFree timer for Pomodoro. Just does the timing, which may be all you need - LP\n\nBeFocused\n\nPomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP\n\nForest\n\nA focusing app. I hear good things but I don’t use it - LP\n\nEverNote\n\nNote-taking app. I know people who love it, but it didn’t grab me - LP"
-  },
-  {
-    "objectID": "thesis.html",
-    "href": "thesis.html",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "",
-    "text": "Important\n\n\n\nPlease go through the Thesis submission checklist and ensure that your thesis meets all the guidelines before submitting it.\n\n\n\nSlides for Dr Feeney’s writing tutorial"
-  },
-  {
-    "objectID": "thesis.html#general-thesis-writing-guidance",
-    "href": "thesis.html#general-thesis-writing-guidance",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "",
-    "text": "Important\n\n\n\nPlease go through the Thesis submission checklist and ensure that your thesis meets all the guidelines before submitting it.\n\n\n\nSlides for Dr Feeney’s writing tutorial"
-  },
-  {
-    "objectID": "thesis.html#dr-feeneys-top-tips-for-writing-a-great-thesis-starting-from-day-one",
-    "href": "thesis.html#dr-feeneys-top-tips-for-writing-a-great-thesis-starting-from-day-one",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "2 Dr Feeney’s Top Tips for Writing a Great Thesis, Starting from Day One",
-    "text": "2 Dr Feeney’s Top Tips for Writing a Great Thesis, Starting from Day One\n\nRead broadly & think critically.\n\nYou will often get great ideas from reading papers outside your field, or be able to make connections to other systems/organisms/etc. (Plus, you’ll be able to use it as extra reading in your exams!)\n\nOrganise your references as you go along. Use reference management software\nWrite clearly and concisely\nPay attention to sentence and paragraph structure\nBe specific & say what you mean\nUse figures where appropriate\nProofread (and ask your fellow students to proofread)\nCite appropriate references using a correct style\nPay attention to the instructions and the assessment criteria (available on Myplace)"
-  },
-  {
-    "objectID": "thesis.html#writing-checklist---for-when-you-are-ready-to-sit-down-and-start-writing",
-    "href": "thesis.html#writing-checklist---for-when-you-are-ready-to-sit-down-and-start-writing",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "3 Writing checklist - for when you are ready to sit down and start writing",
-    "text": "3 Writing checklist - for when you are ready to sit down and start writing\n\nIdentify key results (outline/bullet points)\nStart writing by first making your figures (the “backbone” of your story)\nWrite the methods section (make sure you cover every experiment presented in your figures/tables)\nWrite your results section, going through each of your results (figures) in a logical order.\n\n\n\n\n\n\n\nTip\n\n\n\nOrganize your thoughts logically\n\nFor each experiment/result, explain:\n\nyour aim (the reason why you did the experiment)\nthe method (how you did the experiment)\nthe results (what you found)\nthe significance (what the results mean)\n\n\nalways in that order!!\n\n\n\nWrite your discussion (what do your results mean?)\n\n\n\n\n\n\n\nTip\n\n\n\nWriting a Good Discussion Section\n\nCan you create a model figure illustrating your results and placing them in the context of what was previously known?\nMake sure that any information essential for understanding your results (context) was present in the introduction.\nIn your discussion, have you gone back to address all the key points raised in your intro?\nDo not just reiterate/rehash the points raised in your results section.\n\nput your results in a broader context:\n\nwhat is known in the literature?\nhow do your results relate to other systems/types of cells/situations/etc.?\n\n\n\n\n\n\nProofread, edit, and improve your draft based on feedback.\n\n\nask other students in the group to read and advise\n\n\nWrite an abstract and decide on a title"
-  },
-  {
-    "objectID": "thesis.html#three-common-scientific-writing-mistakes-and-how-to-avoid-them",
-    "href": "thesis.html#three-common-scientific-writing-mistakes-and-how-to-avoid-them",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "4 Three Common Scientific Writing Mistakes and How to Avoid Them",
-    "text": "4 Three Common Scientific Writing Mistakes and How to Avoid Them\n\n\n\n\n\n\nNote\n\n\n\nProblem: Lack of attention to sentence structure\nExample: “Some students have really excellent ideas and are putting those ideas in their theses and making sure that they reference other people’s ideas from the literature correctly and using reference management software in appropriate ways and including a list of references at the end of their thesis. So great.”\nSolution: Be ruthless about editing your sentences until each sentence contains just one idea (the example above contained at least 4 separate ideas). It may help to read your writing aloud, as in the above example: take note of where you would naturally pause to take a breath.\nAt one end of the extreme, you have long, convoluted sentences that try to do too much (the first sentence in the example). At the other end, you have another type of grammatical disaster - beware sentence fragments.\n\n\n\n\n\n\n\n\nNote\n\n\n\nProblem: Excessive use of scientific jargon, colloquialisms, and/or acronyms\nExample: “We spun down the cells and washed them with PBS.”\nSolution: “spun down the cells” is something you might say colloquially (and that’s fine), However, in formal scientific language, you would say that the cells were centrifuged. Avoid colloquialisms and make sure you always define abbreviations (like PBS) at the first use.\n\n\n\n\n\n\n\n\nNote\n\n\n\nProblem: Lack of precision and/or attention to detail\nExample: “The genes in E. coli were translated and cheY was well conserved.”\nSolution: Pay careful attention to conventions in your field and precise usage of terms. Ask a friend or colleague to look over your writing and make sure that it conveys your intended meaning.\nHere, gene and species names should be italicized by convention (N.B. cheY refers to the gene, CheY refers to the protein). “Translated” is mis-used (remember that genes are transcribed). Finally, the sentence is, overall, frustratingly vague (which genes? what does “well conserved” mean?).\nA better and more meaningful version: “The genes involved in chemotaxis in E. coli were expressed under these experimental conditions (mid-logarithmic phase in MOPS minimal medium at 37° C). cheY was well-conserved, with homologs found in 99.4% of all analysed E. coli genomes.)"
-  },
-  {
-    "objectID": "thesis.html#links-to-some-helpful-writing-tipsguides",
-    "href": "thesis.html#links-to-some-helpful-writing-tipsguides",
-    "title": "Writing Your Thesis/Dissertation",
-    "section": "5 Links to some helpful writing tips/guides:",
-    "text": "5 Links to some helpful writing tips/guides:\n\nUse a style guide, e.g. The Elements of Style - Still one of the best, and shortest, books of advice on writing style - LP\nTen simple rules for scientists: Improving your writing productivity - The “Ten Simple Rules” papers strike again! - LP\nNovelist Cormac McCarthy’s tips on how to write a great science paper - McCarthy is a great novelist, renowned for economical writing. He knnows how to communicate - LP\nTen simple rules for structuring papers - Another in the excellent “Ten Simple Rules” series - LP\nImproving your scientific writing: a short guide - A long and detailed personal opinion by Fred Bushman - LP\nSome tips for scientific writing - Sound general advice on writing for a scientific audience - LP\nTen Simple (Empirical) Rules for Writing Science - The “Ten Simple Rules…” articles keep coming - LP"
-  },
-  {
-    "objectID": "methods.html",
-    "href": "methods.html",
-    "title": "Writing Bioinformatics Methods",
-    "section": "",
-    "text": "Important\n\n\n\nBioinformatics methods sections should convey the same level of information as a wet-lab methods section. They should be:\n\nclear\nreproducible\nadequately cite the tools used"
-  },
-  {
-    "objectID": "methods.html#tips-for-writing-a-great-methods-section",
-    "href": "methods.html#tips-for-writing-a-great-methods-section",
-    "title": "Writing Bioinformatics Methods",
-    "section": "1 Tips for Writing a Great Methods Section",
-    "text": "1 Tips for Writing a Great Methods Section\n\nDescribe your experimental methods in enough detail that your reader could replicate the experiments.\nYour methods section is not a protocol (a step-by-step list of everything that was done.) You may assume that your reader is a competent scientist with the skills to perform basic lab calculations, techniques, etc.\nCite the appropriate literature (i.e. for any recipes, tools including software, and protocols you have used).\nDo not include results or rationale for performing experiments (these belong elsewhere in your thesis).\nBe clear and concise; eliminate unnecessary words and steps.\nMake sure that your methods section includes all of the materials and methods you used in your thesis (This includes any bioinformatics methods such as BLAST!)\nAsk a friend or colleague to read your methods section and give feedback.\n\n\n\n\n\n\n\nTip\n\n\n\nLook at papers that have used similar methods: how are these methods sections written? Though take care as many papers underdescribe bioinformatics methods.\n\n\nYou want to make sure that your methods section generally follows the conventions in your field, so that readers will be able to understand it more easily.\nA few examples of specific conventions:\n\nfor wet-lab projects, centrifuge speeds are always given in xg, not in rpm or rcf\nfor science communication projects, the design of your intervention/survey belongs in the methods section\nfor bioinformatics projects, always include the version number and citation for any software used and details of parameters, etc."
-  },
-  {
-    "objectID": "expectations.html",
-    "href": "expectations.html",
-    "title": "Project Expectations",
-    "section": "",
-    "text": "This may be your first time working on a scientific project, and maybe even your first time producing a scientific document (your project dissertation). The guide below is intended to help you understand what to expect, and should be read in conjunction with the BM432 learning agreement (MyPlace )."
-  },
-  {
-    "objectID": "expectations.html#conducting-your-project",
-    "href": "expectations.html#conducting-your-project",
-    "title": "Project Expectations",
-    "section": "1 Conducting Your Project",
-    "text": "1 Conducting Your Project\n\nSome general advice about the group \nHow to avoid cognitive overload \n\n\n1.1 Science:\n\nMaintain a detailed record of your work (i.e. a lab notebook), either on paper or electronically.\n\nAll the projects run by our group are computational. You will probably find it easiest to maintain an electronic record.\nKeeping a lab notebook to document your project \n\n\n\n\n\n\n\n\nImportant\n\n\n\n\nBack up your work frequently and in more than one place - you do not want to lose all of your data!\n\nIt’s a common view in computation biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.\n\n\n\n\n\nAt the end of the project, I expect you to provide me with the raw data files from your work. For example:\n\nFor a phylogenetic tree, I expect: the .fasta file containing the unaligned sequences; the multiple sequence alignment used to construct the tree (.fasta, .msa, etc.); and the .newick (or .nex) file for the tree. This is required so that projects can be continued and built upon in future years.\nYou may find it most convenient to manage your project using standard computational biology tools, such as version control (e.g. git and GitHub). I would also find that convenient and strongly recommend it.\n\n\n\n\n1.2 Teamwork and collegiality:\n\nGroup Code of Conduct \nI expect you to help each other. In particular, some of you will have more experience than others in the group, when using computational and bioinformatics tools. You are all doing different projects, but you are using similar tools and techniques. I expect you to share knowledge and understanding kindly with one another.\n\nScience is a team effort and it benefits from people working together in groups. We can accomplish more together than one person working alone can.\nListen respectfully to each other, learn from each other, and contribute as you can.\nBe respectful of others’ different life experiences. Learn from them when appropriate, and contribute when appropriate. Do not insult or put down people who share their experiences.\n\nIf you find that you have made a mistake: listen, offer a genuine apology, and commit to learning and doing better.\n\n\n\n1.3 Kindness:\n\nBe kind to yourself. Be mindful of your limits, and aware of the fact that this is a world in crisis, with a myriad challenges.\n\nGive yourself credit for the hard work that you’re doing every day.\n\nBe kind to others. Give them the benefit of the doubt when needed; remember that online communication often misses nuance or meaning.\n\nRemember that everyone is struggling right now and may not be able to be their best selves.\n\nBe patient. Science can be hard work. Things take longer to accomplish when you are first learning a technique. You may need to repeat experiments or start over with a new dataset. This is all part of the process, and to be expected.\n\nBe assured that you are making progress, even though it may not feel that way at the time.\n\n\n\n\n1.4 Good Communication:\n\nHow to ask for feedback \nHow to ask good questions \nBe clear, open, and honest in your communication\n\n\n\n\n\n\n\nCaution\n\n\n\nI cannot help if you don’t let me know that there’s a problem.\n\n\n\nWe will meet at least once a week in person or via Zoom (individual and/or group meetings).\n\nZoom etiquette: turning your camera, microphone on/off is completely up to you, no pressure either way.\n\nBetween meetings, I’m available by email to answer questions or you can schedule a drop-in Zoom (depending on our schedules).\nDon’t be afraid to ask for help. You have many resources to call on, including:\n\nMe (…this is literally my job!)\nEach other. Please do talk to and help each other! - we call this “Peer Learning” and it’s deliberately part of the project. It’s not cheating or plagiarism.\nAnyone else in the SIPBS CompBiol Group\nThe Microbiology group\nAsk questions in your lectures/open office sessions\nStack Overflow, Bioinformatics Stack Exchange and other specialist sites\nSocial Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)\n\nTake ownership of your project. I am here to help and to guide you, but this is not my thesis (I have already done one!)\n\nCome to meetings prepared.\nThink independently and critically\nRead broadly\n\n\n\n\n\n\n\n\nCaution\n\n\n\nSites like Stack Overflow and Stack Exchange, while extremely useful and valuable for the community, can sometimes contain some robust communication and opinion from strong-minded people.\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll of the above contributes to your project performance mark\n\n\n\nDon’t be afraid to tell me that you think I’m wrong. I’m a scientist. I’m probably wrong at least half the time.\n\nYour data may contradict my hypotheses or ideas. That’s how science works.\nYou will probably find something in the literature that I wasn’t aware of. I’ll be interested to hear about it.\nYou may well have insights and clever thoughts that I won’t have. You are closer to your project than I am, and that will generate insight.\nDoing science can involve challenges to accepted dogma, and the Scientific Method requires us to prove ideas (usually our own ideas!) wrong. Be bold."
-  },
-  {
-    "objectID": "expectations.html#what-you-should-expect-from-me",
-    "href": "expectations.html#what-you-should-expect-from-me",
-    "title": "Project Expectations",
-    "section": "2 What you should expect from me:",
-    "text": "2 What you should expect from me:\n\nKindness, team-work, and collegiality\nAdvice and guidance on planning and carrying out your experiments\nGuidance on how to write a scientific document\nFeedback on drafts and practice presentation\nGood communication\nEmail responses within a working day (I will do my absolute best)\nFeedback on project performance\nReferences\n\n\n\n\n\n\n\nNote\n\n\n\nIf you want to name me as a reference there’s no need to ask for permission, but I do appreciate as much notice as possible. I want to encourage an employer to hire you/a course to take you on so, if you can send me your CV and a couple of points you’d like me to highlight, so much the better!\n\n\n\n\n\n\n\n\nA few tips and suggestions for success\n\n\n\n\nTake care of yourself (a healthy mind requires a healthy body)\nStay organized: set yourself deadlines (but be flexible when need be)\nDon’t feel the need to write your draft in one go – it’s much better to work on it a little bit every day (marathon, not a sprint)\nBreak it down into small tasks\nGet into the habit of writing at least a few sentences daily\nTake breaks and let your mind rest/process ideas (take a walk, wash the dishes, drink some tea).\nTake breaks from the screen.\nWhen you read papers, and go to seminars/journal clubs: pay attention to the way that other people explain their science (what works? what doesn’t?)"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "online_resources.html",
@@ -280,10 +98,227 @@
     "text": "7 Taxonomic and other classification resources\n\nNCBI Taxonomy\n\nWidely-used, but not as widely trusted, as it is often at odds with other classification databases - LP\n\nGTDB\n\nExcellent genome-based microbial taxonomy and classification database and resource - LP\n\ngenomeRxiv\n\nGenome-based, taxonomy-independent classification. I work on this - LP\n\nEnterobase\n\nThe central resource for enteric bacteria genomic variation and classification - LP\n\nPhytoBacExplorer\n\nLike Enterobase, but for plant pathogenic bacteria - LP"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "expectations.html",
+    "href": "expectations.html",
+    "title": "Project Expectations",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This may be your first time working on a scientific project, and maybe even your first time producing a scientific document (your project dissertation). The guide below is intended to help you understand what to expect, and should be read in conjunction with the BM432 learning agreement (MyPlace )."
+  },
+  {
+    "objectID": "expectations.html#conducting-your-project",
+    "href": "expectations.html#conducting-your-project",
+    "title": "Project Expectations",
+    "section": "1 Conducting Your Project",
+    "text": "1 Conducting Your Project\n\nSome general advice about the group \nHow to avoid cognitive overload \n\n\n1.1 Science:\n\nMaintain a detailed record of your work (i.e. a lab notebook), either on paper or electronically.\n\nAll the projects run by our group are computational. You will probably find it easiest to maintain an electronic record.\nKeeping a lab notebook to document your project \n\n\n\n\n\n\n\n\nImportant\n\n\n\n\nBack up your work frequently and in more than one place - you do not want to lose all of your data!\n\nIt’s a common view in computation biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.\n\n\n\n\n\nAt the end of the project, I expect you to provide me with the raw data files from your work. For example:\n\nFor a phylogenetic tree, I expect: the .fasta file containing the unaligned sequences; the multiple sequence alignment used to construct the tree (.fasta, .msa, etc.); and the .newick (or .nex) file for the tree. This is required so that projects can be continued and built upon in future years.\nYou may find it most convenient to manage your project using standard computational biology tools, such as version control (e.g. git and GitHub). I would also find that convenient and strongly recommend it.\n\n\n\n\n1.2 Teamwork and collegiality:\n\nGroup Code of Conduct \nI expect you to help each other. In particular, some of you will have more experience than others in the group, when using computational and bioinformatics tools. You are all doing different projects, but you are using similar tools and techniques. I expect you to share knowledge and understanding kindly with one another.\n\nScience is a team effort and it benefits from people working together in groups. We can accomplish more together than one person working alone can.\nListen respectfully to each other, learn from each other, and contribute as you can.\nBe respectful of others’ different life experiences. Learn from them when appropriate, and contribute when appropriate. Do not insult or put down people who share their experiences.\n\nIf you find that you have made a mistake: listen, offer a genuine apology, and commit to learning and doing better.\n\n\n\n1.3 Kindness:\n\nBe kind to yourself. Be mindful of your limits, and aware of the fact that this is a world in crisis, with a myriad challenges.\n\nGive yourself credit for the hard work that you’re doing every day.\n\nBe kind to others. Give them the benefit of the doubt when needed; remember that online communication often misses nuance or meaning.\n\nRemember that everyone is struggling right now and may not be able to be their best selves.\n\nBe patient. Science can be hard work. Things take longer to accomplish when you are first learning a technique. You may need to repeat experiments or start over with a new dataset. This is all part of the process, and to be expected.\n\nBe assured that you are making progress, even though it may not feel that way at the time.\n\n\n\n\n1.4 Good Communication:\n\nHow to ask for feedback \nHow to ask good questions \nBe clear, open, and honest in your communication\n\n\n\n\n\n\n\nCaution\n\n\n\nI cannot help if you don’t let me know that there’s a problem.\n\n\n\nWe will meet at least once a week in person or via Zoom (individual and/or group meetings).\n\nZoom etiquette: turning your camera, microphone on/off is completely up to you, no pressure either way.\n\nBetween meetings, I’m available by email to answer questions or you can schedule a drop-in Zoom (depending on our schedules).\nDon’t be afraid to ask for help. You have many resources to call on, including:\n\nMe (…this is literally my job!)\nEach other. Please do talk to and help each other! - we call this “Peer Learning” and it’s deliberately part of the project. It’s not cheating or plagiarism.\nAnyone else in the SIPBS CompBiol Group\nThe Microbiology group\nAsk questions in your lectures/open office sessions\nStack Overflow, Bioinformatics Stack Exchange and other specialist sites\nSocial Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)\n\nTake ownership of your project. I am here to help and to guide you, but this is not my thesis (I have already done one!)\n\nCome to meetings prepared.\nThink independently and critically\nRead broadly\n\n\n\n\n\n\n\n\nCaution\n\n\n\nSites like Stack Overflow and Stack Exchange, while extremely useful and valuable for the community, can sometimes contain some robust communication and opinion from strong-minded people.\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll of the above contributes to your project performance mark\n\n\n\nDon’t be afraid to tell me that you think I’m wrong. I’m a scientist. I’m probably wrong at least half the time.\n\nYour data may contradict my hypotheses or ideas. That’s how science works.\nYou will probably find something in the literature that I wasn’t aware of. I’ll be interested to hear about it.\nYou may well have insights and clever thoughts that I won’t have. You are closer to your project than I am, and that will generate insight.\nDoing science can involve challenges to accepted dogma, and the Scientific Method requires us to prove ideas (usually our own ideas!) wrong. Be bold."
+  },
+  {
+    "objectID": "expectations.html#what-you-should-expect-from-me",
+    "href": "expectations.html#what-you-should-expect-from-me",
+    "title": "Project Expectations",
+    "section": "2 What you should expect from me:",
+    "text": "2 What you should expect from me:\n\nKindness, team-work, and collegiality\nAdvice and guidance on planning and carrying out your experiments\nGuidance on how to write a scientific document\nFeedback on drafts and practice presentation\nGood communication\nEmail responses within a working day (I will do my absolute best)\nFeedback on project performance\nReferences\n\n\n\n\n\n\n\nNote\n\n\n\nIf you want to name me as a reference there’s no need to ask for permission, but I do appreciate as much notice as possible. I want to encourage an employer to hire you/a course to take you on so, if you can send me your CV and a couple of points you’d like me to highlight, so much the better!\n\n\n\n\n\n\n\n\nA few tips and suggestions for success\n\n\n\n\nTake care of yourself (a healthy mind requires a healthy body)\nStay organized: set yourself deadlines (but be flexible when need be)\nDon’t feel the need to write your draft in one go – it’s much better to work on it a little bit every day (marathon, not a sprint)\nBreak it down into small tasks\nGet into the habit of writing at least a few sentences daily\nTake breaks and let your mind rest/process ideas (take a walk, wash the dishes, drink some tea).\nTake breaks from the screen.\nWhen you read papers, and go to seminars/journal clubs: pay attention to the way that other people explain their science (what works? what doesn’t?)"
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Writing Bioinformatics Methods",
+    "section": "",
+    "text": "Important\n\n\n\nBioinformatics methods sections should convey the same level of information as a wet-lab methods section. They should be:\n\nclear\nreproducible\nadequately cite the tools used"
+  },
+  {
+    "objectID": "methods.html#tips-for-writing-a-great-methods-section",
+    "href": "methods.html#tips-for-writing-a-great-methods-section",
+    "title": "Writing Bioinformatics Methods",
+    "section": "1 Tips for Writing a Great Methods Section",
+    "text": "1 Tips for Writing a Great Methods Section\n\nDescribe your experimental methods in enough detail that your reader could replicate the experiments.\nYour methods section is not a protocol (a step-by-step list of everything that was done.) You may assume that your reader is a competent scientist with the skills to perform basic lab calculations, techniques, etc.\nCite the appropriate literature (i.e. for any recipes, tools including software, and protocols you have used).\nDo not include results or rationale for performing experiments (these belong elsewhere in your thesis).\nBe clear and concise; eliminate unnecessary words and steps.\nMake sure that your methods section includes all of the materials and methods you used in your thesis (This includes any bioinformatics methods such as BLAST!)\nAsk a friend or colleague to read your methods section and give feedback.\n\n\n\n\n\n\n\nTip\n\n\n\nLook at papers that have used similar methods: how are these methods sections written? Though take care as many papers underdescribe bioinformatics methods.\n\n\nYou want to make sure that your methods section generally follows the conventions in your field, so that readers will be able to understand it more easily.\nA few examples of specific conventions:\n\nfor wet-lab projects, centrifuge speeds are always given in xg, not in rpm or rcf\nfor science communication projects, the design of your intervention/survey belongs in the methods section\nfor bioinformatics projects, always include the version number and citation for any software used and details of parameters, etc."
+  },
+  {
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "",
+    "text": "Important\n\n\n\nPlease go through the Thesis submission checklist and ensure that your thesis meets all the guidelines before submitting it.\n\n\n\nSlides for Dr Feeney’s writing tutorial"
+  },
+  {
+    "objectID": "thesis.html#general-thesis-writing-guidance",
+    "href": "thesis.html#general-thesis-writing-guidance",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "",
+    "text": "Important\n\n\n\nPlease go through the Thesis submission checklist and ensure that your thesis meets all the guidelines before submitting it.\n\n\n\nSlides for Dr Feeney’s writing tutorial"
+  },
+  {
+    "objectID": "thesis.html#dr-feeneys-top-tips-for-writing-a-great-thesis-starting-from-day-one",
+    "href": "thesis.html#dr-feeneys-top-tips-for-writing-a-great-thesis-starting-from-day-one",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "2 Dr Feeney’s Top Tips for Writing a Great Thesis, Starting from Day One",
+    "text": "2 Dr Feeney’s Top Tips for Writing a Great Thesis, Starting from Day One\n\nRead broadly & think critically.\n\nYou will often get great ideas from reading papers outside your field, or be able to make connections to other systems/organisms/etc. (Plus, you’ll be able to use it as extra reading in your exams!)\n\nOrganise your references as you go along. Use reference management software\nWrite clearly and concisely\nPay attention to sentence and paragraph structure\nBe specific & say what you mean\nUse figures where appropriate\nProofread (and ask your fellow students to proofread)\nCite appropriate references using a correct style\nPay attention to the instructions and the assessment criteria (available on Myplace)"
+  },
+  {
+    "objectID": "thesis.html#writing-checklist---for-when-you-are-ready-to-sit-down-and-start-writing",
+    "href": "thesis.html#writing-checklist---for-when-you-are-ready-to-sit-down-and-start-writing",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "3 Writing checklist - for when you are ready to sit down and start writing",
+    "text": "3 Writing checklist - for when you are ready to sit down and start writing\n\nIdentify key results (outline/bullet points)\nStart writing by first making your figures (the “backbone” of your story)\nWrite the methods section (make sure you cover every experiment presented in your figures/tables)\nWrite your results section, going through each of your results (figures) in a logical order.\n\n\n\n\n\n\n\nTip\n\n\n\nOrganize your thoughts logically\n\nFor each experiment/result, explain:\n\nyour aim (the reason why you did the experiment)\nthe method (how you did the experiment)\nthe results (what you found)\nthe significance (what the results mean)\n\n\nalways in that order!!\n\n\n\nWrite your discussion (what do your results mean?)\n\n\n\n\n\n\n\nTip\n\n\n\nWriting a Good Discussion Section\n\nCan you create a model figure illustrating your results and placing them in the context of what was previously known?\nMake sure that any information essential for understanding your results (context) was present in the introduction.\nIn your discussion, have you gone back to address all the key points raised in your intro?\nDo not just reiterate/rehash the points raised in your results section.\n\nput your results in a broader context:\n\nwhat is known in the literature?\nhow do your results relate to other systems/types of cells/situations/etc.?\n\n\n\n\n\n\nProofread, edit, and improve your draft based on feedback.\n\n\nask other students in the group to read and advise\n\n\nWrite an abstract and decide on a title"
+  },
+  {
+    "objectID": "thesis.html#three-common-scientific-writing-mistakes-and-how-to-avoid-them",
+    "href": "thesis.html#three-common-scientific-writing-mistakes-and-how-to-avoid-them",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "4 Three Common Scientific Writing Mistakes and How to Avoid Them",
+    "text": "4 Three Common Scientific Writing Mistakes and How to Avoid Them\n\n\n\n\n\n\nNote\n\n\n\nProblem: Lack of attention to sentence structure\nExample: “Some students have really excellent ideas and are putting those ideas in their theses and making sure that they reference other people’s ideas from the literature correctly and using reference management software in appropriate ways and including a list of references at the end of their thesis. So great.”\nSolution: Be ruthless about editing your sentences until each sentence contains just one idea (the example above contained at least 4 separate ideas). It may help to read your writing aloud, as in the above example: take note of where you would naturally pause to take a breath.\nAt one end of the extreme, you have long, convoluted sentences that try to do too much (the first sentence in the example). At the other end, you have another type of grammatical disaster - beware sentence fragments.\n\n\n\n\n\n\n\n\nNote\n\n\n\nProblem: Excessive use of scientific jargon, colloquialisms, and/or acronyms\nExample: “We spun down the cells and washed them with PBS.”\nSolution: “spun down the cells” is something you might say colloquially (and that’s fine), However, in formal scientific language, you would say that the cells were centrifuged. Avoid colloquialisms and make sure you always define abbreviations (like PBS) at the first use.\n\n\n\n\n\n\n\n\nNote\n\n\n\nProblem: Lack of precision and/or attention to detail\nExample: “The genes in E. coli were translated and cheY was well conserved.”\nSolution: Pay careful attention to conventions in your field and precise usage of terms. Ask a friend or colleague to look over your writing and make sure that it conveys your intended meaning.\nHere, gene and species names should be italicized by convention (N.B. cheY refers to the gene, CheY refers to the protein). “Translated” is mis-used (remember that genes are transcribed). Finally, the sentence is, overall, frustratingly vague (which genes? what does “well conserved” mean?).\nA better and more meaningful version: “The genes involved in chemotaxis in E. coli were expressed under these experimental conditions (mid-logarithmic phase in MOPS minimal medium at 37° C). cheY was well-conserved, with homologs found in 99.4% of all analysed E. coli genomes.)"
+  },
+  {
+    "objectID": "thesis.html#links-to-some-helpful-writing-tipsguides",
+    "href": "thesis.html#links-to-some-helpful-writing-tipsguides",
+    "title": "Writing Your Thesis/Dissertation",
+    "section": "5 Links to some helpful writing tips/guides:",
+    "text": "5 Links to some helpful writing tips/guides:\n\nUse a style guide, e.g. The Elements of Style - Still one of the best, and shortest, books of advice on writing style - LP\nTen simple rules for scientists: Improving your writing productivity - The “Ten Simple Rules” papers strike again! - LP\nNovelist Cormac McCarthy’s tips on how to write a great science paper - McCarthy is a great novelist, renowned for economical writing. He knnows how to communicate - LP\nTen simple rules for structuring papers - Another in the excellent “Ten Simple Rules” series - LP\nImproving your scientific writing: a short guide - A long and detailed personal opinion by Fred Bushman - LP\nSome tips for scientific writing - Sound general advice on writing for a scientific audience - LP\nTen Simple (Empirical) Rules for Writing Science - The “Ten Simple Rules…” articles keep coming - LP"
+  },
+  {
+    "objectID": "time_management.html",
+    "href": "time_management.html",
+    "title": "Project and Time Management",
+    "section": "",
+    "text": "This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice."
+  },
+  {
+    "objectID": "time_management.html#data-and-project-management",
+    "href": "time_management.html#data-and-project-management",
+    "title": "Project and Time Management",
+    "section": "1 Data and Project Management",
+    "text": "1 Data and Project Management\nThese Notebooks on data and project management were prepared by Dr. Pritchard and Dr. Feeney for the 2022 session of BM432\n\nProject management guidelines\n\n01-Data Analysis in the Research Cycle\n02-Data and Project Management\n03-Reproducibility, Replicability, and FAIR Guidelines\n04-Keeping a Lab Notebook to Document Your Project\n05-Reference Management\n06-How to Use Reference Management Software\n\nNCSC advice for backing up your data\n\n\n1.1 How Dr Pritchard backs up his data\n\n\n\n\n\n\nTip\n\n\n\nThe university has a set of recommendations for how you should save, share, and back up your data.\n\n\nFor each individual computer I:\n\n…work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.\n\nI work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites, and automatically reproduces the material at several goegraphical locations in the cloud.\nWays to do this include OneDrive, iCloud, DropBox, GitHub, GitLab, BitBucket and so on\n\n…back up each computer to a local dedicated storage system, e.g. a NAS (network-attached storage) with a high-availability file system (i.e. running a variant of RAID or similar)\n\nThis backup is run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner\n\n…additionally back up each computer to an external hard drive\n\nI use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals (usually weekly)\nThis backup is also run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner"
+  },
+  {
+    "objectID": "time_management.html#laboratory-notebooks-advice",
+    "href": "time_management.html#laboratory-notebooks-advice",
+    "title": "Project and Time Management",
+    "section": "2 Laboratory Notebooks: Advice",
+    "text": "2 Laboratory Notebooks: Advice\n\nA Quick Guide to Organizing Computational Biology Projects\n\nMy favourite introduction to the topic. It clearly lays out a template and a rationale for each decision - LP\n\nHow to Keep a Lab Notebook for Bioinformatic Analyses\n\nA guest blog at AddGene which makes some choices I would question. They’re probably fine for one small project, but I’d worry about scaling up, and lack of clarity in the longer term - LP\n\nTen Simple Rules for a Computational Biologist’s Laboratory Notebook\n\nOverall sound advice, but short on recommending specific solutions - LP\n\n10 File Management Tips to Keep Your Electronic Files Organized\n\nGood general advice, and not only for bioinformatics projects - LP\n\nHow to keep a lab notebook\n\nFirst-hand experience in quotes from a number of scientists. Learn from their fails - LP\n\n10 Tips For Organizing Your Lab Book\n\nVery lab-focused, but good general points - LP"
+  },
+  {
+    "objectID": "time_management.html#time-and-project-management-advice",
+    "href": "time_management.html#time-and-project-management-advice",
+    "title": "Project and Time Management",
+    "section": "3 Time and Project Management: Advice",
+    "text": "3 Time and Project Management: Advice\n\n8 Time Management Tips for Students\n\nReally good general advice, from Harvard - LP\n\nKanban boards\n\nKanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn’t require any particular tool or software (I used to use sticky notes), but Trello does a good job of this - LP\n\nPomodoro Technique\n\nI use the Pomodoro technique (with BeFocused, see below) to help me focus when I need to get through long writing tasks. I find it most useful to avoid burning out on a large piece of work - LP"
+  },
+  {
+    "objectID": "time_management.html#time-and-project-management-resources",
+    "href": "time_management.html#time-and-project-management-resources",
+    "title": "Project and Time Management",
+    "section": "4 Time and Project Management: Resources",
+    "text": "4 Time and Project Management: Resources\n\nTrello\n\nA widely-used project management tool, but tailored towards teams. It probably does more than you need - LP\n\nAsana\n\nSeems to be similar to Trello. I haven’t used it, myself - LP\n\nBenchling\n\nAn electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP\n\nPomodoro Timer\n\nFree timer for Pomodoro. Just does the timing, which may be all you need - LP\n\nBeFocused\n\nPomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP\n\nForest\n\nA focusing app. I hear good things but I don’t use it - LP\n\nEverNote\n\nNote-taking app. I know people who love it, but it didn’t grab me - LP"
+  },
+  {
+    "objectID": "scicomm.html",
+    "href": "scicomm.html",
+    "title": "Science Communication",
+    "section": "",
+    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
+  },
+  {
+    "objectID": "scicomm.html#science-communication-resources",
+    "href": "scicomm.html#science-communication-resources",
+    "title": "Science Communication",
+    "section": "",
+    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Key Dates",
+    "section": "",
+    "text": "BM432 Project Timeline (MyPlace )\nBM432 Running Order (Workshops) (MyPlace )"
+  },
+  {
+    "objectID": "calendar.html#calendar",
+    "href": "calendar.html#calendar",
+    "title": "Key Dates",
+    "section": "1 Calendar",
+    "text": "1 Calendar\nThis is an indicative calendar for SIPBS CompBiol Group BM432 projects in AY2023-24.\n\n\n\n\n\n\nWarning\n\n\n\nThis calendar is indicative only. Please consult with the official course MyPlace page for submission dates, deadlines, and other timings. Links to useful documents are provided above.\n\n\n\n1.1 Semester 1\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n1\nw/b Mon 18/9\nSuggested activities  - read papers in project description  - literature search \n\n\n\n1\nThu 21/9  14:00-15:00  HW324\nProject Group Meeting  - Introductions  - Project descriptions  - Project expectations  - Learning agreement  - Project management resources\nLP\n\n\n1\nFri 22/9\nSubmit Learning Agreement  (MyPlace)\nStudents\n\n\n2\nw/b Mon 25/9\nSuggested activities  - Continue literature search  - Practice project management tools\n\n\n\n2\nThu 28/9  14:00-15:00  HW324\nProject Group Meeting  - Discuss task for next week (choose one paper each for mini journal club)  - Computational and bioinformatics tools\nLP\n\n\n3\nw/b Mon 2/10\nSuggested activities  - Continue literature search  - Practice computational and bioinformatics tools\n\n\n\n3\nFri 6/10  14:00-15:00  HW324\nProject Group Meeting  - Mini journal club. Each student leads a short (15min) discussion of their chosen paper.\nLP\n\n\n3\nFri 6/10\nComplete Workshop 4 - Safety tasks\nStudents\n\n\n4\nw/b Mon 9/10\nSuggested activities  Continue literature search Outline thesis introduction\n\n\n\n4\nFri 13/10  14:00-15:00  HW324\nProject Group Meeting  How to write a project thesis\nLP\n\n\n4\nFri 13/10\nComplete Workshop 5 quizzes - Ethics  (MyPlace)\nStudents\n\n\n5\nw/b Mon 16/10\nSuggested activities  Continue literature search Writing thesis introduction\n\n\n\n5\nMon 16/10\nSubmit draft Introduction/Literature Review  (MyPlace)\nStudents\n\n\n5\nFri 20/10  14:00-15:00  HW324\nProject Group Meeting  - Feedback/discussion of thesis outlines  - Project planning discussion\nLP\n\n\n6\nw/b Mon 23/10\nSuggested activities  Project work\n\n\n\n6\nFri 27/10  14:00-15:00  HW324\nProject Group Meeting  Project planning discussion\nLP\n\n\n7\nw/b Mon 30/10\nSuggested activities  Project work\n\n\n\n7\nFri 3/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n8\nw/b Mon 6/11\nSuggested activities  Project work\n\n\n\n8\nFri 10/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n9\nw/b Mon 13/11\nSuggested activities  Project work\n\n\n\n9\nFri 17/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n10\nw/b Mon 20/11\nSuggested activities  Project work\n\n\n\n10\nFri 24/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n11\nw/b Mon 27/11\nSuggested activities  Project work\n\n\n\n11\nMon 27/11\nSubmit presentation PowerPoint File  (MyPlace)\nStudents\n\n\n11\nThu 30/11\nProject Presentations\nStudents\n\n\n11\nFri 31/11  14:00-15:00  HW324\nFINAL Project Group Meeting  Project updates and discussion\nLP\n\n\n\n\n\n1.2 Semester 2\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n3\nMon 29/1\nSubmit draft thesis  (MyPlace)\nStudents\n\n\n3\nMon 26/2\nSubmit final thesis  (MyPlace)\nStudents"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Think about exactly what you want to convey\n\n\ntell a story\nkeep it simple\nkeep the number of results you show small (≈3-4) and the message from each clear\n\n\nPrepare figures for your slides (the “backbone” of your talk)\n\n\n\n\n\n\n\nTip\n\n\n\nThe figures for your slides will rarely, if ever, be exatly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.\nPresenting too much data on a single slide can be overwhelming and your audience may disengage or read the slide instead of listening to you.\n\n\n\nIntroduction: think about what your audience needs to know (context) to understand your work\n\n\nwhat didn’t you know, at the beginning of your project?\nkeep it simple: the minimum to contextualise your story\n\n\nFor each experiment, explain (in this order):\nwhat you were trying to do (aim)\nhow you did it (method)\nwhat you found (results)\nwhat your results mean (significance)\nFinish with your conclusions/significance of your work\n\n\nwhat have you learned?\nhow have you contributed to the field?\nwhat would you do as the next step?\n\n\nGo back through your talk and make sure it “flows” in a logical order\nEdit, proofread, improve your slides.\n\n\nask other students in the group for feedback and incorporate it.\n\n\nPractice, practice, practice!\n\n\nget your timing right (it always takes longer than you think)\n\n\nRepeat steps 7 and 8 iteratively until you are happy with your presentation and feel confident in your delivery."
+  },
+  {
+    "objectID": "presentation.html#preparing-for-your-talk-checklist",
+    "href": "presentation.html#preparing-for-your-talk-checklist",
+    "title": "Presentations",
+    "section": "",
+    "text": "Think about exactly what you want to convey\n\n\ntell a story\nkeep it simple\nkeep the number of results you show small (≈3-4) and the message from each clear\n\n\nPrepare figures for your slides (the “backbone” of your talk)\n\n\n\n\n\n\n\nTip\n\n\n\nThe figures for your slides will rarely, if ever, be exatly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.\nPresenting too much data on a single slide can be overwhelming and your audience may disengage or read the slide instead of listening to you.\n\n\n\nIntroduction: think about what your audience needs to know (context) to understand your work\n\n\nwhat didn’t you know, at the beginning of your project?\nkeep it simple: the minimum to contextualise your story\n\n\nFor each experiment, explain (in this order):\nwhat you were trying to do (aim)\nhow you did it (method)\nwhat you found (results)\nwhat your results mean (significance)\nFinish with your conclusions/significance of your work\n\n\nwhat have you learned?\nhow have you contributed to the field?\nwhat would you do as the next step?\n\n\nGo back through your talk and make sure it “flows” in a logical order\nEdit, proofread, improve your slides.\n\n\nask other students in the group for feedback and incorporate it.\n\n\nPractice, practice, practice!\n\n\nget your timing right (it always takes longer than you think)\n\n\nRepeat steps 7 and 8 iteratively until you are happy with your presentation and feel confident in your delivery."
+  },
+  {
+    "objectID": "presentation.html#some-presentation-guidesresources",
+    "href": "presentation.html#some-presentation-guidesresources",
+    "title": "Presentations",
+    "section": "2 Some presentation guides/resources",
+    "text": "2 Some presentation guides/resources\n\nGiving a Scientific Presentation - Prepared by Dr Feeney and Dr Pritchard for BM432 in 2022\n\n07-01: Presentations - Intro\n07-02: Presentations - Content\n07-03: Presentations - Figures\n07-04: Presentations - Aesthetics\n07-05: Presentations - Slide Preparation\n07-06: Presentations - Delivery\n\nScientific presentations: a cheat sheet - Good general advice for presentations, and not just scientific presentations - LP\nTen Simple Rules for Making Good Oral Presentations - More good advice from the reliable “Ten Simple Rules…” series - LP"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SIPBS CompBiol BM432 Project Pages",
+    "section": "",
+    "text": "Welcome to the SIPBS CompBiol Group BM432 project pages!"
+  },
+  {
+    "objectID": "index.html#what-is-this-site-for",
+    "href": "index.html#what-is-this-site-for",
+    "title": "SIPBS CompBiol BM432 Project Pages",
+    "section": "What is this site for?",
+    "text": "What is this site for?\nThis site is designed to assist you as you complete your final year honours project and thesis in the SIPBS CompBiol group. These pages should be read in conjunction with the official SIPBS Internship Materials available on the course MyPlace page\nWe have grouped information under three main headings:\n\nProject Guidance, which includes key dates, and tips on project and time management\nComputational Biology, providing links to online learning, databases, software, and other resources that may be helpful to you\nThesis and Presentation, with links and advice on how to structure and present your work for others"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "SIPBS CompBiol BM432 Project Pages",
+    "section": "Getting Started",
+    "text": "Getting Started\n\nProject Work\nPlease do read the Project Expectations page, and keep the Key Dates in mind as you carry out your project, as these outline what you should be doing, and when, to keep on track with the project. Especially if this is your first time working on a long-form scientific project, or producing a dissertation of this length, please also take time to read our advice on Project and Time Management, and how to go about writing a thesis.\nWe also provide advice on giving scientific presentations - an important component of your project - and Science Communication in general. While tailored towards the BM432 project, the advice is quite general and we hope it will be helpful for some time to come.\n\n\nComputational Biology and Bioinformatics\nIf you are new to computational biology and bioinformatics, projects in this area can be quite challenging. While we design our projects to be as accessible as possible to students with no background in the field, it is unavoidable that you will need to learn new concepts, skills, and tools. We have compiled sets of Learning Resources that can help you with the self-directed learning you may need.\nAs you may be unfamiliar with the wide scope of bioinformatics and computational biology tools and resources available, we have also compiled sets of Online Resources - databases, online services, and other important sites - that may be directly useful for your project. We have also compiled sets of Software Tools that you may be able to download and use on your own computer."
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "SIPBS CompBiol BM432 Project Pages",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThese pages were originally developed in 2023 by Dr Leighton Pritchard and Dr Morgan Feeney, and are currently maintained by, Dr Leighton Pritchard.\nThese materials are © University of Strathclyde, and licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Linked and embedded materials are governed by their own licenses. I assume that all external materials used or embedded here are covered under the educational fair use policy. If this is not the case and any material displayed here violates copyright, please let me know and I will remove it."
+  },
+  {
+    "objectID": "figures.html",
+    "href": "figures.html",
+    "title": "Preparing Thesis Figures",
+    "section": "",
+    "text": "Determine what message you want the reader to take from your figure, and the most effective way of conveying that point\nRemove any extraneous or distracting data that distracts from the main message of your figure (taking care not to make the figure misleading by doing so)\nDetermine how large the figure needs to be: how much space will it take up on a page?\nWill it be easy for your reader to see key details if the figure is this size?\nCheck that the figure is clear and not pixellated: will your reader be able to see all the important details? Is the resolution good enough?\n\n\nYou should always prepare figures in vector format (i.e. PDF, PS, or SVG) where possible to avoid pixellation issues.\n\n\nCheck that the colour scheme you have chosen is colour-blind friendly and not visually jarring\nCheck that any fonts used are legible at the size printed\nFigure titles should give a concise “take-home message” conveying the result(s) shown in the figure\nFigure legends should give enough detail about the experiment for the reader to understand what was done (the figure should be able to stand on its own)\n\n\nDr Feeney’s guidance on writing good figure titles and legends (with examples)"
+  },
+  {
+    "objectID": "figures.html#figure-preparation-checklist",
+    "href": "figures.html#figure-preparation-checklist",
+    "title": "Preparing Thesis Figures",
+    "section": "",
+    "text": "Determine what message you want the reader to take from your figure, and the most effective way of conveying that point\nRemove any extraneous or distracting data that distracts from the main message of your figure (taking care not to make the figure misleading by doing so)\nDetermine how large the figure needs to be: how much space will it take up on a page?\nWill it be easy for your reader to see key details if the figure is this size?\nCheck that the figure is clear and not pixellated: will your reader be able to see all the important details? Is the resolution good enough?\n\n\nYou should always prepare figures in vector format (i.e. PDF, PS, or SVG) where possible to avoid pixellation issues.\n\n\nCheck that the colour scheme you have chosen is colour-blind friendly and not visually jarring\nCheck that any fonts used are legible at the size printed\nFigure titles should give a concise “take-home message” conveying the result(s) shown in the figure\nFigure legends should give enough detail about the experiment for the reader to understand what was done (the figure should be able to stand on its own)\n\n\nDr Feeney’s guidance on writing good figure titles and legends (with examples)"
+  },
+  {
+    "objectID": "figures.html#a-guide-to-figure-preparation",
+    "href": "figures.html#a-guide-to-figure-preparation",
+    "title": "Preparing Thesis Figures",
+    "section": "2 A guide to figure preparation",
+    "text": "2 A guide to figure preparation\n\nRefer back to the Data presentation and figure preparation (BM432 workshop 6 materials) as needed.\nPoints of View - In my opinion the definitive guide to graphic design for scientific figures - LP\nMaking model figures (slides used in our regular meeting discussion)\nBeyond Bar and Line Graphs: Time for a New Data Presentation Paradigm - A compelling case for why you should never use bar graphs, and especially not dynamite plots - LP\nRead Ten Simple Rules for Better Figures - Yet another excellent “Ten Simple Rules…” article - LP\nDigital Images Are Data: And Should Be Treated as Such - It’s natural to think of images as being “neutral” in some way, but they are not - LP\nTen common statistical mistakes to watch out for when writing or reviewing a manuscript - Another “Ten Simple Rules…” article - LP\nFundamentals of graphic design—essential tools for effective visual science communication - A good, short summary of graphic design principles relevant to scientific communication - LP\n11 Graphic Design Tips to Create Images Like a Pro - Economical advice for powerful graphic design - LP"
+  },
+  {
+    "objectID": "figures.html#other-useful-resources",
+    "href": "figures.html#other-useful-resources",
+    "title": "Preparing Thesis Figures",
+    "section": "3 Other Useful Resources",
+    "text": "3 Other Useful Resources\n\nBiorender - Useful clipart and images for building your own figures - LP\nImageJ Basics - The standard open source image analysis software - LP\nCoblis — Color Blindness Simulator - It’s kind to consider the needs of others, so always check your images for colourblindness accessibility - LP\nData visualization with ggplot2 :: Cheat Sheet - ggplot is an amazing way to generate powerful graphs, though there can be a learning curve, especially if you don’t yet know R - LP"
+  },
+  {
+    "objectID": "figures.html#dr-feeneys-pet-peeves-for-figures",
+    "href": "figures.html#dr-feeneys-pet-peeves-for-figures",
+    "title": "Preparing Thesis Figures",
+    "section": "4 Dr Feeney’s pet peeves for figures",
+    "text": "4 Dr Feeney’s pet peeves for figures\n\nWhy You Must Plot Your Growth Data On a Semi-log Graph - TBH, this is trivial to do now in most graphic packages, so there’s no excuse - LP\nMake sure you include a scale on any images that need them (e.g., micrographs, phylogenetic trees)\nBy convention, figure titles and legends are presented below the corresponding figure, while table titles are presented above the corresponding table.\nMake sure your text is formatted correctly within your figure (e.g., species names should be italicized, gene and protein names should be formatted correctly)"
   }
 ]
