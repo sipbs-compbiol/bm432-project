@@ -27,8 +27,12 @@ website:
             href: software.qmd
       - text: "Thesis and Presentation"
         menu: 
-          - text: "Thesis"
+          - text: "Writing a Thesis"
             href: thesis.qmd
+          - text: "Preparing Figures"
+            href: figures.qmd
+          - text: "Writing Bioinformatics Methods"
+            href: methods.qmd
           - text: "Presentation"
             href: presentation.qmd
           - text: "Science Communication"

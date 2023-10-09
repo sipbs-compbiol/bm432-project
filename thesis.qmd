@@ -1,0 +1,123 @@
+---
+title: "Writing Your Thesis/Dissertation"
+image: ./assets/images/writing_thesis.jpg
+description: |
+ Online resources to support science communication
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## General Thesis Writing Guidance
+
+::: {.callout-important}
+Please go through the [Thesis submission checklist](./assets/checklists/Thesis_submission_checklist.docx) and ensure that your thesis meets all the guidelines before submitting it.
+:::
+
+- Slides for Dr Feeney's [writing tutorial](./assets/slides/writing_tutorial.pptx)
+
+## Dr Feeney's Top Tips for Writing a Great Thesis, Starting from Day One
+
+- Read broadly & think critically.
+  - You will often get great ideas from reading papers outside your field, or be able to make connections to other systems/organisms/etc. (Plus, you'll be able to use it as extra reading in your exams!)
+- Organise your references as you go along. Use reference management software
+- Write clearly and concisely
+- Pay attention to sentence and paragraph structure
+- Be specific & say what you mean
+- Use figures where appropriate
+- Proofread (and ask your fellow students to proofread)
+- Cite appropriate references using a correct style
+- Pay attention to the instructions and the assessment criteria (available on Myplace)
+
+## Writing checklist - for when you are ready to sit down and start writing
+
+1. Identify key results (outline/bullet points)
+2. Start writing by first making your figures (the "backbone" of your story)
+3. Write the methods section (make sure you cover every experiment presented in your figures/tables)
+4. Write your results section, going through each of your results (figures) in a logical order.
+
+::: {.callout-tip}
+**Organize your thoughts logically**
+
+- For each experiment/result, explain:
+  1. your aim (the reason why you did the experiment)
+  2. the method (how you did the experiment)
+  3. the results (what you found)
+  4. the significance (what the results mean)
+
+**always in that order!!**
+:::
+
+5. Write your discussion (what do your results mean?)
+
+::: {.callout-tip}
+**Writing a Good Discussion Section**
+
+- Can you create a model figure illustrating your results and placing them in the context of what was previously known?
+- Make sure that any information essential for understanding your results (context) was present in the introduction.
+- In your discussion, have you gone back to address all the key points raised in your intro?
+
+- **Do not just reiterate/rehash the points raised in your results section.**
+  - put your results in a broader context:
+    - what is known in the literature?
+    - how do your results relate to other systems/types of cells/situations/etc.?
+:::
+
+6.  Proofread, edit, and improve your draft based on feedback.
+  - ask other students in the group to read and advise
+7.  Write an abstract and decide on a title
+
+## Three Common Scientific Writing Mistakes and How to Avoid Them
+
+::: {.callout-note}
+**Problem:** Lack of attention to sentence structure
+
+**Example:** "Some students have really excellent ideas and are putting those ideas in their theses and making sure that they reference other people's ideas from the literature correctly and using reference management software in appropriate ways and including a list of references at the end of their thesis. So great."
+
+**Solution:** Be ruthless about editing your sentences until each sentence contains just one idea (the example above contained at least 4 separate ideas). It may help to read your writing aloud, as in the above example: take note of where you would naturally pause to take a breath.
+
+At one end of the extreme, you have long, convoluted sentences that try to do too much (the first sentence in the example). At the other end, you have another type of grammatical disaster - beware sentence fragments.
+:::
+
+::: {.callout-note}
+**Problem**: Excessive use of scientific jargon, colloquialisms, and/or acronyms
+
+**Example:** "We spun down the cells and washed them with PBS."
+
+**Solution**: "spun down the cells" is something you might say colloquially (and that's fine), However, in formal scientific language, you would say that the cells were centrifuged. Avoid colloquialisms and make sure you always define abbreviations (like PBS) at the first use.
+:::
+
+::: {.callout-note}
+**Problem**: Lack of precision and/or attention to detail
+
+**Example:** "The genes in E. coli were translated and cheY was well conserved."
+
+**Solution:** Pay careful attention to conventions in your field and precise usage of terms. Ask a friend or colleague to look over your writing and make sure that it conveys your intended meaning.
+
+Here, gene and species names should be italicized by convention (N.B. *cheY* refers to the gene, CheY refers to the protein). "Translated" is mis-used (remember that genes are transcribed). Finally, the sentence is, overall, frustratingly vague (which genes? what does "well conserved" mean?).
+
+A better and more meaningful version: "The genes involved in chemotaxis in *E. coli* were expressed under these experimental conditions (mid-logarithmic phase in MOPS minimal medium at 37° C). *cheY* was well-conserved, with homologs found in 99.4% of all analysed *E. coli* genomes.)
+:::
+
+
+## Links to some helpful writing tips/guides:
+
+-   Use a style guide, e.g. [The Elements of Style](http://www.gutenberg.org/ebooks/37134) - _Still one of the best, and shortest, books of advice on writing style - LP_
+-   [Ten simple rules for scientists: Improving your writing productivity](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006379) - _The "Ten Simple Rules" papers strike again! - LP_
+-   [Novelist Cormac McCarthy's tips on how to write a great science paper](https://www.nature.com/articles/d41586-019-02918-5) - _McCarthy is a great novelist, renowned for economical writing. He knnows how to communicate - LP_
+-   [Ten simple rules for structuring papers](https://doi.org/10.1371/journal.pcbi.1005619) - _Another in the excellent "Ten Simple Rules" series - LP_
+-   [Improving your scientific writing: a short guide](https://lijunsun.github.io/files/ScientificWritingV39.pdf) - _A long and detailed personal opinion by Fred Bushman - LP_ 
+-   [Some tips for scientific writing](https://kucharski.substack.com/p/some-tips-for-scientific-writing) - _Sound general advice on writing for a scientific audience - LP_
+-   [Ten Simple (Empirical) Rules for Writing Science](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004205) - _The "Ten Simple Rules…" articles keep coming - LP_
