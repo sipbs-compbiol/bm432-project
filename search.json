@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "learning_resources.html",
-    "href": "learning_resources.html",
-    "title": "Learning Resources",
-    "section": "",
-    "text": "Bioinformatics, computational biology, and coding are skills that you can learn and hone through regular practice. There are many online resources, tutorials, and learning platforms that can help you develop these skills independently. This page collects some of those resources together as a place for you to begin exploring this area."
-  },
-  {
-    "objectID": "learning_resources.html#bioinformatics",
-    "href": "learning_resources.html#bioinformatics",
-    "title": "Learning Resources",
-    "section": "1 Bioinformatics",
-    "text": "1 Bioinformatics\n\nRosalind - A gamified series of structured problems that become progressively more difficult, and a good way to learn coding as well as bioinformatics - LP\nEMBL-EBI - Introductory bioinformatics material offered by the main European bioinformatics research centre - LP\nGalaxy - Training materials curated by the international Galaxy community - LP\nIBioIC Introduction to Bioinformatics - Materials for a course I presented in 2017-2018 - LP\nCoursera - Online courses in bioinformatics, collated by Coursera - LP\nEdX - Online courses in bioinformatics, collated by EdX - LP"
-  },
-  {
-    "objectID": "learning_resources.html#programming",
-    "href": "learning_resources.html#programming",
-    "title": "Learning Resources",
-    "section": "2 Programming",
-    "text": "2 Programming\n\n2.1 General\n\nSoftware Carpentry - “Software Carpentry has been teaching researchers the computing skills they need to get more done in less time and with less pain,” as the site says. I’m a fully-qualified SWC instructor with ten years’ experience, and it’s a great introduction to key concepts, covering Python and R - LP\nAdvent of Code - Yearly Christmas-themed puzzles that you can solve in any way you like - LP\nFree Code Camp - Free training in a number of areas - LP\nCodecademy - A range of free online training courses - LP\nSpaceTraders - Gamified learning through a web API - LP\nCodinGame - A gamified platform that supports learning to code in over 20 languages - LP\nCheckIO - Another gamified way to practice coding - LP\nCodeCombat - Another game-based way to learn and practice coding - LP\n\n\n\n2.2 Python\n\nRealPython - Many tutorials and other learning paths for Python - LP\nPyBites - Python coding challenges, and there are accompanying coaching and podcast materials - LP\nThe Flask Megatutorial - A thorough and well-paced Flask tutorial - LP\n[Python Programming and Numerical Methods] - Computers don’t always deal with numbers the way you might expect, and understanding what they actually do will help avoid problems = LP\n\n\n\n2.3 R\n\nWhat They Forgot to Teach You About R - Assuming they taught you anything about R at all, this is not a bad place to go next - LP\n\n\n\n2.4 SQL\n\nSQL Murder Mystery - Knowing SQL can be incredibly helpful in managing your data in bioinformatics (or any other field), and this is a fun way to learn new things - LP\n\n\n\n2.5 CSS\n\nCSS Grid Garden - CSS comes up an awful lot when developing applications or websites (as it did building this site!), and this is a nice way to understand how the grid layout works - LP\nFlexbox Froggy - Another CSS layout tool practice game, this time for the flexbox - LP\nFlexbox Zombies - As above but with added undead - LP\nCoding Fantasy - Learn Flexbox and Grid at the same time! - LP\nCSS Diner - Gamified CSS selector practice - LP\n\n\n\n2.6 JavaScript\n\nReact Megatutorial - A thorough introduction to the React framework - LP"
-  },
-  {
-    "objectID": "learning_resources.html#data-analysis-and-data-science",
-    "href": "learning_resources.html#data-analysis-and-data-science",
-    "title": "Learning Resources",
-    "section": "3 Data Analysis and Data Science",
-    "text": "3 Data Analysis and Data Science\n\nData Carpentry - A companion programme to Software Capentry (and I am also a fully-qualified DC instructor). Again, it’s a great introduction to key concepts in Python and R - LP\nKaggle - Online data science courses - LP\nData Camp - A wide range of data science courses - LP\nDataQuest - Learn data science through a series of challenges - LP\nCoursera - Data science courses available through Coursera - LP\nEdX - A collection of online data science courses - LP"
-  },
-  {
-    "objectID": "learning_resources.html#other-computing-skills",
-    "href": "learning_resources.html#other-computing-skills",
-    "title": "Learning Resources",
-    "section": "4 Other Computing Skills",
-    "text": "4 Other Computing Skills\n\nPrinciples for Writing Clean Code - However you choose to learn to code, in whatever language, encountering and using these principles will make your life so much easier - LP\nHow Much Can Your Computer Do In A Second - Some things that seem like they might be hard on a computer are quite easy; some things that seems like they should be easy are actually hard. It’s worth gaining an intuition about the difference - LP\nCryptoHack - Learn modern cryptography while playing games - LP\nProject Euler - A series of mathematical problems to test your coding skills - LP\n\n\n4.1 Git\n\nOh My Git! - Gamified introduction to git - LP\nGitHub Minesweeper - Learn collaborative git project management with a bot - LP\nBitbucket git Tutorial - An introduction to git provided by Bitbucket - LP\nLearn git Branching - Interactive introduction to git branching - LP"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "online_resources.html",
     "href": "online_resources.html",
     "title": "Online Resources",
@@ -98,111 +56,6 @@
     "text": "7 Taxonomic and other classification resources\n\nNCBI Taxonomy\n\nWidely-used, but not as widely trusted, as it is often at odds with other classification databases - LP\n\nGTDB\n\nExcellent genome-based microbial taxonomy and classification database and resource - LP\n\ngenomeRxiv\n\nGenome-based, taxonomy-independent classification. I work on this - LP\n\nEnterobase\n\nThe central resource for enteric bacteria genomic variation and classification - LP\n\nPhytoBacExplorer\n\nLike Enterobase, but for plant pathogenic bacteria - LP"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Bioinformatics Software tools",
-    "section": "",
-    "text": "This page provides links to software tools and packages - some with web interfaces, some you would need to download and install - that may be useful for your project."
-  },
-  {
-    "objectID": "software.html#programming",
-    "href": "software.html#programming",
-    "title": "Bioinformatics Software tools",
-    "section": "1 Programming",
-    "text": "1 Programming\n\nVisual Studio Code - An excellent editor for writing your own code, in any language, with support for a wide range of helpful extensions - LP\nAnaconda - A data science platform supporting Python, R, and other languages, that is cross-platform and simplifies installing some packages - LP\nProject Jupyter - A standard framework for coding in a notebook format - LP\nSnakemake - Reproducible bioinformatics analysis framework - LP\nNextFlow - Reproducible, scalable computational analysis framework - LP\n\n\n1.1 Python\n\nBiopython - The standard bioinformatics packages for Python - LP\n\n\n\n1.2 R\n\nCRAN - The Comprehensive R Archive Network - it’s where to go for R packages - LP\nPosit/RStudio - The makers of RStudio - the user-friendly way to use R - LP\nBioconductor - R’s compendium of computational biology software - LP"
-  },
-  {
-    "objectID": "software.html#online-tool-collections",
-    "href": "software.html#online-tool-collections",
-    "title": "Bioinformatics Software tools",
-    "section": "2 Online tool collections",
-    "text": "2 Online tool collections\n\nGalaxy (Europe) - The European Galaxy service for scientific workflows - LP\nEBI Tools - European Bioinformatics Institute online tool collection - LP"
-  },
-  {
-    "objectID": "software.html#sequence-analysis",
-    "href": "software.html#sequence-analysis",
-    "title": "Bioinformatics Software tools",
-    "section": "3 Sequence Analysis",
-    "text": "3 Sequence Analysis\n\nNCBI BLAST - NCBI’s BLAST service - LP\nJalView - Widely-used sequence analysis platform - LP\nPolyView - Coevolution and protein structure annotation server - LP\nCoevLab - Protein covariation analysis server - LP\nibis2analyzer - Phylogenetically-informed covariation analysis server - LP\nConSurf - Evolutionary conservation estimation tool - LP\n\n\n3.1 Sequence Alignment\n\nMAFFT - Fast multiple sequence alignment package - LP\nT-COFFEE - Very capable and diverse multiple sequence alignment package - LP\n\nT-COFFEE online server\n\nClustal Omega - Fast multiple sequence alignment package - LP"
-  },
-  {
-    "objectID": "software.html#protein-structure",
-    "href": "software.html#protein-structure",
-    "title": "Bioinformatics Software tools",
-    "section": "4 Protein Structure",
-    "text": "4 Protein Structure\n\nAlphaFold Colab - Public interface to AlphaFold structural prediction - LP\nSWISSMODEL - Structural homology modelling server - LP\nDeepView/Swiss PDB Viewer - Protein structure visualisation that integrates with SWISSMODEL - LP\nPyMol - Standard package for visualising and analysing protein structure - LP\nUCSF Chimera - Very capable structure visualisation and modelling package - LP\nRCSB-PBS’s list of molecular graphics software - Comprehensive list of structure visualisation options - LP"
-  },
-  {
-    "objectID": "software.html#phylogenetics",
-    "href": "software.html#phylogenetics",
-    "title": "Bioinformatics Software tools",
-    "section": "5 Phylogenetics",
-    "text": "5 Phylogenetics\n\nIQ-TREE - Maximum-likelihood phylogenetic reconstruction - LP\nRAxML - Maximum-likelihood phylogenetic reconstruction - LP\nSplitsTree - Recombination-aware phylogenetic reconstruction - LP\nFigTree - Lightweight phylogenetic tree visualisation - LP\nDendroscope Very capable phylogenetic tree viewer - LP"
-  },
-  {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Key Dates",
-    "section": "",
-    "text": "BM432 Project Timeline (MyPlace )\nBM432 Running Order (Workshops) (MyPlace )"
-  },
-  {
-    "objectID": "calendar.html#calendar",
-    "href": "calendar.html#calendar",
-    "title": "Key Dates",
-    "section": "1 Calendar",
-    "text": "1 Calendar\nThis is an indicative calendar for SIPBS CompBiol Group BM432 projects in AY2023-24.\n\n\n\n\n\n\nWarning\n\n\n\nThis calendar is indicative only. Please consult with the official course MyPlace page for submission dates, deadlines, and other timings. Links to useful documents are provided above.\n\n\n\n1.1 Semester 1\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n1\nw/b Mon 18/9\nSuggested activities  - read papers in project description  - literature search \n\n\n\n1\nThu 21/9  14:00-15:00  HW324\nProject Group Meeting  - Introductions  - Project descriptions  - Project expectations  - Learning agreement  - Project management resources\nLP\n\n\n1\nFri 22/9\nSubmit Learning Agreement  (MyPlace)\nStudents\n\n\n2\nw/b Mon 25/9\nSuggested activities  - Continue literature search  - Practice project management tools\n\n\n\n2\nThu 28/9  14:00-15:00  HW324\nProject Group Meeting  - Discuss task for next week (choose one paper each for mini journal club)  - Computational and bioinformatics tools\nLP\n\n\n3\nw/b Mon 2/10\nSuggested activities  - Continue literature search  - Practice computational and bioinformatics tools\n\n\n\n3\nFri 6/10  14:00-15:00  HW324\nProject Group Meeting  - Mini journal club. Each student leads a short (15min) discussion of their chosen paper.\nLP\n\n\n3\nFri 6/10\nComplete Workshop 4 - Safety tasks\nStudents\n\n\n4\nw/b Mon 9/10\nSuggested activities  Continue literature search Outline thesis introduction\n\n\n\n4\nFri 13/10  14:00-15:00  HW324\nProject Group Meeting  How to write a project thesis\nLP\n\n\n4\nFri 13/10\nComplete Workshop 5 quizzes - Ethics  (MyPlace)\nStudents\n\n\n5\nw/b Mon 16/10\nSuggested activities  Continue literature search  Writing thesis introduction\n\n\n\n5\nMon 16/10\nSubmit draft Introduction/Literature Review  (MyPlace)\nStudents\n\n\n5\nFri 20/10  14:00-15:00  HW324\nProject Group Meeting  - Feedback/discussion of thesis outlines  - Project planning discussion\nLP\n\n\n6\nw/b Mon 23/10\nSuggested activities  Project work\n\n\n\n6\nFri 27/10  14:00-15:00  HW324\nProject Group Meeting  Project planning discussion\nLP\n\n\n7\nw/b Mon 30/10\nSuggested activities  Project work\n\n\n\n7\nFri 3/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n8\nw/b Mon 6/11\nSuggested activities  Project work\n\n\n\n8\nFri 10/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n9\nw/b Mon 13/11\nSuggested activities  Project work\n\n\n\n9\nFri 17/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n10\nw/b Mon 20/11\nSuggested activities  Project work\n\n\n\n10\nFri 24/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n11\nw/b Mon 27/11\nSuggested activities  Project work\n\n\n\n11\nMon 27/11\nSubmit presentation PowerPoint File  (MyPlace)\nStudents\n\n\n11\nThu 30/11\nProject Presentations\nStudents\n\n\n11\nFri 31/11  14:00-15:00  HW324\nFINAL Project Group Meeting  Project updates and discussion\nLP\n\n\n\n\n\n1.2 Semester 2\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n3\nMon 29/1\nSubmit draft thesis  (MyPlace)\nStudents\n\n\n3\nMon 26/2\nSubmit final thesis  (MyPlace)\nStudents"
-  },
-  {
-    "objectID": "scicomm.html",
-    "href": "scicomm.html",
-    "title": "Science Communication",
-    "section": "",
-    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
-  },
-  {
-    "objectID": "scicomm.html#science-communication-resources",
-    "href": "scicomm.html#science-communication-resources",
-    "title": "Science Communication",
-    "section": "",
-    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
-  },
-  {
-    "objectID": "time_management.html",
-    "href": "time_management.html",
-    "title": "Project and Time Management",
-    "section": "",
-    "text": "This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice."
-  },
-  {
-    "objectID": "time_management.html#data-and-project-management",
-    "href": "time_management.html#data-and-project-management",
-    "title": "Project and Time Management",
-    "section": "1 Data and Project Management",
-    "text": "1 Data and Project Management\nThese Notebooks on data and project management were prepared by Dr. Pritchard and Dr. Feeney for the 2022 session of BM432\n\nProject management guidelines\n\n01-Data Analysis in the Research Cycle\n02-Data and Project Management\n03-Reproducibility, Replicability, and FAIR Guidelines\n04-Keeping a Lab Notebook to Document Your Project\n05-Reference Management\n06-How to Use Reference Management Software\n\nNCSC advice for backing up your data\n\n\n1.1 How Dr Pritchard backs up his data\n\n\n\n\n\n\nTip\n\n\n\nThe university has a set of recommendations for how you should save, share, and back up your data.\n\n\nFor each individual computer I:\n\n…work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.\n\nI work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites, and automatically reproduces the material at several goegraphical locations in the cloud.\nWays to do this include OneDrive, iCloud, DropBox, GitHub, GitLab, BitBucket and so on\n\n…back up each computer to a local dedicated storage system, e.g. a NAS (network-attached storage) with a high-availability file system (i.e. running a variant of RAID or similar)\n\nThis backup is run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner\n\n…additionally back up each computer to an external hard drive\n\nI use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals (usually weekly)\nThis backup is also run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner"
-  },
-  {
-    "objectID": "time_management.html#laboratory-notebooks-advice",
-    "href": "time_management.html#laboratory-notebooks-advice",
-    "title": "Project and Time Management",
-    "section": "2 Laboratory Notebooks: Advice",
-    "text": "2 Laboratory Notebooks: Advice\n\nA Quick Guide to Organizing Computational Biology Projects\n\nMy favourite introduction to the topic. It clearly lays out a template and a rationale for each decision - LP\n\nHow to Keep a Lab Notebook for Bioinformatic Analyses\n\nA guest blog at AddGene which makes some choices I would question. They’re probably fine for one small project, but I’d worry about scaling up, and lack of clarity in the longer term - LP\n\nTen Simple Rules for a Computational Biologist’s Laboratory Notebook\n\nOverall sound advice, but short on recommending specific solutions - LP\n\n10 File Management Tips to Keep Your Electronic Files Organized\n\nGood general advice, and not only for bioinformatics projects - LP\n\nHow to keep a lab notebook\n\nFirst-hand experience in quotes from a number of scientists. Learn from their fails - LP\n\n10 Tips For Organizing Your Lab Book\n\nVery lab-focused, but good general points - LP"
-  },
-  {
-    "objectID": "time_management.html#time-and-project-management-advice",
-    "href": "time_management.html#time-and-project-management-advice",
-    "title": "Project and Time Management",
-    "section": "3 Time and Project Management: Advice",
-    "text": "3 Time and Project Management: Advice\n\n8 Time Management Tips for Students\n\nReally good general advice, from Harvard - LP\n\nKanban boards\n\nKanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn’t require any particular tool or software (I used to use sticky notes), but Trello does a good job of this - LP\n\nPomodoro Technique\n\nI use the Pomodoro technique (with BeFocused, see below) to help me focus when I need to get through long writing tasks. I find it most useful to avoid burning out on a large piece of work - LP"
-  },
-  {
-    "objectID": "time_management.html#time-and-project-management-resources",
-    "href": "time_management.html#time-and-project-management-resources",
-    "title": "Project and Time Management",
-    "section": "4 Time and Project Management: Resources",
-    "text": "4 Time and Project Management: Resources\n\nTrello\n\nA widely-used project management tool, but tailored towards teams. It probably does more than you need - LP\n\nAsana\n\nSeems to be similar to Trello. I haven’t used it, myself - LP\n\nBenchling\n\nAn electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP\n\nPomodoro Timer\n\nFree timer for Pomodoro. Just does the timing, which may be all you need - LP\n\nBeFocused\n\nPomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP\n\nForest\n\nA focusing app. I hear good things but I don’t use it - LP\n\nEverNote\n\nNote-taking app. I know people who love it, but it didn’t grab me - LP"
-  },
-  {
     "objectID": "thesis.html",
     "href": "thesis.html",
     "title": "Writing Your Thesis/Dissertation",
@@ -245,6 +98,76 @@
     "text": "5 Links to some helpful writing tips/guides:\n\nUse a style guide, e.g. The Elements of Style - Still one of the best, and shortest, books of advice on writing style - LP\nTen simple rules for scientists: Improving your writing productivity - The “Ten Simple Rules” papers strike again! - LP\nNovelist Cormac McCarthy’s tips on how to write a great science paper - McCarthy is a great novelist, renowned for economical writing. He knnows how to communicate - LP\nTen simple rules for structuring papers - Another in the excellent “Ten Simple Rules” series - LP\nImproving your scientific writing: a short guide - A long and detailed personal opinion by Fred Bushman - LP\nSome tips for scientific writing - Sound general advice on writing for a scientific audience - LP\nTen Simple (Empirical) Rules for Writing Science - The “Ten Simple Rules…” articles keep coming - LP"
   },
   {
+    "objectID": "learning_resources.html",
+    "href": "learning_resources.html",
+    "title": "Learning Resources",
+    "section": "",
+    "text": "Bioinformatics, computational biology, and coding are skills that you can learn and hone through regular practice. There are many online resources, tutorials, and learning platforms that can help you develop these skills independently. This page collects some of those resources together as a place for you to begin exploring this area."
+  },
+  {
+    "objectID": "learning_resources.html#bioinformatics",
+    "href": "learning_resources.html#bioinformatics",
+    "title": "Learning Resources",
+    "section": "1 Bioinformatics",
+    "text": "1 Bioinformatics\n\nRosalind - A gamified series of structured problems that become progressively more difficult, and a good way to learn coding as well as bioinformatics - LP\nEMBL-EBI - Introductory bioinformatics material offered by the main European bioinformatics research centre - LP\nGalaxy - Training materials curated by the international Galaxy community - LP\nIBioIC Introduction to Bioinformatics - Materials for a course I presented in 2017-2018 - LP\nCoursera - Online courses in bioinformatics, collated by Coursera - LP\nEdX - Online courses in bioinformatics, collated by EdX - LP"
+  },
+  {
+    "objectID": "learning_resources.html#programming",
+    "href": "learning_resources.html#programming",
+    "title": "Learning Resources",
+    "section": "2 Programming",
+    "text": "2 Programming\n\n2.1 General\n\nSoftware Carpentry - “Software Carpentry has been teaching researchers the computing skills they need to get more done in less time and with less pain,” as the site says. I’m a fully-qualified SWC instructor with ten years’ experience, and it’s a great introduction to key concepts, covering Python and R - LP\nAdvent of Code - Yearly Christmas-themed puzzles that you can solve in any way you like - LP\nFree Code Camp - Free training in a number of areas - LP\nCodecademy - A range of free online training courses - LP\nSpaceTraders - Gamified learning through a web API - LP\nCodinGame - A gamified platform that supports learning to code in over 20 languages - LP\nCheckIO - Another gamified way to practice coding - LP\nCodeCombat - Another game-based way to learn and practice coding - LP\n\n\n\n2.2 Python\n\nRealPython - Many tutorials and other learning paths for Python - LP\nPyBites - Python coding challenges, and there are accompanying coaching and podcast materials - LP\nThe Flask Megatutorial - A thorough and well-paced Flask tutorial - LP\n[Python Programming and Numerical Methods] - Computers don’t always deal with numbers the way you might expect, and understanding what they actually do will help avoid problems = LP\n\n\n\n2.3 R\n\nWhat They Forgot to Teach You About R - Assuming they taught you anything about R at all, this is not a bad place to go next - LP\n\n\n\n2.4 SQL\n\nSQL Murder Mystery - Knowing SQL can be incredibly helpful in managing your data in bioinformatics (or any other field), and this is a fun way to learn new things - LP\n\n\n\n2.5 CSS\n\nCSS Grid Garden - CSS comes up an awful lot when developing applications or websites (as it did building this site!), and this is a nice way to understand how the grid layout works - LP\nFlexbox Froggy - Another CSS layout tool practice game, this time for the flexbox - LP\nFlexbox Zombies - As above but with added undead - LP\nCoding Fantasy - Learn Flexbox and Grid at the same time! - LP\nCSS Diner - Gamified CSS selector practice - LP\n\n\n\n2.6 JavaScript\n\nReact Megatutorial - A thorough introduction to the React framework - LP"
+  },
+  {
+    "objectID": "learning_resources.html#data-analysis-and-data-science",
+    "href": "learning_resources.html#data-analysis-and-data-science",
+    "title": "Learning Resources",
+    "section": "3 Data Analysis and Data Science",
+    "text": "3 Data Analysis and Data Science\n\nData Carpentry - A companion programme to Software Capentry (and I am also a fully-qualified DC instructor). Again, it’s a great introduction to key concepts in Python and R - LP\nKaggle - Online data science courses - LP\nData Camp - A wide range of data science courses - LP\nDataQuest - Learn data science through a series of challenges - LP\nCoursera - Data science courses available through Coursera - LP\nEdX - A collection of online data science courses - LP"
+  },
+  {
+    "objectID": "learning_resources.html#other-computing-skills",
+    "href": "learning_resources.html#other-computing-skills",
+    "title": "Learning Resources",
+    "section": "4 Other Computing Skills",
+    "text": "4 Other Computing Skills\n\nPrinciples for Writing Clean Code - However you choose to learn to code, in whatever language, encountering and using these principles will make your life so much easier - LP\nHow Much Can Your Computer Do In A Second - Some things that seem like they might be hard on a computer are quite easy; some things that seems like they should be easy are actually hard. It’s worth gaining an intuition about the difference - LP\nCryptoHack - Learn modern cryptography while playing games - LP\nProject Euler - A series of mathematical problems to test your coding skills - LP\n\n\n4.1 Git\n\nOh My Git! - Gamified introduction to git - LP\nGitHub Minesweeper - Learn collaborative git project management with a bot - LP\nBitbucket git Tutorial - An introduction to git provided by Bitbucket - LP\nLearn git Branching - Interactive introduction to git branching - LP"
+  },
+  {
+    "objectID": "time_management.html",
+    "href": "time_management.html",
+    "title": "Project and Time Management",
+    "section": "",
+    "text": "This may be your first time working on a scientific project or set of experiments at this kind of scale. The amount and variety of work required can seem overwhelming, especially if the topics and techniques are new. The need to keep a larger-level project and its goals in mind while focusing on a smaller subtask or single experiment can also be tricky, but does get easier with practice."
+  },
+  {
+    "objectID": "time_management.html#data-and-project-management",
+    "href": "time_management.html#data-and-project-management",
+    "title": "Project and Time Management",
+    "section": "1 Data and Project Management",
+    "text": "1 Data and Project Management\nThese Notebooks on data and project management were prepared by Dr. Pritchard and Dr. Feeney for the 2022 session of BM432\n\nProject management guidelines\n\n01-Data Analysis in the Research Cycle\n02-Data and Project Management\n03-Reproducibility, Replicability, and FAIR Guidelines\n04-Keeping a Lab Notebook to Document Your Project\n05-Reference Management\n06-How to Use Reference Management Software\n\nNCSC advice for backing up your data\n\n\n1.1 How Dr Pritchard backs up his data\n\n\n\n\n\n\nTip\n\n\n\nThe university has a set of recommendations for how you should save, share, and back up your data.\n\n\nFor each individual computer I:\n\n…work on data I cannot reconstruct easily using a cloud storage method that integrates with my filesystem.\n\nI work on the data on the local machine, but changes are (automatically) propagated to a cloud service. This allows me to maintain a consistent state of my work across several machines at several sites, and automatically reproduces the material at several goegraphical locations in the cloud.\nWays to do this include OneDrive, iCloud, DropBox, GitHub, GitLab, BitBucket and so on\n\n…back up each computer to a local dedicated storage system, e.g. a NAS (network-attached storage) with a high-availability file system (i.e. running a variant of RAID or similar)\n\nThis backup is run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner\n\n…additionally back up each computer to an external hard drive\n\nI use at least two hard drives per machine, and I swap these between two distinct physical locations at regular intervals (usually weekly)\nThis backup is also run using an automated tool, such as Apple’s Time Machine, or Carbon Copy Cloner"
+  },
+  {
+    "objectID": "time_management.html#laboratory-notebooks-advice",
+    "href": "time_management.html#laboratory-notebooks-advice",
+    "title": "Project and Time Management",
+    "section": "2 Laboratory Notebooks: Advice",
+    "text": "2 Laboratory Notebooks: Advice\n\nA Quick Guide to Organizing Computational Biology Projects\n\nMy favourite introduction to the topic. It clearly lays out a template and a rationale for each decision - LP\n\nHow to Keep a Lab Notebook for Bioinformatic Analyses\n\nA guest blog at AddGene which makes some choices I would question. They’re probably fine for one small project, but I’d worry about scaling up, and lack of clarity in the longer term - LP\n\nTen Simple Rules for a Computational Biologist’s Laboratory Notebook\n\nOverall sound advice, but short on recommending specific solutions - LP\n\n10 File Management Tips to Keep Your Electronic Files Organized\n\nGood general advice, and not only for bioinformatics projects - LP\n\nHow to keep a lab notebook\n\nFirst-hand experience in quotes from a number of scientists. Learn from their fails - LP\n\n10 Tips For Organizing Your Lab Book\n\nVery lab-focused, but good general points - LP"
+  },
+  {
+    "objectID": "time_management.html#time-and-project-management-advice",
+    "href": "time_management.html#time-and-project-management-advice",
+    "title": "Project and Time Management",
+    "section": "3 Time and Project Management: Advice",
+    "text": "3 Time and Project Management: Advice\n\n8 Time Management Tips for Students\n\nReally good general advice, from Harvard - LP\n\nKanban boards\n\nKanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn’t require any particular tool or software (I used to use sticky notes), but Trello does a good job of this - LP\n\nPomodoro Technique\n\nI use the Pomodoro technique (with BeFocused, see below) to help me focus when I need to get through long writing tasks. I find it most useful to avoid burning out on a large piece of work - LP"
+  },
+  {
+    "objectID": "time_management.html#time-and-project-management-resources",
+    "href": "time_management.html#time-and-project-management-resources",
+    "title": "Project and Time Management",
+    "section": "4 Time and Project Management: Resources",
+    "text": "4 Time and Project Management: Resources\n\nTrello\n\nA widely-used project management tool, but tailored towards teams. It probably does more than you need - LP\n\nAsana\n\nSeems to be similar to Trello. I haven’t used it, myself - LP\n\nBenchling\n\nAn electronic lab notebook platform that is widely used in industry. Academic use is free, and having it on your CV can be an advantage, so I’m told - LP\n\nPomodoro Timer\n\nFree timer for Pomodoro. Just does the timing, which may be all you need - LP\n\nBeFocused\n\nPomodoro timer with additional project management and time categorisation features. It’s the tool I use - LP\n\nForest\n\nA focusing app. I hear good things but I don’t use it - LP\n\nEverNote\n\nNote-taking app. I know people who love it, but it didn’t grab me - LP"
+  },
+  {
     "objectID": "methods.html",
     "href": "methods.html",
     "title": "Writing Bioinformatics Methods",
@@ -257,27 +180,6 @@
     "title": "Writing Bioinformatics Methods",
     "section": "1 Tips for Writing a Great Methods Section",
     "text": "1 Tips for Writing a Great Methods Section\n\nDescribe your experimental methods in enough detail that your reader could replicate the experiments.\nYour methods section is not a protocol (a step-by-step list of everything that was done.) You may assume that your reader is a competent scientist with the skills to perform basic lab calculations, techniques, etc.\nCite the appropriate literature (i.e. for any recipes, tools including software, and protocols you have used).\nDo not include results or rationale for performing experiments (these belong elsewhere in your thesis).\nBe clear and concise; eliminate unnecessary words and steps.\nMake sure that your methods section includes all of the materials and methods you used in your thesis (This includes any bioinformatics methods such as BLAST!)\nAsk a friend or colleague to read your methods section and give feedback.\n\n\n\n\n\n\n\nTip\n\n\n\nLook at papers that have used similar methods: how are these methods sections written? Though take care as many papers underdescribe bioinformatics methods.\n\n\nYou want to make sure that your methods section generally follows the conventions in your field, so that readers will be able to understand it more easily.\nA few examples of specific conventions:\n\nfor wet-lab projects, centrifuge speeds are always given in xg, not in rpm or rcf\nfor science communication projects, the design of your intervention/survey belongs in the methods section\nfor bioinformatics projects, always include the version number and citation for any software used and details of parameters, etc."
-  },
-  {
-    "objectID": "expectations.html",
-    "href": "expectations.html",
-    "title": "Project Expectations",
-    "section": "",
-    "text": "This may be your first time working on a scientific project, and maybe even your first time producing a scientific document (your project dissertation). The guide below is intended to help you understand what to expect, and should be read in conjunction with the BM432 learning agreement (MyPlace )."
-  },
-  {
-    "objectID": "expectations.html#conducting-your-project",
-    "href": "expectations.html#conducting-your-project",
-    "title": "Project Expectations",
-    "section": "1 Conducting Your Project",
-    "text": "1 Conducting Your Project\n\nSome general advice about the group \nHow to avoid cognitive overload \n\n\n1.1 Science:\n\nMaintain a detailed record of your work (i.e. a lab notebook), either on paper or electronically.\n\nAll the projects run by our group are computational. You will probably find it easiest to maintain an electronic record.\nKeeping a lab notebook to document your project \n\n\n\n\n\n\n\n\nImportant\n\n\n\n\nBack up your work frequently and in more than one place - you do not want to lose all of your data!\n\nIt’s a common view in computation biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.\n\n\n\n\n\nAt the end of the project, I expect you to provide me with the raw data files from your work. For example:\n\nFor a phylogenetic tree, I expect: the .fasta file containing the unaligned sequences; the multiple sequence alignment used to construct the tree (.fasta, .msa, etc.); and the .newick (or .nex) file for the tree. This is required so that projects can be continued and built upon in future years.\nYou may find it most convenient to manage your project using standard computational biology tools, such as version control (e.g. git and GitHub). I would also find that convenient and strongly recommend it.\n\n\n\n\n1.2 Teamwork and collegiality:\n\nGroup Code of Conduct \nI expect you to help each other. In particular, some of you will have more experience than others in the group, when using computational and bioinformatics tools. You are all doing different projects, but you are using similar tools and techniques. I expect you to share knowledge and understanding kindly with one another.\n\nScience is a team effort and it benefits from people working together in groups. We can accomplish more together than one person working alone can.\nListen respectfully to each other, learn from each other, and contribute as you can.\nBe respectful of others’ different life experiences. Learn from them when appropriate, and contribute when appropriate. Do not insult or put down people who share their experiences.\n\nIf you find that you have made a mistake: listen, offer a genuine apology, and commit to learning and doing better.\n\n\n\n1.3 Kindness:\n\nBe kind to yourself. Be mindful of your limits, and aware of the fact that this is a world in crisis, with a myriad challenges.\n\nGive yourself credit for the hard work that you’re doing every day.\n\nBe kind to others. Give them the benefit of the doubt when needed; remember that online communication often misses nuance or meaning.\n\nRemember that everyone is struggling right now and may not be able to be their best selves.\n\nBe patient. Science can be hard work. Things take longer to accomplish when you are first learning a technique. You may need to repeat experiments or start over with a new dataset. This is all part of the process, and to be expected.\n\nBe assured that you are making progress, even though it may not feel that way at the time.\n\n\n\n\n1.4 Good Communication:\n\nHow to ask for feedback \nHow to ask good questions \nBe clear, open, and honest in your communication\n\n\n\n\n\n\n\nCaution\n\n\n\nI cannot help if you don’t let me know that there’s a problem.\n\n\n\nWe will meet at least once a week in person or via Zoom (individual and/or group meetings).\n\nZoom etiquette: turning your camera, microphone on/off is completely up to you, no pressure either way.\n\nBetween meetings, I’m available by email to answer questions or you can schedule a drop-in Zoom (depending on our schedules).\nDon’t be afraid to ask for help. You have many resources to call on, including:\n\nMe (…this is literally my job!)\nEach other. Please do talk to and help each other! - we call this “Peer Learning” and it’s deliberately part of the project. It’s not cheating or plagiarism.\nAnyone else in the SIPBS CompBiol Group\nThe Microbiology group\nAsk questions in your lectures/open office sessions\nStack Overflow, Bioinformatics Stack Exchange and other specialist sites\nSocial Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)\n\nTake ownership of your project. I am here to help and to guide you, but this is not my thesis (I have already done one!)\n\nCome to meetings prepared.\nThink independently and critically\nRead broadly\n\n\n\n\n\n\n\n\nCaution\n\n\n\nSites like Stack Overflow and Stack Exchange, while extremely useful and valuable for the community, can sometimes contain some robust communication and opinion from strong-minded people.\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll of the above contributes to your project performance mark\n\n\n\nDon’t be afraid to tell me that you think I’m wrong. I’m a scientist. I’m probably wrong at least half the time.\n\nYour data may contradict my hypotheses or ideas. That’s how science works.\nYou will probably find something in the literature that I wasn’t aware of. I’ll be interested to hear about it.\nYou may well have insights and clever thoughts that I won’t have. You are closer to your project than I am, and that will generate insight.\nDoing science can involve challenges to accepted dogma, and the Scientific Method requires us to prove ideas (usually our own ideas!) wrong. Be bold."
-  },
-  {
-    "objectID": "expectations.html#what-you-should-expect-from-me",
-    "href": "expectations.html#what-you-should-expect-from-me",
-    "title": "Project Expectations",
-    "section": "2 What you should expect from me:",
-    "text": "2 What you should expect from me:\n\nKindness, team-work, and collegiality\nAdvice and guidance on planning and carrying out your experiments\nGuidance on how to write a scientific document\nFeedback on drafts and practice presentation\nGood communication\nEmail responses within a working day (I will do my absolute best)\nFeedback on project performance\nReferences\n\n\n\n\n\n\n\nNote\n\n\n\nIf you want to name me as a reference there’s no need to ask for permission, but I do appreciate as much notice as possible. I want to encourage an employer to hire you/a course to take you on so, if you can send me your CV and a couple of points you’d like me to highlight, so much the better!\n\n\n\n\n\n\n\n\nA few tips and suggestions for success\n\n\n\n\nTake care of yourself (a healthy mind requires a healthy body)\nStay organized: set yourself deadlines (but be flexible when need be)\nDon’t feel the need to write your draft in one go – it’s much better to work on it a little bit every day (marathon, not a sprint)\nBreak it down into small tasks\nGet into the habit of writing at least a few sentences daily\nTake breaks and let your mind rest/process ideas (take a walk, wash the dishes, drink some tea).\nTake breaks from the screen.\nWhen you read papers, and go to seminars/journal clubs: pay attention to the way that other people explain their science (what works? what doesn’t?)"
   },
   {
     "objectID": "presentation.html",
@@ -298,7 +200,70 @@
     "href": "presentation.html#some-presentation-guidesresources",
     "title": "Presentations",
     "section": "2 Some presentation guides/resources",
-    "text": "2 Some presentation guides/resources\n\nGiving a Scientific Presentation - Prepared by Dr Feeney and Dr Pritchard for BM432 in 2022\n\n07-01: Presentations - Intro\n07-02: Presentations - Content\n07-03: Presentations - Figures\n07-04: Presentations - Aesthetics\n07-05: Presentations - Slide Preparation\n07-06: Presentations - Delivery\n\nScientific presentations: a cheat sheet - Good general advice for presentations, and not just scientific presentations - LP\nTen Simple Rules for Making Good Oral Presentations - More good advice from the reliable “Ten Simple Rules…” series - LP"
+    "text": "2 Some presentation guides/resources\n\nHow to give a better-than-average talk - A view from a psychology professor.\nGiving a Scientific Presentation - Prepared by Dr Feeney and Dr Pritchard for BM432 in 2022\n\n07-01: Presentations - Intro\n07-02: Presentations - Content\n07-03: Presentations - Figures\n07-04: Presentations - Aesthetics\n07-05: Presentations - Slide Preparation\n07-06: Presentations - Delivery\n\nScientific presentations: a cheat sheet - Good general advice for presentations, and not just scientific presentations - LP\nTen Simple Rules for Making Good Oral Presentations - More good advice from the reliable “Ten Simple Rules…” series - LP"
+  },
+  {
+    "objectID": "scicomm.html",
+    "href": "scicomm.html",
+    "title": "Science Communication",
+    "section": "",
+    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
+  },
+  {
+    "objectID": "scicomm.html#science-communication-resources",
+    "href": "scicomm.html#science-communication-resources",
+    "title": "Science Communication",
+    "section": "",
+    "text": "Science Communication Resources - Wide-ranging advice about science communication from a US non-profit - LP\nTen simple rules for scientists engaging in science communication - One of the many great “ten simple rules” articles from PLoS Comp. Biol. - LP\nTen simple rules for drawing scientific comics - Unleash your budding Gary Larson - LP\nTen Simple Rules for Effective Online Outreach - Broader in scope than just your project, but worth keeping in mind if you’re looking at a career in science - LP\nHow to Eliminate Jargon From Science Communication - I don’t believe jargon can be entirely eliminated (it’s precise language), but there’s no reason to be obscure - LP"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Bioinformatics Software tools",
+    "section": "",
+    "text": "This page provides links to software tools and packages - some with web interfaces, some you would need to download and install - that may be useful for your project."
+  },
+  {
+    "objectID": "software.html#programming",
+    "href": "software.html#programming",
+    "title": "Bioinformatics Software tools",
+    "section": "1 Programming",
+    "text": "1 Programming\n\nVisual Studio Code - An excellent editor for writing your own code, in any language, with support for a wide range of helpful extensions - LP\nAnaconda - A data science platform supporting Python, R, and other languages, that is cross-platform and simplifies installing some packages - LP\nProject Jupyter - A standard framework for coding in a notebook format - LP\nSnakemake - Reproducible bioinformatics analysis framework - LP\nNextFlow - Reproducible, scalable computational analysis framework - LP\n\n\n1.1 Python\n\nBiopython - The standard bioinformatics packages for Python - LP\n\n\n\n1.2 R\n\nCRAN - The Comprehensive R Archive Network - it’s where to go for R packages - LP\nPosit/RStudio - The makers of RStudio - the user-friendly way to use R - LP\nBioconductor - R’s compendium of computational biology software - LP"
+  },
+  {
+    "objectID": "software.html#online-tool-collections",
+    "href": "software.html#online-tool-collections",
+    "title": "Bioinformatics Software tools",
+    "section": "2 Online tool collections",
+    "text": "2 Online tool collections\n\nGalaxy (Europe) - The European Galaxy service for scientific workflows - LP\nEBI Tools - European Bioinformatics Institute online tool collection - LP"
+  },
+  {
+    "objectID": "software.html#sequence-analysis",
+    "href": "software.html#sequence-analysis",
+    "title": "Bioinformatics Software tools",
+    "section": "3 Sequence Analysis",
+    "text": "3 Sequence Analysis\n\nNCBI BLAST - NCBI’s BLAST service - LP\nJalView - Widely-used sequence analysis platform - LP\nPolyView - Coevolution and protein structure annotation server - LP\nCoevLab - Protein covariation analysis server - LP\nibis2analyzer - Phylogenetically-informed covariation analysis server - LP\nConSurf - Evolutionary conservation estimation tool - LP\n\n\n3.1 Sequence Alignment\n\nMAFFT - Fast multiple sequence alignment package - LP\nT-COFFEE - Very capable and diverse multiple sequence alignment package - LP\n\nT-COFFEE online server\n\nClustal Omega - Fast multiple sequence alignment package - LP"
+  },
+  {
+    "objectID": "software.html#protein-structure",
+    "href": "software.html#protein-structure",
+    "title": "Bioinformatics Software tools",
+    "section": "4 Protein Structure",
+    "text": "4 Protein Structure\n\nAlphaFold Colab - Public interface to AlphaFold structural prediction - LP\nSWISSMODEL - Structural homology modelling server - LP\nDeepView/Swiss PDB Viewer - Protein structure visualisation that integrates with SWISSMODEL - LP\nPyMol - Standard package for visualising and analysing protein structure - LP\nUCSF Chimera - Very capable structure visualisation and modelling package - LP\nRCSB-PBS’s list of molecular graphics software - Comprehensive list of structure visualisation options - LP"
+  },
+  {
+    "objectID": "software.html#phylogenetics",
+    "href": "software.html#phylogenetics",
+    "title": "Bioinformatics Software tools",
+    "section": "5 Phylogenetics",
+    "text": "5 Phylogenetics\n\nIQ-TREE - Maximum-likelihood phylogenetic reconstruction - LP\nRAxML - Maximum-likelihood phylogenetic reconstruction - LP\nSplitsTree - Recombination-aware phylogenetic reconstruction - LP\nFigTree - Lightweight phylogenetic tree visualisation - LP\nDendroscope Very capable phylogenetic tree viewer - LP"
   },
   {
     "objectID": "index.html",
@@ -327,6 +292,41 @@
     "title": "SIPBS CompBiol BM432 Project Pages",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThese pages were originally developed in 2023 by Dr Leighton Pritchard and Dr Morgan Feeney, and are currently maintained by, Dr Leighton Pritchard.\nThese materials are © University of Strathclyde, and licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Linked and embedded materials are governed by their own licenses. I assume that all external materials used or embedded here are covered under the educational fair use policy. If this is not the case and any material displayed here violates copyright, please let me know and I will remove it."
+  },
+  {
+    "objectID": "expectations.html",
+    "href": "expectations.html",
+    "title": "Project Expectations",
+    "section": "",
+    "text": "This may be your first time working on a scientific project, and maybe even your first time producing a scientific document (your project dissertation). The guide below is intended to help you understand what to expect, and should be read in conjunction with the BM432 learning agreement (MyPlace )."
+  },
+  {
+    "objectID": "expectations.html#conducting-your-project",
+    "href": "expectations.html#conducting-your-project",
+    "title": "Project Expectations",
+    "section": "1 Conducting Your Project",
+    "text": "1 Conducting Your Project\n\nSome general advice about the group \nHow to avoid cognitive overload \n\n\n1.1 Science:\n\nMaintain a detailed record of your work (i.e. a lab notebook), either on paper or electronically.\n\nAll the projects run by our group are computational. You will probably find it easiest to maintain an electronic record.\nKeeping a lab notebook to document your project \n\n\n\n\n\n\n\n\nImportant\n\n\n\n\nBack up your work frequently and in more than one place - you do not want to lose all of your data!\n\nIt’s a common view in computation biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.\n\n\n\n\n\nAt the end of the project, I expect you to provide me with the raw data files from your work. For example:\n\nFor a phylogenetic tree, I expect: the .fasta file containing the unaligned sequences; the multiple sequence alignment used to construct the tree (.fasta, .msa, etc.); and the .newick (or .nex) file for the tree. This is required so that projects can be continued and built upon in future years.\nYou may find it most convenient to manage your project using standard computational biology tools, such as version control (e.g. git and GitHub). I would also find that convenient and strongly recommend it.\n\n\n\n\n1.2 Teamwork and collegiality:\n\nGroup Code of Conduct \nI expect you to help each other. In particular, some of you will have more experience than others in the group, when using computational and bioinformatics tools. You are all doing different projects, but you are using similar tools and techniques. I expect you to share knowledge and understanding kindly with one another.\n\nScience is a team effort and it benefits from people working together in groups. We can accomplish more together than one person working alone can.\nListen respectfully to each other, learn from each other, and contribute as you can.\nBe respectful of others’ different life experiences. Learn from them when appropriate, and contribute when appropriate. Do not insult or put down people who share their experiences.\n\nIf you find that you have made a mistake: listen, offer a genuine apology, and commit to learning and doing better.\n\n\n\n1.3 Kindness:\n\nBe kind to yourself. Be mindful of your limits, and aware of the fact that this is a world in crisis, with a myriad challenges.\n\nGive yourself credit for the hard work that you’re doing every day.\n\nBe kind to others. Give them the benefit of the doubt when needed; remember that online communication often misses nuance or meaning.\n\nRemember that everyone is struggling right now and may not be able to be their best selves.\n\nBe patient. Science can be hard work. Things take longer to accomplish when you are first learning a technique. You may need to repeat experiments or start over with a new dataset. This is all part of the process, and to be expected.\n\nBe assured that you are making progress, even though it may not feel that way at the time.\n\n\n\n\n1.4 Good Communication:\n\nHow to ask for feedback \nHow to ask good questions \nBe clear, open, and honest in your communication\n\n\n\n\n\n\n\nCaution\n\n\n\nI cannot help if you don’t let me know that there’s a problem.\n\n\n\nWe will meet at least once a week in person or via Zoom (individual and/or group meetings).\n\nZoom etiquette: turning your camera, microphone on/off is completely up to you, no pressure either way.\n\nBetween meetings, I’m available by email to answer questions or you can schedule a drop-in Zoom (depending on our schedules).\nDon’t be afraid to ask for help. You have many resources to call on, including:\n\nMe (…this is literally my job!)\nEach other. Please do talk to and help each other! - we call this “Peer Learning” and it’s deliberately part of the project. It’s not cheating or plagiarism.\nAnyone else in the SIPBS CompBiol Group\nThe Microbiology group\nAsk questions in your lectures/open office sessions\nStack Overflow, Bioinformatics Stack Exchange and other specialist sites\nSocial Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)\n\nTake ownership of your project. I am here to help and to guide you, but this is not my thesis (I have already done one!)\n\nCome to meetings prepared.\nThink independently and critically\nRead broadly\n\n\n\n\n\n\n\n\nCaution\n\n\n\nSites like Stack Overflow and Stack Exchange, while extremely useful and valuable for the community, can sometimes contain some robust communication and opinion from strong-minded people.\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll of the above contributes to your project performance mark\n\n\n\nDon’t be afraid to tell me that you think I’m wrong. I’m a scientist. I’m probably wrong at least half the time.\n\nYour data may contradict my hypotheses or ideas. That’s how science works.\nYou will probably find something in the literature that I wasn’t aware of. I’ll be interested to hear about it.\nYou may well have insights and clever thoughts that I won’t have. You are closer to your project than I am, and that will generate insight.\nDoing science can involve challenges to accepted dogma, and the Scientific Method requires us to prove ideas (usually our own ideas!) wrong. Be bold."
+  },
+  {
+    "objectID": "expectations.html#what-you-should-expect-from-me",
+    "href": "expectations.html#what-you-should-expect-from-me",
+    "title": "Project Expectations",
+    "section": "2 What you should expect from me:",
+    "text": "2 What you should expect from me:\n\nKindness, team-work, and collegiality\nAdvice and guidance on planning and carrying out your experiments\nGuidance on how to write a scientific document\nFeedback on drafts and practice presentation\nGood communication\nEmail responses within a working day (I will do my absolute best)\nFeedback on project performance\nReferences\n\n\n\n\n\n\n\nNote\n\n\n\nIf you want to name me as a reference there’s no need to ask for permission, but I do appreciate as much notice as possible. I want to encourage an employer to hire you/a course to take you on so, if you can send me your CV and a couple of points you’d like me to highlight, so much the better!\n\n\n\n\n\n\n\n\nA few tips and suggestions for success\n\n\n\n\nTake care of yourself (a healthy mind requires a healthy body)\nStay organized: set yourself deadlines (but be flexible when need be)\nDon’t feel the need to write your draft in one go – it’s much better to work on it a little bit every day (marathon, not a sprint)\nBreak it down into small tasks\nGet into the habit of writing at least a few sentences daily\nTake breaks and let your mind rest/process ideas (take a walk, wash the dishes, drink some tea).\nTake breaks from the screen.\nWhen you read papers, and go to seminars/journal clubs: pay attention to the way that other people explain their science (what works? what doesn’t?)"
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Key Dates",
+    "section": "",
+    "text": "BM432 Project Timeline (MyPlace )\nBM432 Running Order (Workshops) (MyPlace )"
+  },
+  {
+    "objectID": "calendar.html#calendar",
+    "href": "calendar.html#calendar",
+    "title": "Key Dates",
+    "section": "1 Calendar",
+    "text": "1 Calendar\nThis is an indicative calendar for SIPBS CompBiol Group BM432 projects in AY2023-24.\n\n\n\n\n\n\nWarning\n\n\n\nThis calendar is indicative only. Please consult with the official course MyPlace page for submission dates, deadlines, and other timings. Links to useful documents are provided above.\n\n\n\n1.1 Semester 1\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n1\nw/b Mon 18/9\nSuggested activities  - read papers in project description  - literature search \n\n\n\n1\nThu 21/9  14:00-15:00  HW324\nProject Group Meeting  - Introductions  - Project descriptions  - Project expectations  - Learning agreement  - Project management resources\nLP\n\n\n1\nFri 22/9\nSubmit Learning Agreement  (MyPlace)\nStudents\n\n\n2\nw/b Mon 25/9\nSuggested activities  - Continue literature search  - Practice project management tools\n\n\n\n2\nThu 28/9  14:00-15:00  HW324\nProject Group Meeting  - Discuss task for next week (choose one paper each for mini journal club)  - Computational and bioinformatics tools\nLP\n\n\n3\nw/b Mon 2/10\nSuggested activities  - Continue literature search  - Practice computational and bioinformatics tools\n\n\n\n3\nFri 6/10  14:00-15:00  HW324\nProject Group Meeting  - Mini journal club. Each student leads a short (15min) discussion of their chosen paper.\nLP\n\n\n3\nFri 6/10\nComplete Workshop 4 - Safety tasks\nStudents\n\n\n4\nw/b Mon 9/10\nSuggested activities  Continue literature search Outline thesis introduction\n\n\n\n4\nFri 13/10  14:00-15:00  HW324\nProject Group Meeting  How to write a project thesis\nLP\n\n\n4\nFri 13/10\nComplete Workshop 5 quizzes - Ethics  (MyPlace)\nStudents\n\n\n5\nw/b Mon 16/10\nSuggested activities  Continue literature search  Writing thesis introduction\n\n\n\n5\nMon 16/10\nSubmit draft Introduction/Literature Review  (MyPlace)\nStudents\n\n\n5\nFri 20/10  14:00-15:00  HW324\nProject Group Meeting  - Feedback/discussion of thesis outlines  - Project planning discussion\nLP\n\n\n6\nw/b Mon 23/10\nSuggested activities  Project work\n\n\n\n6\nFri 27/10  14:00-15:00  HW324\nProject Group Meeting  Project planning discussion\nLP\n\n\n7\nw/b Mon 30/10\nSuggested activities  Project work\n\n\n\n7\nFri 3/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n8\nw/b Mon 6/11\nSuggested activities  Project work\n\n\n\n8\nFri 10/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n9\nw/b Mon 13/11\nSuggested activities  Project work\n\n\n\n9\nFri 17/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n10\nw/b Mon 20/11\nSuggested activities  Project work\n\n\n\n10\nFri 24/11  14:00-15:00  HW324\nProject Group Meeting  Project updates and discussion\nLP\n\n\n11\nw/b Mon 27/11\nSuggested activities  Project work\n\n\n\n11\nMon 27/11\nSubmit presentation PowerPoint File  (MyPlace)\nStudents\n\n\n11\nThu 30/11\nProject Presentations\nStudents\n\n\n11\nFri 31/11  14:00-15:00  HW324\nFINAL Project Group Meeting  Project updates and discussion\nLP\n\n\n\n\n\n1.2 Semester 2\n\n\n\n\n\n\n\n\n\nWeek\nDate/Time\nActivity\nResponsibility\n\n\n\n\n3\nMon 29/1\nSubmit draft thesis  (MyPlace)\nStudents\n\n\n3\nMon 26/2\nSubmit final thesis  (MyPlace)\nStudents"
   },
   {
     "objectID": "figures.html",
