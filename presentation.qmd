@@ -30,7 +30,7 @@ html:
 2.  Prepare figures for your slides (the "backbone" of your talk)
 
 ::: {.callout-tip}
-The figures for your slides will rarely, if ever, be exatly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.
+The figures for your slides will rarely, if ever, be exactly the same figures you present in your thesis. You cannot convey as much information in a slide, so you should simplify figures for your talk such that they can be easily understood by your audience.
 
 Presenting too much data on a single slide can be overwhelming and your audience may disengage or read the slide instead of listening to you.
 :::
@@ -40,10 +40,10 @@ Presenting too much data on a single slide can be overwhelming and your audience
   - keep it simple: the minimum to contextualise your story
 
 4.  For each experiment, explain (**in this order**):
-  1. what you were trying to do (aim)
-  2. how you did it (method)
-  3. what you found (results)
-  4. what your results mean (significance)
+  - 1. what you were trying to do (aim)
+  - 2. how you did it (method)
+  - 3. what you found (results)
+  - 4. what your results mean (significance)
 
 5.  Finish with your conclusions/significance of your work
   - what have you learned?
