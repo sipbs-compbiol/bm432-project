@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/online_resources.html</loc>
-    <lastmod>2023-10-27T16:59:20.912Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/thesis.html</loc>
-    <lastmod>2023-10-27T16:59:18.552Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/learning_resources.html</loc>
-    <lastmod>2023-10-27T16:59:15.888Z</lastmod>
-  </url>
-  <url>
     <loc>https://sipbs-compbiol.github.io/bm432-project/time_management.html</loc>
-    <lastmod>2023-10-27T16:59:13.164Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/methods.html</loc>
-    <lastmod>2023-10-27T16:59:10.704Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/presentation.html</loc>
-    <lastmod>2023-10-27T16:59:08.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/scicomm.html</loc>
-    <lastmod>2023-10-27T16:59:05.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/about.html</loc>
-    <lastmod>2023-10-27T16:59:07.332Z</lastmod>
+    <lastmod>2023-11-17T17:00:45.384Z</lastmod>
   </url>
   <url>
     <loc>https://sipbs-compbiol.github.io/bm432-project/software.html</loc>
-    <lastmod>2023-10-27T16:59:09.596Z</lastmod>
+    <lastmod>2023-11-17T17:00:43.528Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/about.html</loc>
+    <lastmod>2023-11-17T17:00:41.672Z</lastmod>
   </url>
   <url>
     <loc>https://sipbs-compbiol.github.io/bm432-project/index.html</loc>
-    <lastmod>2023-10-27T16:59:11.856Z</lastmod>
+    <lastmod>2023-11-17T17:00:39.540Z</lastmod>
   </url>
   <url>
-    <loc>https://sipbs-compbiol.github.io/bm432-project/expectations.html</loc>
-    <lastmod>2023-10-27T16:59:14.672Z</lastmod>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/methods.html</loc>
+    <lastmod>2023-11-17T17:00:37.632Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/online_resources.html</loc>
+    <lastmod>2023-11-17T17:00:35.639Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/thesis.html</loc>
+    <lastmod>2023-11-17T17:00:33.539Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/presentation.html</loc>
+    <lastmod>2023-11-17T17:00:34.723Z</lastmod>
   </url>
   <url>
     <loc>https://sipbs-compbiol.github.io/bm432-project/calendar.html</loc>
-    <lastmod>2023-10-27T16:59:17.252Z</lastmod>
+    <lastmod>2023-11-17T17:00:36.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/learning_resources.html</loc>
+    <lastmod>2023-11-17T17:00:38.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/expectations.html</loc>
+    <lastmod>2023-11-17T17:00:40.708Z</lastmod>
   </url>
   <url>
     <loc>https://sipbs-compbiol.github.io/bm432-project/figures.html</loc>
-    <lastmod>2023-10-27T16:59:19.756Z</lastmod>
+    <lastmod>2023-11-17T17:00:42.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sipbs-compbiol.github.io/bm432-project/scicomm.html</loc>
+    <lastmod>2023-11-17T17:00:44.380Z</lastmod>
   </url>
 </urlset>
