@@ -121,3 +121,4 @@ A better and more meaningful version: "The genes involved in chemotaxis in *E. c
 -   [Improving your scientific writing: a short guide](https://lijunsun.github.io/files/ScientificWritingV39.pdf) - _A long and detailed personal opinion by Fred Bushman - LP_ 
 -   [Some tips for scientific writing](https://kucharski.substack.com/p/some-tips-for-scientific-writing) - _Sound general advice on writing for a scientific audience - LP_
 -   [Ten Simple (Empirical) Rules for Writing Science](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004205) - _The "Ten Simple Rules…" articles keep coming - LP_
+- [“I” versus “the author”: The power of first-person voice when writing about science](https://doi.org/10.1073/pnas.2316966121) - _Recent musing on the role of first- vs. third- person writing in science - MF_
