@@ -1,0 +1,97 @@
+---
+title: "How to write goodly"
+image: ./assets/images/writing_thesis.jpg
+description: |
+ Some straightforward advice about effective writing.
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+## What this page is for
+
+I see a large number of student theses, and other pieces of student writing, every year. Each document is different, but some patterns of good and bad writing are evident in every one. This page lists some of those patterns, in an attempt to help guide you towards better written communication.
+
+Some of this is opinionated advice. You may not agree with all of it.
+
+## A list of things that can usually be improved
+
+Common ways undergraduate theses can be improved: a list
+
+- Remember your primary goal: communicating what you did, and what it means, to your reader.
+  - You are telling the story revealed by your research, not impressing the reader with what you know or a comprehensive account of every experiment you conducted, regardless of whether it contributes to the scientific "story."
+- Write in short, direct, clear sentences.
+- Use the active voice whenever possible.
+- Define all abbreviations on first use (unless they're trivially common, like "DNA", but - even then - put them in a glossary/abbreviations section).
+- Don't overstretch your conclusions. This is a 6-8 week undergraduate project, not a £2m multi-team research project.
+  - You don't need results to be significant, groundbreaking, or even decisive. You need to show the reader you are a scientist and understand the context and realistic contribution of your work.
+  - Be cautious about implications when appropriate, e.g. "may enable," "suggests," "is consistent with," etc.
+- You can use "I" instead of "we" in your thesis.
+- The lay abstract needs to be written in everyday language, and should express similar information to the technical abstract.
+- The abstract should not contain citations/references.
+- The introduction should give the reader enough information to understand the work you will be describing.
+- Every result in Results should have the methodology by which it was obtained clearly described in the Methods section.
+- For bioinformatics methods, every software tool should have its version number indicated, and a citation. Also state the parameters used.
+  - It is acceptable to state "default parameters were used unless otherwise indicated," but remember to indicate changes from the default settings.
+  - The best way to preent your bioinformatics methods is to, where space permits, reproduce the command-lines you used (but redact long paths to files). Alternatively, provide the script as a downloadable file or appendix. If using a Galaxy workflow, provide the link to a shared version of this.
+- For bioinformatics methods, state the version number of each database you used, or the date on which you accessed it.
+- The Methods section should include enough information to enable a competent scientist to reproduce the work.
+- If your study focuses on one specific result, or a small number of results, have a separate Discussion section.
+- If your study generates multiple results, and especially if the results inform each other or tell a sequential story where later results are dependent on earlier results, consider combining Results and Discussions into a single section: "Results and Discussion."
+- Every statement of fact should be supported either by a citation, or the work that you are reporting.
+- All taxonomic names should be appropriately italicised.
+- "Thus" means "as a consequence of what was just explained" - inappropriate use gives the impression of poor logic and understanding.
+- Figure legends should explain the meaning and importance of the figure without the reader needing to make reference to the text.
+- References should be cited in the text, and presented in the bibliography, in a standard manner.
+  - Use reference management software.
+
+## The advice
+
+### Your job as a writer is to commmunicate
+
+::: { .callout-important title="Know what you want to say" }
+You are not your reader.
+
+You have thoughts and ideas in your head, and the purpose of your writing is to transfer those thoughts and ideas to your reader's head.
+
+If you do not know what your thoughts and ideas are, you will not be able to communicate them to someone else. Spend time thinking about what you want to say before you write anything.
+:::
+
+
+### How to improve as a writer
+
+::: { .callout-important title="You can only improve as a writer by writing" }
+We do not improve at things only by thinking about them. I cannot make a cup of tea by thinking about a kettle. If I want a better cup of tea I need to put the kettle on. If I want to improve my writing, I first have to write something.
+
+It may not be very good, especially as a first draft. But if I do not write I cannot get better at writing.
+:::
+
+::: { .callout-warning title="You can only improve as a writer if the writing is read" }
+It is not enough only to write. I do not know if my cup of tea is better than the last one unless it is tasted. I will not know if my writing is improving unless it is read. 
+
+Just as I can taste my own cup of tea, I can read my own writing and form a judgement. Before sharing my writing with others, I should read it myself.
+:::
+
+::: { .callout-note title="You can better judge your own writing if you have read other writing" }
+If I want to know that my writing is improving, I need to know what "improvement" means. If I want to know whether my cup of tea is good or bad, I can taste it and decide whether I like it. But if I have not tasted other good and bad cups of tea, I will not know how to eliminate the bad, or exaggerate the good. I need to have read good and bad writing to have a sense of direction for my own writing.
+
+I can always compare my tea to other cups I have made before, but I may never find a new flavour that way. If I only compare this writing to my previous efforts, I may never find a new way to express myself. It is good to try other people's tea, and to read other people's writing.
+:::
+
+::: { .callout-tip title="Your writing will get better if you receive constructive feedback" }
+My perspective is limited by my experiences. My imagination of what a cup of tea could be is determined by which teas I have drunk before. If a friend who has drunk many more different teas tastes my tea and suggests a way to make it better, maybe they have a new perspective on what makes tea good that I could use. If a friend reads my writing and suggests a way to make it clearer and better, maybe they have a perspective on communication that I could benefit from.
+
+You need someone who is not you to give an honest perspective on your writing through constructive feedback.
+:::
