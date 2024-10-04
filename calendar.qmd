@@ -41,32 +41,33 @@ This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{
 | **2** | **Fri 4/10** <br> 10:30-11:30 <br> HW324 | **Project Group Meeting** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> - (choose one paper each for mini journal club) | **LP**
 | **3** | w/b Mon 7/10 | **Suggested activities** <br> - Continue literature search <br> - Practice computational and bioinformatics tools | |
 | **3** | **Tue 8/10** | **Submit Learning Agreement** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **3** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Mini journal club. Each student leads a short (15min) discussion of their chosen paper - Discuss tasks for next week <br> - Computational and bioinformatics tools| **LP** |
+| **3** | **Fri 11/10** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Mini journal club. Each student leads a short (15min) discussion of their chosen paper - Discuss tasks for next week <br> - Computational and bioinformatics tools| **LP** |
 | **3** | **Fri 11/10** | **Complete Workshop 4 - Safety tasks** | **Students** |
 | **4** | w/b Mon 14/10 | **Suggested activities** <br> - Continue literature search <br> - Outline thesis introduction | |
-| **4** | **TBA** <br> TBA <br> TBA | **Project Group Meeting**  <br> - How to write a project thesis | **LP** |
+| **4** | **Fri 18/10** <br> 12 noon <br> HW324 | **Project Group Meeting**  <br> - How to write a project thesis | **LP** |
 | **4** | **Fri 18/10** | **Complete Workshop 5 quizzes - Ethics** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
 | **5** | w/b Mon 21/10 | **Suggested activities** <br> - Continue literature/database search <br> Writing thesis introduction | |
 | **5** | **Mon 21/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Feedback/discussion of thesis outlines  <br> - Project planning discussion | **LP** |
+| **5** | **Fri 25/10** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Feedback/discussion of thesis outlines  <br> - Project planning discussion | **LP** |
 | **6** | w/b Mon 28/10 | **Suggested activities** <br> - Project work | |
-| **6** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Project planning discussion | **LP** |
+| **6** | **Fri 1/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project planning discussion | **LP** |
 | **7** | w/b Mon 4/11 | **Suggested activities** <br> - Project work | |
-| **7** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **7** | **Fri 8/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
 | **8** | w/b Mon 11/11 | **Suggested activities** <br> Project work | |
-| **8** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **8** | **Fri 15/11** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
 | **9** | w/b Mon 18/11 | **Suggested activities** <br> - Project work | |
-| **9** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **9** | **Fri 22/11** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
 | **10** | w/b Mon 25/11 | **Suggested activities** <br> - Project work <br> - Presentation rehearsal | |
-| **10** | **TBA** <br> TBA <br> TBA | **Project Group Meeting** <br> - Project updates and discussion <br> - Presentation rehearsal | **LP** |
+| **10** | **Fri 29/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion <br> - Presentation rehearsal | **LP** |
 | **11** | w/b Mon 2/12 | **Suggested activities** <br> Project work | |
 | **11** | **Mon 2/12** | **Submit presentation PowerPoint File** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
 | **11** | **TBA** | **Project Presentations** | **Students** |
-| **11** | **TBA** <br> TBA <br> TBA | **FINAL Project Group Meeting**  <br> - Project updates and discussion | **LP** |
+| **11** | **Fri 6/12** <br> 12 noon <br> HW324 | **FINAL Project Group Meeting**  <br> - Project updates and discussion | **LP** |
 
 ### Semester 2
 
 | Week  | Date/Time    | Activity                               | Responsibility |
 | ----- | :----------- | :------------------------------------- | :------------: |
-| **3** | **Mon 29/1** | **Submit draft thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **3** | **Mon 26/2** | **Submit final thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **3** | **Mon 3/2** | **Submit draft thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **5** | **Mon 17/2** | Draft thesis feedback returned | **LP** |
+| **7** | **Mon 3/3** | **Submit final thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
