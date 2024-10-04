@@ -29,6 +29,8 @@ website:
         menu: 
           - text: "Writing a Thesis"
             href: thesis.qmd
+          - text: "How to Write Goodly, Like"
+            href: blunt_writing.qmd
           - text: "Preparing Figures"
             href: figures.qmd
           - text: "Writing Bioinformatics Methods"
