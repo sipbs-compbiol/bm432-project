@@ -17,6 +17,8 @@ website:
             href: expectations.qmd
           - text: "Project and Time Management"
             href: time_management.qmd
+          - text: "Parallel Project"
+            href: parallel.qmd
       - text: "Computational Biology"
         menu:
           - text: "Learning Resources"
