@@ -1,0 +1,159 @@
+---
+title: "Parallel Project"
+image: ./assets/images/doppelganger.jpg
+description: |
+ What sort of thing I'd be doing, if I was doing your project
+number-sections: true
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/scompbiol
+    - icon: github
+      text: Github
+      href: https://github.com/sipbs-compbiol
+    - icon: envelope
+      text: Email
+      href: mailto:leighton.pritchard@strath.ac.uk
+html:
+  anchor-sections: true
+---
+
+This page is intended as an example walkthrough of some of the practical steps in a project like the one you've been assigned. The details will be different from those of your project, but this page should give you an idea of how I might go about the work if I was doing something similar.
+
+## What's my protein?
+
+I was assigned [PHI:3077](http://www.phi-base.org/searchFacet.htm?queryTerm=PHI%3A3077) - Lsr2 from _Mycobacterium tuberculosis_
+
+### Checking PHI-Base
+
+The reference describing this protein in PHI-Base is [Bartek _et al._ (2014)](https://journals.asm.org/doi/10.1128/mbio.01106-14): "_Mycobacterium tuberculosis_ Lsr2 Is a Global Transcriptional Regulator Required for Adaptation to Changing Oxygen Levels and Virulence." The essential findings in an Lsr2 knockout are:
+
+- Lsr2 is not required for DNA protection (this strain was equally susceptible as the wild type to DNA-damaging agents) 
+- The lsr2 mutant displayed severe growth defects under normoxic and hyperoxic conditions, but it was not required for growth under low-oxygen conditions. 
+- Lsr2 was required for adaptation to anaerobiosis. The defect in anaerobic adaptation led to a marked decrease in viability during anaerobiosis, as well as a lag in recovery from it. 
+- Gene expression profiling of the Δlsr2 mutant under aerobic and anaerobic conditions in conjunction with published DNA binding-site data indicates that Lsr2 is a global transcriptional regulator controlling adaptation to changing oxygen levels. 
+- The Δlsr2 strain was capable of establishing an early infection in the BALB/c mouse model; however, it was severely defective in persisting in the lungs and caused no discernible lung pathology.
+
+This suggests that Lsr2 binds to DNA and acts within the pathogen to control its response to encountering the host as an environment (i.e. what we describe as pathogenicity). I would be on the lookout for suggestions in the literature, and from what I discover from databases and annotations, for elements of the sequence and structure associated with DNA-binding.
+
+### Checking UniProt
+
+The PHI-Base entry links to this UniProt record: [P9WIP7](https://www.uniprot.org/uniprotkb/P9WIP7)
+
+#### Functional information
+
+The UniProt record leads to further references supporting protein function (six publications under "Function")
+
+- DNA-bridging protein that has both architectural and regulatory roles (PubMed:18187505).
+- Influences the organization of chromatin and gene expression by binding non-specifically to DNA, with a preference for AT-rich sequences, and bridging distant DNA segments (PubMed:20133735).
+- Binds in the minor groove of AT-rich DNA (PubMed:21673140).
+- Represses expression of multiple genes involved in a broad range of cellular processes, including major virulence factors or antibiotic-induced genes, such as iniBAC or efpA (PubMed:17590082), and genes important for adaptation of changing O2 levels (PubMed:24895305).
+- May also activate expression of some gene (PubMed:24895305).
+- May coordinate global gene regulation and virulence (PubMed:20133735).
+- Also protects mycobacteria against reactive oxygen intermediates during macrophage infection by acting as a physical barrier to DNA degradation (PubMed:19237572); the physical protection has been questioned (PubMed:24895305).
+- A strain overexpressing this protein consumes O2 more slowly than wild-type (PubMed:24895305).
+
+The feature viewer gives me information about regions of the protein:
+
+![UniProt Feature viewer](assets/images/uniprot_info.png)
+
+This indicates that there is mutagenesis evidence supporting structure-function interpretation:
+
+- residues 97-99: Description Loss of DNA-binding, in fragment 66-112. Alternative sequence AGA Evidence Publication: 21673140 (PubMed EuropePMC) Cross-references UniProtKB P9WIP7
+- residue 84: Description Loss of activity. Can form dimers but does not bind DNA. Alternative sequence A Evidence Publication: 18187505
+- residue 45 Description Loss of activity. Alternative sequence A Evidence Publication: 18187505 
+- residue 28 Description Loss of activity. Alternative sequence A Evidence Publication: 18187505
+
+There are ten papers linked from UniProt to follow up about function, and Uniprot also provides GO terms for functional annotation.
+
+UniProt has so far provided leads about sequence-structure-function relationships, the key role of this protein in pathogenicity, and even highlighted individual residues with a potential functional role.
+
+#### Structural information
+
+There is an AlphaFold structure, indicated in the feature viewer, that includes a low-confidence region.
+
+There are PDB records of solved structures: 2KNG, 4E1P, 41R, 6QKP, 6QKQ; 4E1P appears to be highest quality. Solved structures are generally more reliable than AlphaFold.
+
+Evolutionary Trace analysis exists at [http://mammoth.bcm.tmc.edu/cgi-bin/report_maker_ls/uniprotTraceServerResults.pl?identifier=P9WIP7](http://mammoth.bcm.tmc.edu/cgi-bin/report_maker_ls/uniprotTraceServerResults.pl?identifier=P9WIP7) - this maps sequence variation onto structure.
+
+It looks like there will be ample structural information for me to begin inferring structure-function relationships.
+
+#### Sequence information
+
+UniProt gives the protein sequence as:
+
+```
+>sp|P9WIP7|LSR2_MYCTU Nucleoid-associated protein Lsr2 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=lsr2 PE=1 SV=1
+MAKKVTVTLVDDFDGSGAADETVEFGLDGVTYEIDLSTKNATKLRGDLKQWVAAGRRVGG
+RRRGRSGSGRGRGAIDREQSAAIREWARRNGHNVSTRGRIPADVIDAYHAAT
+```
+
+#### Homologues
+
+UniProt provides multiple links to external resources listing homologues; these have varying numbers of homologues, because the tools work in different ways.
+
+- [InParanoid](https://inparanoidb.sbc.su.se/orthologs/P9WIP7&1/)
+- [OrthoDB](https://www.orthodb.org/?gene=P9WIP7)
+- [PhylomeDB](https://phylomedb.org/search_phylome/?seqid=P9WIP7)
+- [EggNOG](http://eggnog6.embl.de/#/app/results?seqid=P9WIP7&target_nogs=ENOG5032RKK)
+
+UniProt also lists the sequences it knows about that share a minimum level of similarity, at 100%, 90% and 50%. At time of writing, there are 269 sequences sharing at least 50% identity at protein level 
+
+- [269 homologues of Lsr2 (FASTA)](assets/sequences/uniprotkb_uniref_cluster_50_UniRef50_P9_2024_10_25.fasta)
+
+## Aligning homologues
+
+Taking the 50% identity sequences as our starting point, we could usually align them using tools in UniProt, but with ≈270 sequences there are too many. So we'll have to use another approach.
+
+### Align using `MAFFT` on Galaxy
+
+We could download a standalone tool, but we're going to use [Galaxy](https://usegalaxy.eu/) instead (don't forget to register and log in) We'll use [`MAFFT`](https://sipbs-compbiol.github.io/little-bioinformatics-book/mafft.html) to align sequences. 
+
+1. Load the 270 sequence dataset
+2. Find the `MAFFT` tool (you might as well use the `FFT-NS-2` default method)
+3. Click on `Run Tool`
+
+This will generate the sequence alignment for you in FASTA format. Download the alignment to your own machine (click on the floppy disk icon).
+
+### Visualise alignment with `JalView`
+
+To visualise the alignment, we will use a standalone software tool: [`JalView`](https://www.jalview.org/). Download and install this on your own machine. To visualise the alignment:
+
+1. Start `JalView`
+2. Click on `File -> Input Alignment -> From File`, then select your downloaded alignment
+3. Click on the maximise button to see the larger alignment
+
+We can see the full length of the sequence and that similar residues are aligned vertically. We can see any insertions/deletions for specific sequences visually. The extent of conservation, and a consensus sequence, can be seen below the alignment. We can colour the alignment to highlight aspects of the biology/biochemistry.
+
+Scrolling up and down the alignment shows where some sequences are quite different, or may be incomplete. We might want to delete some sequences from the collection. When we do this, we need to record which sequences are removed, and our grounds for removing them (and this should be described in the Methods section of the thesis)
+
+Initially the alignment puts quite different sequences next to each other. We can sort the sequences by similarity.
+
+1. Select all the sequences (`Select -> Select All`, or `Ctrl/Cmd-A`)
+2. `Calculate -> Calculate Tree, PCA, or PaSiMap`
+3. Select `Neighbour Joining Tree` and `BLOSUM 62`
+4. Click `Calculate`
+
+When the tree is created, sort the alignment
+
+1. `View -> Sort Alignment By Tree`
+
+Now, when you click within the tree, sequences will be coloured by where they are found on the tree
+
+You can save the tree as a Newick file, to visualise in other software (like `Dendroscope` or `FigTree`):
+
+1. `File -> Save As -> Newick format`
+
+![JalView alignment](assets/images/jalview_aln.png)
+
+![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png)
+
+- [JalView Neighbour-Joining Tree file (NEWICK)](assets/trees/jalview_nj.new)
+
+The combination of alignment and tree tells me several things immediately:
+
+1. That there are several distinct clusters of similar Lsr2 sequences (clades/groups in the tree, visible differences between sequences in the alignment)
+2. That there are two regions of high sequence conservation, with a region of low sequence conservation separating them (from the alignment - the gaps that run down the middle of the proteins)
+3. That I need to remove some sequences because they're relatively low quality (e.g. the sequences with half the protein missing, in the alignment)
