@@ -99,7 +99,19 @@ UniProt provides multiple links to external resources listing homologues; these 
 - [PhylomeDB](https://phylomedb.org/search_phylome/?seqid=P9WIP7)
 - [EggNOG](http://eggnog6.embl.de/#/app/results?seqid=P9WIP7&target_nogs=ENOG5032RKK)
 
-UniProt also lists the sequences it knows about that share a minimum level of similarity, at 100%, 90% and 50%. At time of writing, there are 269 sequences sharing at least 50% identity at protein level 
+UniProt also lists the sequences it knows about that share a minimum level of similarity, at 100%, 90% and 50%, in the `Similar Proteins` section of the page (@fig-similar_proteins). At time of writing, there are 269 sequences sharing at least 50% identity at protein level.
+
+![The `Similar Proteins` section of the P9WIP7 record](assets/images/similar_proteins.png){#fig-similar_proteins width=80%}
+
+By clicking on the `View All` button, or on the `View all 269 entries` link, we can obtain a more detailed view of the data (@fig-similar_detailed). This page also presents a `Download` link that lets us download all 270 sequences (the 269 homologues and P9WIP7 itself).
+
+![A more detailed view of the 269 homologues of P9WIP7](assets/images/similar_detailed.png){#fig-similar_detailed width=80%}
+
+Clicking on the `Download` link presents options. We want to download the `FASTA (Canonical)` records - these contain the protein sequence information and relevant headers - and we **do not want** a compressed file (@fig-download_options).
+
+![UniProt sequence download options: choose `FASTA (Canonical)` and do not request compressed format](assets/images/download_options.png){#fig-download_options width=80%}
+
+Clicking the `Download` button returns the 269 homologous sequences, and our original P9WIP7 sequence, in the file below.
 
 - [269 homologues of Lsr2 (FASTA)](assets/sequences/uniprotkb_uniref_cluster_50_UniRef50_P9_2024_10_25.fasta)
 
@@ -119,15 +131,28 @@ This will generate the sequence alignment for you in FASTA format. Download the 
 
 ### Visualise alignment with `JalView`
 
-To visualise the alignment, we will use a standalone software tool: [`JalView`](https://www.jalview.org/). Download and install this on your own machine. To visualise the alignment:
+To visualise the alignment, we will use a standalone software tool: [`JalView`](https://www.jalview.org/). Download and install this on your own machine. 
+
+- [`JalView` home page](https://www.jalview.org/)
+
+To visualise the alignment:
 
 1. Start `JalView`
 2. Click on `File -> Input Alignment -> From File`, then select your downloaded alignment
 3. Click on the maximise button to see the larger alignment
 
-We can see the full length of the sequence and that similar residues are aligned vertically. We can see any insertions/deletions for specific sequences visually. The extent of conservation, and a consensus sequence, can be seen below the alignment. We can colour the alignment to highlight aspects of the biology/biochemistry.
+We can see the full length of the sequence and that similar residues are aligned vertically, in @fig-jalview_aln. We can see any insertions/deletions for specific sequences visually. The extent of conservation, and a consensus sequence, can be seen below the alignment. We can colour the alignment to highlight aspects of the biology/biochemistry:
 
-Scrolling up and down the alignment shows where some sequences are quite different, or may be incomplete. We might want to delete some sequences from the collection. When we do this, we need to record which sequences are removed, and our grounds for removing them (and this should be described in the Methods section of the thesis)
+1. Click on the `Colour` menu item
+2. Choose a colour scheme (e.g. `Clustal` to recreate @fig-jalview_aln)
+
+Scrolling up and down the alignment shows where some sequences are quite different, or may be incomplete. We might want to delete some sequences from the collection. 
+
+::: {.callout-important}
+Whenever we modify our dataset, we need to record which sequences are removed or otherwise altered, and our grounds for removing them (and this should be described in the Methods section of the thesis).
+:::
+
+#### Arranging sequences by similarity {#sec-arranging_sequences}
 
 Initially the alignment puts quite different sequences next to each other. We can sort the sequences by similarity.
 
@@ -146,9 +171,13 @@ You can save the tree as a Newick file, to visualise in other software (like `De
 
 1. `File -> Save As -> Newick format`
 
-![JalView alignment](assets/images/jalview_aln.png)
+::: {.column-margin}
 
-![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png)
+![JalView alignment](assets/images/jalview_aln.png){#fig-jalview_aln column="margin"}
+
+![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png){#fig-jalview_nj column="margin"}
+
+:::
 
 - [JalView Neighbour-Joining Tree file (NEWICK)](assets/trees/jalview_nj.new)
 
@@ -157,3 +186,161 @@ The combination of alignment and tree tells me several things immediately:
 1. That there are several distinct clusters of similar Lsr2 sequences (clades/groups in the tree, visible differences between sequences in the alignment)
 2. That there are two regions of high sequence conservation, with a region of low sequence conservation separating them (from the alignment - the gaps that run down the middle of the proteins)
 3. That I need to remove some sequences because they're relatively low quality (e.g. the sequences with half the protein missing, in the alignment)
+
+## Generating a phylogenetic tree
+
+Using a sequence alignment to produce a phylogenetic tree can be a complex and detailed topic. There is an entire research field dedicated to the problem of generating an accurate representation of evolutionary history from protein and/or nucleotide sequences. Here we have space to quickly go through basic approaches to producing an initial tree and, if you would like to know more, please check out the links below.
+
+- BM329 Workshop B – UPGMA: [https://sipbs-compbiol.github.io/BM329_Block_B_Workshop/upgma.html](https://sipbs-compbiol.github.io/BM329_Block_B_Workshop/upgma.html)
+- EMBL’s Introduction to Phylogenetics: [https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/](https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/)
+- Conor Meehan’s online course: [https://conmeehan.github.io/PathogenDataCourse/IntroToPhylogenetics.html](https://conmeehan.github.io/PathogenDataCourse/IntroToPhylogenetics.html)
+
+### Generating a basic phylogenetic tree
+
+We have already produced a basic phylogenetic tree using `JalView` (@sec-arranging_sequences), as shown in @fig-jalview_nj. To make this tree, `Jalview` used the `Neighbor-Joining` algorithm and the `BLOSUM62` amino acid substitution matrix - some advantages and disadvantages of the method are noted in [this paper](https://doi.org/10.1038/s41576-020-0233-0).
+
+In general, we would prefer to use a more sophisticated method such as Maximum Likelihood or Bayesian phylogenetic reconstruction, using the underlying nucleotide sequences rather than the protein sequences. We would want to use the nucleotide sequences because they carry more evolutionary information (the same amino acid may be encoded by different codons in two sequences, and the differences between those codons is evolutionary information). We'd use Maximum Likelihood/Bayesian approaches because they give better estimates of the evolutionary history leading to the sequences in the alignment than Neighbour-Joining (which has systematic biases in its approach).
+
+::: {.callout-tip}
+You can use some of these more advanced phylogenetic tools at [`Galaxy`](https://usegalaxy.eu/)
+:::
+
+### Generating a more sophisticated phylogenetic tree
+
+::: {.callout-note}
+For the example below I have removed some distant/incomplete sequences, and a short leader sequence that isn't present in most proteins, to make the alignment `truncated_sequences.fa`.
+:::
+
+To generate a Maximum Likelihood phylogenetic tree from the `truncated_sequences.fa` file, we can use the `RAxML` tool in `Galaxy` (@fig-galaxy_raxml).
+
+1. Select the `RAxML` tool in the tools sidebar
+2. Choose the `Amino Acid` model type
+3. Choose the `PROTCAT` substitution model and the `BLOSUM62` matrix
+4. Click on `Run Tool`
+
+The tree will take a short while to be generated, and will produce five output files (@fig-raxml_output). The tree information can be found in the `Best-scoring ML tree` output.
+
+![Settings for generating a protein phylogenetic tree with `RAxML` in Galaxy`](assets/images/galaxy_raxml.png){#fig-galaxy_raxml width=80%}
+
+::: {.column-margin}
+
+![`RAxML` output on `Galaxy`](assets/images/galaxy_raxml_output.png){#fig-raxml_output}
+
+:::
+
+## Visualising a phylogenetic tree
+
+A simple way to visualise phylogenetic tree output on `Galaxy` is to use the `Newick Display` tool (@fig-newick_display_options):
+
+1. Find and click on the `Newick Display` tool in Galaxy
+2. Make sure the tree output file you want is selected in the `Newick file` field
+3. Click on `Run Tool`
+4. When the tool finishes, click on the `eye` icon, and the `floppy/download` icon to download the tree rendering.
+
+This generates a bitmap of the input tree (@fig-newick_display_output). It is a quick way to see the overall tree structure, but is very limited in terms of customisability and interaction. The image is usually too large to view all at once, and needs to be downloaded. Even then it may not be very aesthetically pleasing.
+
+![Options for the `Newick Display` tool](assets/images/newick_display_options.png){#fig-newick_display_options width=80%}
+
+::: {.column-margin}
+
+![`Newick Display` rendered output](assets/images/newick_display_output.svg){#fig-newick_display_output}
+
+:::
+
+Many alternative tree visualisation tools are available, including:
+
+- iToL: [https://itol.embl.de/](https://itol.embl.de/)
+- Dendroscope: [https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/)
+- FigTree: [http://tree.bio.ed.ac.uk/software/Figtree/](http://tree.bio.ed.ac.uk/software/Figtree/)
+
+### Visualising a tree with `FigTree`
+
+The [`FigTree`](http://tree.bio.ed.ac.uk/software/Figtree/) tool is a useful, cross-platform phylogenetic tree visualisation package that can generate very useful figures at publication quality. It is fairly straightforward to use, and good for experimenting with tree layouts and options.
+
+1. Download `FigTree` from [http://tree.bio.ed.ac.uk/software/Figtree/](http://tree.bio.ed.ac.uk/software/Figtree/) and install it on your machine
+2. Start `FigTree` and open the `RAxML` best-scoring tree, downloaded from `Galaxy` (the file extension will be `.nhx`)
+
+You should be presented with a screen that resembles @fig-figtree_1, showing a similar, but reshaped, view to that in @fig-newick_display_output. A quick visual comparison should be enough to convince you that, as a scientist, you can make many choices about visualisation that can help the reader understnd your tree, and that can help you make your point better, in your manuscript.
+
+![Initial `FigTree` view of the `RAxML` tree](assets/images/figtree_1.png){#fig-figtree_1 width=80%}
+
+#### Rooted or unrooted?
+
+Real trees have roots, but phylogenetic trees may or may not have roots - it depends on the method used to construct them. 
+
+::: {.callout-tip}
+In a phylogenetic tree, the _root_ is the most ancient common ancestor of all sequences/species/taxa in the tree.
+:::
+
+UPGMA and Neighbour-Joining trees have roots because of the way the tree construction algorithm works. This may or may not be a "true" root, in the sense that it represents the true last common ancestor of all sequences in the tree. 
+
+Maximum Likelihood and Bayesian trees do not have roots enforced on them by their algorithms, but if you choose sequences so that you know something about the evolutionary history of your organisms, you can accurately identify the true root of a tree.
+
+The tree I generated with `RAxML` is a Maximum Likelihood tree, so I'm going to visualise it as an unrooted tree, first, in @fig-unrooted.
+
+![Unrooted maximum likelihood tree. Note that the `FigTree` `Tip Labels` setting is unchecked so that the tree is prominent.](assets/images/unrooted_ml_tree.png){#fig-unrooted width=80%}
+
+Looking at @fig-unrooted, I can see that the top left pert of the tree has very long _branches_ (the lines between _nodes_ of the tree that either represent divergence events or the sequences themselves). This implies that the sequences at the ends of these branches have undergone much more evolutionary change (i.e. underwent more substitutions) than the other sequences. This has two broad explanations:
+
+1. This reflects the true evolutionary history of these sequences. They may have retained more substitutions because they were under extreme selection pressure (not unusual for pathogen effectors).
+2. This is an artefact (i.e. not a real biological result). We may have included sequences in our analysis that do not belong - they appear to have accepted many substitutions because they are too different to the rest of the sequences to really belong in the same category.
+
+::: {.callout-warning}
+We cannot decide between these two options by looking at the tree alone. We need to do more work analysing the sequences and the tree.
+:::
+
+#### Midpoint Rooting
+
+Midpoint rooting is a way of deciding upon a root point for an unrooted tree, without any reference to the true biology. It works by finding the longest path between any two taxa (i.e. end points on the tree) and setting the root at that position. Using the `Midpoint Root` option on visually unrooted tree doesn't change it's appearance drastically, as you can see from @fig-midpoint_unrooted.
+
+::: {.callout-tip}
+In `FigTree` the `Midpoint Root` option is in the `Tree` menu.
+
+
+![Unrooted maximum likelihood tree, with midpoint rooting. Due to the visual presentation of this tree, the midpoint rooting appears to have no effect.](assets/images/midpoint_unrooted.png){#fig-midpoint_unrooted width=80%}
+
+But, if we switch the display style to a _phylogram_ as in @fig-midpoint_phylogram, we can see that the tree appears "balanced", with a clear _outgroup_ at the bottom end of the tree. We can see three clear sets of sequences that apper to be distanced from each other in the tree.
+
+![Unrooted maximum likelihood tree, with midpoint rooting. Due to the visual presentation of this tree as a phylogram, the midpoint rooting "balances" the tree, and we can see three groups of sequences that are relatively dissimilar from each other: the small group at the top of the tree, the large group in the centre, and the sequences at the very bottom of the tree.](assets/images/midpoint_phylogram.png){#fig-midpoint_phylogram width=80%}
+
+#### Interpreting the tree
+
+As noted above, the very long branches separating our sequences into three groups could represent true evolutionary history, or be an artefact from analysing sequences that don't really belong together.
+
+::: {.callout-tip}
+Generally, I would expect a set of related sequences in a phylogenetic tree to have about the same "distance" from the root to each tip. The presence of these three distinct groups could be a red flag that I've done something wrong - or it could be very interesting!
+:::
+
+The first thing I want to know is what sequences are in each of these three groups. I first _ladderise_ (`Tree` -> `I ncreasing node order`) the tree, and turn `Tip Labels` back on. Then I use the `Expansion` slider to stretch the tree vertically and make space between the tip labels, as in @fig-ladderised.
+
+![Ladderised maximum likelihood tree with tip labels (some of the tree disappears out of the top of the `FigTree` window.](assets/images/ladderised.png){#fig-ladderised width=80%}
+
+By using the `Zoom` slider and increasing the font size of the `Tip Labels` menu I can see the sequence names more clearly in @fig-zoomed.
+
+![Ladderised maximum likelihood tree with tip labels, zoomed to see the two most distantly-related sequence sets.](assets/images/ladderised.png){#fig-zoomed width=80%}
+
+By inspecting this zoomed-in view, I can see that the main group of sequences is annotated with codes that end in the letters `NOCA`, `NOCBR` or similar; most of the sequences in the dataset have codes like `MYCO`, `MYCRU` and so on. This tells me that:
+
+- all of the main set of sequences derive from _Mycobacterium_
+- the larger group of outlying sequences derive from _Nocardia_
+
+The single other outlying sequence appears to come from _Mycobacterium_, so we should look at the sequence alignment to see whether there is an issue with the alignment (@fig-zoomed_alignment).
+
+![`Jalview` visualisation of the sequence alignment, centring on the _Nocardia_ sequences, and the singleoutlying _Mycobacterium_ sequence.](assets/images/zoomed_alignment.png){#fig-zoomed_alignment width=80%}
+
+From this alignment, we can see that the _Nocardia_ sequences are broadly similar to each other, and do align with the _Mycobacterium_ sequences, even though there appears to be an inserted region (we can look at the location of this on the structure, later), and quite a bit of sequence difference. This kind of pattern is consistent with there being a common ancestor of this sequence in _Nocardia_ and _Mycobacterium_, and them being separated by speciation, then evolving separately for a long period.
+
+The _Mycobacterium_ sequence that looks out of place is [`tr|A0A1Z4F4V8|A0A1Z4F4V8_9MYCO/27-140`](https://www.uniprot.org/uniprotkb/A0A1Z4F4V8/entry) - the sequence looks similar enough to the others to appear to be validly aligned, but it is quite different to the other _Mycobacterium_ proteins. It it not clear at this point why these differences should be present, so we continue our analysis keeping this sequence in the dataset.
+
+### General conclusions from the tree
+
+At this point we can draw some tentative conclusions from the tree.
+
+- There was probably a related sequence present in an ancestor of _Mycobacterium_ and _Nocardia_, and the homologues we find in the database have diverged after speciation.
+  - It is not clear whether these proteins have the same function(s) in these two genera.
+- There is a questionable _Mycobacterium_ homologue, but we don't have sufficient evidence to exclude it from the analysis as an artefact and can proceed assuming there is a biological relationship.
+- There are, within the _Mycobacteria_, several groups of related sequences (we call these _clades_) which might represent any or all of:
+  - speciation (i.e. the tree reflects organism history and evolution)
+  - functional divergence (i.e. each clade represents a different biological interaction, activity, or function)
+  - but we can't tell from the tree alone what the (most) likely explanations are - we need to do more work
+- The `MYCO` coding does not give us species information and it's not possible to see whether the groupings of sequences correspond to speciation, or paralogy within species. We would need to do some bioinformatics work to label these sequences with their corresponding taxa.
