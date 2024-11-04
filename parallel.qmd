@@ -311,3 +311,36 @@ As noted above, the very long branches separating our sequences into three group
 Generally, I would expect a set of related sequences in a phylogenetic tree to have about the same "distance" from the root to each tip. The presence of these three distinct groups could be a red flag that I've done something wrong - or it could be very interesting!
 :::
 
+The first thing I want to know is what sequences are in each of these three groups. I first _ladderise_ (`Tree` -> `I ncreasing node order`) the tree, and turn `Tip Labels` back on. Then I use the `Expansion` slider to stretch the tree vertically and make space between the tip labels, as in @fig-ladderised.
+
+![Ladderised maximum likelihood tree with tip labels (some of the tree disappears out of the top of the `FigTree` window.](assets/images/ladderised.png){#fig-ladderised width=80%}
+
+By using the `Zoom` slider and increasing the font size of the `Tip Labels` menu I can see the sequence names more clearly in @fig-zoomed.
+
+![Ladderised maximum likelihood tree with tip labels, zoomed to see the two most distantly-related sequence sets.](assets/images/ladderised.png){#fig-zoomed width=80%}
+
+By inspecting this zoomed-in view, I can see that the main group of sequences is annotated with codes that end in the letters `NOCA`, `NOCBR` or similar; most of the sequences in the dataset have codes like `MYCO`, `MYCRU` and so on. This tells me that:
+
+- all of the main set of sequences derive from _Mycobacterium_
+- the larger group of outlying sequences derive from _Nocardia_
+
+The single other outlying sequence appears to come from _Mycobacterium_, so we should look at the sequence alignment to see whether there is an issue with the alignment (@fig-zoomed_alignment).
+
+![`Jalview` visualisation of the sequence alignment, centring on the _Nocardia_ sequences, and the singleoutlying _Mycobacterium_ sequence.](assets/images/zoomed_alignment.png){#fig-zoomed_alignment width=80%}
+
+From this alignment, we can see that the _Nocardia_ sequences are broadly similar to each other, and do align with the _Mycobacterium_ sequences, even though there appears to be an inserted region (we can look at the location of this on the structure, later), and quite a bit of sequence difference. This kind of pattern is consistent with there being a common ancestor of this sequence in _Nocardia_ and _Mycobacterium_, and them being separated by speciation, then evolving separately for a long period.
+
+The _Mycobacterium_ sequence that looks out of place is [`tr|A0A1Z4F4V8|A0A1Z4F4V8_9MYCO/27-140`](https://www.uniprot.org/uniprotkb/A0A1Z4F4V8/entry) - the sequence looks similar enough to the others to appear to be validly aligned, but it is quite different to the other _Mycobacterium_ proteins. It it not clear at this point why these differences should be present, so we continue our analysis keeping this sequence in the dataset.
+
+### General conclusions from the tree
+
+At this point we can draw some tentative conclusions from the tree.
+
+- There was probably a related sequence present in an ancestor of _Mycobacterium_ and _Nocardia_, and the homologues we find in the database have diverged after speciation.
+  - It is not clear whether these proteins have the same function(s) in these two genera.
+- There is a questionable _Mycobacterium_ homologue, but we don't have sufficient evidence to exclude it from the analysis as an artefact and can proceed assuming there is a biological relationship.
+- There are, within the _Mycobacteria_, several groups of related sequences (we call these _clades_) which might represent any or all of:
+  - speciation (i.e. the tree reflects organism history and evolution)
+  - functional divergence (i.e. each clade represents a different biological interaction, activity, or function)
+  - but we can't tell from the tree alone what the (most) likely explanations are - we need to do more work
+- The `MYCO` coding does not give us species information and it's not possible to see whether the groupings of sequences correspond to speciation, or paralogy within species. We would need to do some bioinformatics work to label these sequences with their corresponding taxa.
