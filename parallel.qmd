@@ -131,15 +131,28 @@ This will generate the sequence alignment for you in FASTA format. Download the 
 
 ### Visualise alignment with `JalView`
 
-To visualise the alignment, we will use a standalone software tool: [`JalView`](https://www.jalview.org/). Download and install this on your own machine. To visualise the alignment:
+To visualise the alignment, we will use a standalone software tool: [`JalView`](https://www.jalview.org/). Download and install this on your own machine. 
+
+- [`JalView` home page](https://www.jalview.org/)
+
+To visualise the alignment:
 
 1. Start `JalView`
 2. Click on `File -> Input Alignment -> From File`, then select your downloaded alignment
 3. Click on the maximise button to see the larger alignment
 
-We can see the full length of the sequence and that similar residues are aligned vertically. We can see any insertions/deletions for specific sequences visually. The extent of conservation, and a consensus sequence, can be seen below the alignment. We can colour the alignment to highlight aspects of the biology/biochemistry.
+We can see the full length of the sequence and that similar residues are aligned vertically, in @fig-jalview_aln. We can see any insertions/deletions for specific sequences visually. The extent of conservation, and a consensus sequence, can be seen below the alignment. We can colour the alignment to highlight aspects of the biology/biochemistry:
 
-Scrolling up and down the alignment shows where some sequences are quite different, or may be incomplete. We might want to delete some sequences from the collection. When we do this, we need to record which sequences are removed, and our grounds for removing them (and this should be described in the Methods section of the thesis)
+1. Click on the `Colour` menu item
+2. Choose a colour scheme (e.g. `Clustal` to recreate @fig-jalview_aln)
+
+Scrolling up and down the alignment shows where some sequences are quite different, or may be incomplete. We might want to delete some sequences from the collection. 
+
+::: {.callout-important}
+Whenever we modify our dataset, we need to record which sequences are removed or otherwise altered, and our grounds for removing them (and this should be described in the Methods section of the thesis).
+:::
+
+#### Arranging sequences by similarity {#sec-arranging_sequences}
 
 Initially the alignment puts quite different sequences next to each other. We can sort the sequences by similarity.
 
@@ -158,9 +171,13 @@ You can save the tree as a Newick file, to visualise in other software (like `De
 
 1. `File -> Save As -> Newick format`
 
-![JalView alignment](assets/images/jalview_aln.png)
+::: {.column-margin}
 
-![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png)
+![JalView alignment](assets/images/jalview_aln.png){#fig-jalview_aln column="margin"}
+
+![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png){#fig-jalview_nj column="margin"}
+
+:::
 
 - [JalView Neighbour-Joining Tree file (NEWICK)](assets/trees/jalview_nj.new)
 
@@ -169,3 +186,73 @@ The combination of alignment and tree tells me several things immediately:
 1. That there are several distinct clusters of similar Lsr2 sequences (clades/groups in the tree, visible differences between sequences in the alignment)
 2. That there are two regions of high sequence conservation, with a region of low sequence conservation separating them (from the alignment - the gaps that run down the middle of the proteins)
 3. That I need to remove some sequences because they're relatively low quality (e.g. the sequences with half the protein missing, in the alignment)
+
+## Generating a phylogenetic tree
+
+Using a sequence alignment to produce a phylogenetic tree can be a complex and detailed topic. There is an entire research field dedicated to the problem of generating an accurate representation of evolutionary history from protein and/or nucleotide sequences. Here we have space to quickly go through basic approaches to producing an initial tree and, if you would like to know more, please check out the links below.
+
+- BM329 Workshop B – UPGMA: [https://sipbs-compbiol.github.io/BM329_Block_B_Workshop/upgma.html](https://sipbs-compbiol.github.io/BM329_Block_B_Workshop/upgma.html)
+- EMBL’s Introduction to Phylogenetics: [https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/](https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/)
+- Conor Meehan’s online course: [https://conmeehan.github.io/PathogenDataCourse/IntroToPhylogenetics.html](https://conmeehan.github.io/PathogenDataCourse/IntroToPhylogenetics.html)
+
+### Generating a basic phylogenetic tree
+
+We have already produced a basic phylogenetic tree using `JalView` (@sec-arranging_sequences), as shown in @fig-jalview_nj. To make this tree, `Jalview` used the `Neighbor-Joining` algorithm and the `BLOSUM62` amino acid substitution matrix - some advantages and disadvantages of the method are noted in [this paper](https://doi.org/10.1038/s41576-020-0233-0).
+
+In general, we would prefer to use a more sophisticated method such as Maximum Likelihood or Bayesian phylogenetic reconstruction, using the underlying nucleotide sequences rather than the protein sequences. We would want to use the nucleotide sequences because they carry more evolutionary information (the same amino acid may be encoded by different codons in two sequences, and the differences between those codons is evolutionary information). We'd use Maximum Likelihood/Bayesian approaches because they give better estimates of the evolutionary history leading to the sequences in the alignment than Neighbour-Joining (which has systematic biases in its approach).
+
+::: {.callout-tip}
+You can use some of these more advanced phylogenetic tools at [`Galaxy`](https://usegalaxy.eu/)
+:::
+
+### Generating a more sophisticated phylogenetic tree
+
+::: {.callout-note}
+For the example below I have removed some distant/incomplete sequences, and a short leader sequence that isn't present in most proteins, to make the alignment `truncated_sequences.fa`.
+:::
+
+To generate a Maximum Likelihood phylogenetic tree from the `truncated_sequences.fa` file, we can use the `RAxML` tool in `Galaxy` (@fig-galaxy_raxml).
+
+1. Select the `RAxML` tool in the tools sidebar
+2. Choose the `Amino Acid` model type
+3. Choose the `PROTCAT` substitution model and the `BLOSUM62` matrix
+4. Click on `Run Tool`
+
+The tree will take a short while to be generated, and will produce five output files (@fig-raxml_output). The tree information can be found in the `Best-scoring ML tree` output.
+
+![Settings for generating a protein phylogenetic tree with `RAxML` in Galaxy`](assets/images/galaxy_raxml.png){#fig-galaxy_raxml width=80%}
+
+::: {.column-margin}
+
+![`RAxML` output on `Galaxy`](assets/images/galaxy_raxml_output.png){#fig-raxml_output}
+
+:::
+
+## Visualising a phylogenetic tree
+
+A simple way to visualise phylogenetic tree output on `Galaxy` is to use the `Newick Display` tool (@fig-newick_display_options):
+
+1. Find and click on the `Newick Display` tool in Galaxy
+2. Make sure the tree output file you want is selected in the `Newick file` field
+3. Click on `Run Tool`
+4. When the tool finishes, click on the `eye` icon, and the `floppy/download` icon to download the tree rendering.
+
+This generates a bitmap of the input tree (@fig-newick_display_output). It is a quick way to see the overall tree structure, but is very limited in terms of customisability and interaction. The image is usually too large to view all at once, and needs to be downloaded. Even then it may not be very aesthetically pleasing.
+
+![Options for the `Newick Display` tool](assets/images/newick_display_options.png){#fig-newick_display_options width=80%}
+
+::: {.column-margin}
+
+![`Newick Display` rendered output](assets/images/newick_display_output.svg){#fig-newick_display_output}
+
+:::
+
+Many alternative tree visualisation tools are available, including:
+
+- iToL: [https://itol.embl.de/](https://itol.embl.de/)
+- Dendroscope: [https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/)
+- FigTree: [http://tree.bio.ed.ac.uk/software/Figtree/](http://tree.bio.ed.ac.uk/software/Figtree/)
+
+### Visualising a tree with `FigTree`
+
+The [`FigTree`](http://tree.bio.ed.ac.uk/software/Figtree/) tool is a useful, cross-platform phylogenetic tree visualisation package that can generate very useful figures at publication quality. It is fairly straightforward to use, and good for experimenting with tree layouts and options.
