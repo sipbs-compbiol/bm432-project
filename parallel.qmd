@@ -256,3 +256,58 @@ Many alternative tree visualisation tools are available, including:
 ### Visualising a tree with `FigTree`
 
 The [`FigTree`](http://tree.bio.ed.ac.uk/software/Figtree/) tool is a useful, cross-platform phylogenetic tree visualisation package that can generate very useful figures at publication quality. It is fairly straightforward to use, and good for experimenting with tree layouts and options.
+
+1. Download `FigTree` from [http://tree.bio.ed.ac.uk/software/Figtree/](http://tree.bio.ed.ac.uk/software/Figtree/) and install it on your machine
+2. Start `FigTree` and open the `RAxML` best-scoring tree, downloaded from `Galaxy` (the file extension will be `.nhx`)
+
+You should be presented with a screen that resembles @fig-figtree_1, showing a similar, but reshaped, view to that in @fig-newick_display_output. A quick visual comparison should be enough to convince you that, as a scientist, you can make many choices about visualisation that can help the reader understnd your tree, and that can help you make your point better, in your manuscript.
+
+![Initial `FigTree` view of the `RAxML` tree](assets/images/figtree_1.png){#fig-figtree_1 width=80%}
+
+#### Rooted or unrooted?
+
+Real trees have roots, but phylogenetic trees may or may not have roots - it depends on the method used to construct them. 
+
+::: {.callout-tip}
+In a phylogenetic tree, the _root_ is the most ancient common ancestor of all sequences/species/taxa in the tree.
+:::
+
+UPGMA and Neighbour-Joining trees have roots because of the way the tree construction algorithm works. This may or may not be a "true" root, in the sense that it represents the true last common ancestor of all sequences in the tree. 
+
+Maximum Likelihood and Bayesian trees do not have roots enforced on them by their algorithms, but if you choose sequences so that you know something about the evolutionary history of your organisms, you can accurately identify the true root of a tree.
+
+The tree I generated with `RAxML` is a Maximum Likelihood tree, so I'm going to visualise it as an unrooted tree, first, in @fig-unrooted.
+
+![Unrooted maximum likelihood tree. Note that the `FigTree` `Tip Labels` setting is unchecked so that the tree is prominent.](assets/images/unrooted_ml_tree.png){#fig-unrooted width=80%}
+
+Looking at @fig-unrooted, I can see that the top left pert of the tree has very long _branches_ (the lines between _nodes_ of the tree that either represent divergence events or the sequences themselves). This implies that the sequences at the ends of these branches have undergone much more evolutionary change (i.e. underwent more substitutions) than the other sequences. This has two broad explanations:
+
+1. This reflects the true evolutionary history of these sequences. They may have retained more substitutions because they were under extreme selection pressure (not unusual for pathogen effectors).
+2. This is an artefact (i.e. not a real biological result). We may have included sequences in our analysis that do not belong - they appear to have accepted many substitutions because they are too different to the rest of the sequences to really belong in the same category.
+
+::: {.callout-warning}
+We cannot decide between these two options by looking at the tree alone. We need to do more work analysing the sequences and the tree.
+:::
+
+#### Midpoint Rooting
+
+Midpoint rooting is a way of deciding upon a root point for an unrooted tree, without any reference to the true biology. It works by finding the longest path between any two taxa (i.e. end points on the tree) and setting the root at that position. Using the `Midpoint Root` option on visually unrooted tree doesn't change it's appearance drastically, as you can see from @fig-midpoint_unrooted.
+
+::: {.callout-tip}
+In `FigTree` the `Midpoint Root` option is in the `Tree` menu.
+
+
+![Unrooted maximum likelihood tree, with midpoint rooting. Due to the visual presentation of this tree, the midpoint rooting appears to have no effect.](assets/images/midpoint_unrooted.png){#fig-midpoint_unrooted width=80%}
+
+But, if we switch the display style to a _phylogram_ as in @fig-midpoint_phylogram, we can see that the tree appears "balanced", with a clear _outgroup_ at the bottom end of the tree. We can see three clear sets of sequences that apper to be distanced from each other in the tree.
+
+![Unrooted maximum likelihood tree, with midpoint rooting. Due to the visual presentation of this tree as a phylogram, the midpoint rooting "balances" the tree, and we can see three groups of sequences that are relatively dissimilar from each other: the small group at the top of the tree, the large group in the centre, and the sequences at the very bottom of the tree.](assets/images/midpoint_phylogram.png){#fig-midpoint_phylogram width=80%}
+
+#### Interpreting the tree
+
+As noted above, the very long branches separating our sequences into three groups could represent true evolutionary history, or be an artefact from analysing sequences that don't really belong together.
+
+::: {.callout-tip}
+Generally, I would expect a set of related sequences in a phylogenetic tree to have about the same "distance" from the root to each tip. The presence of these three distinct groups could be a red flag that I've done something wrong - or it could be very interesting!
+:::
+
