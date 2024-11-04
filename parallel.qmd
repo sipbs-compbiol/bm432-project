@@ -99,7 +99,19 @@ UniProt provides multiple links to external resources listing homologues; these 
 - [PhylomeDB](https://phylomedb.org/search_phylome/?seqid=P9WIP7)
 - [EggNOG](http://eggnog6.embl.de/#/app/results?seqid=P9WIP7&target_nogs=ENOG5032RKK)
 
-UniProt also lists the sequences it knows about that share a minimum level of similarity, at 100%, 90% and 50%. At time of writing, there are 269 sequences sharing at least 50% identity at protein level 
+UniProt also lists the sequences it knows about that share a minimum level of similarity, at 100%, 90% and 50%, in the `Similar Proteins` section of the page (@fig-similar_proteins). At time of writing, there are 269 sequences sharing at least 50% identity at protein level.
+
+![The `Similar Proteins` section of the P9WIP7 record](assets/images/similar_proteins.png){#fig-similar_proteins width=80%}
+
+By clicking on the `View All` button, or on the `View all 269 entries` link, we can obtain a more detailed view of the data (@fig-similar_detailed). This page also presents a `Download` link that lets us download all 270 sequences (the 269 homologues and P9WIP7 itself).
+
+![A more detailed view of the 269 homologues of P9WIP7](assets/images/similar_detailed.png){#fig-similar_detailed width=80%}
+
+Clicking on the `Download` link presents options. We want to download the `FASTA (Canonical)` records - these contain the protein sequence information and relevant headers - and we **do not want** a compressed file (@fig-download_options).
+
+![UniProt sequence download options: choose `FASTA (Canonical)` and do not request compressed format](assets/images/download_options.png){#fig-download_options width=80%}
+
+Clicking the `Download` button returns the 269 homologous sequences, and our original P9WIP7 sequence, in the file below.
 
 - [269 homologues of Lsr2 (FASTA)](assets/sequences/uniprotkb_uniref_cluster_50_UniRef50_P9_2024_10_25.fasta)
 
