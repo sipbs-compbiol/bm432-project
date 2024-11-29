@@ -1,5 +1,10 @@
 project:
   type: website
+  resources:
+    - "assets/docs/*"
+    - "assets/sequences/*"
+    - "assets/slides/*"
+    - "assets/trees/*"
 
 website:
   title: "BM432 Project Pages"
