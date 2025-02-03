@@ -2,9 +2,11 @@ project:
   type: website
   resources:
     - "assets/docs/methods_example.docx"
-    - "assets/sequences/*"
-    - "assets/slides/*"
-    - "assets/trees/*"
+    - "assets/docs/FigureTitleLegend.docx"
+    - "assets/checklists/Thesis_submission_checklist.docx"
+    - assets/sequences/*
+    - "assets/slides/writing_tutorial.pptx"
+    - assets/trees/*
 
 website:
   title: "BM432 Project Pages"
