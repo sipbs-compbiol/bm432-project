@@ -29,45 +29,44 @@ html:
 This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{< var ay >}}.
 
 ::: {.callout-warning}
-**This calendar is indicative only**. Please consult with the official course [MyPlace]({{< var myplace.link >}}) page for submission dates, deadlines, and other timings. Links to useful documents are provided above.
+**This calendar is indicative only**. Please consult with the official course [MyPlace]({{< var myplace.link >}}) page and handbook for submission dates, deadlines, and other timings. Links to useful documents are provided above.
 :::
 
 ### Semester 1
 
 | Week  | Date/Time    | Activity                               | Responsibility |
 | ----- | :----------- | :------------------------------------- | :------------: |
-| **1** | w/b Mon 23/9 | **Suggested activities** <br> - read papers in project description <br> - literature search <br> | |
-| **2** | w/b Mon 30/9 | **Suggested activities** <br> - Continue literature search <br> - Practice project management tools | |
-| **2** | **Fri 4/10** <br> 10:30-11:30 <br> HW324 | **Project Group Meeting** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> - (choose one paper each for mini journal club) | **LP**
-| **3** | w/b Mon 7/10 | **Suggested activities** <br> - Continue literature search <br> - Practice computational and bioinformatics tools | |
-| **3** | **Tue 8/10** | **Submit Learning Agreement** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **3** | **Fri 11/10** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Mini journal club. Each student leads a short (15min) discussion of their chosen paper - Discuss tasks for next week <br> - Computational and bioinformatics tools| **LP** |
-| **3** | **Fri 11/10** | **Complete Workshop 4 - Safety tasks** | **Students** |
-| **4** | w/b Mon 14/10 | **Suggested activities** <br> - Continue literature search <br> - Outline thesis introduction | |
-| **4** | **Fri 18/10** <br> 12 noon <br> HW324 | **Project Group Meeting**  <br> - How to write a project thesis | **LP** |
-| **4** | **Fri 18/10** | **Complete Workshop 5 quizzes - Ethics** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | w/b Mon 21/10 | **Suggested activities** <br> - Continue literature/database search <br> Writing thesis introduction | |
-| **5** | **Mon 21/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | **Fri 25/10** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Feedback/discussion of thesis outlines  <br> - Project planning discussion | **LP** |
-| **6** | w/b Mon 28/10 | **Suggested activities** <br> - Project work | |
-| **6** | **Fri 1/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project planning discussion | **LP** |
-| **7** | w/b Mon 4/11 | **Suggested activities** <br> - Project work | |
-| **7** | **Fri 8/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
-| **8** | w/b Mon 11/11 | **Suggested activities** <br> Project work | |
-| **8** | **Fri 15/11** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
-| **9** | w/b Mon 18/11 | **Suggested activities** <br> - Project work | |
-| **9** | **Fri 22/11** <br> 11:30 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
-| **10** | w/b Mon 25/11 | **Suggested activities** <br> - Project work <br> - Presentation rehearsal | |
-| **10** | **Fri 29/11** <br> 12 noon <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion <br> - Presentation rehearsal | **LP** |
+| **1** | w/b Mon 22/9 | **Suggested activities** <br> - read papers in project description <br> - literature search <br> | |
+| **2** | w/b Mon 29/9 | **Suggested activities** <br> - Continue literature search <br> - Practice project management tools | |
+| **2** | **Tue 30/9** <br> 13:00-14:30 <br> **HW323** | **Project Group Meeting** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> - (choose one paper each for mini journal club) | **LP**
+| **3** | w/b Mon 6/10 | **Suggested activities** <br> - Continue literature search <br> - Outline thesis introduction <br> - Practice computational and bioinformatics tools | |
+| **3** | **Mon 6/10** | **Submit Learning Agreement** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **3** | **Mon 6/10** <br> 13:30-15:00 <br> **HW324** | **Project Group Meeting** <br> - Mini journal club. Each student leads a short (10min) discussion of their chosen paper <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools |**LP** |
+| **4** | w/b Mon 13/10 | **Suggested activities** <br> - Continue literature search <br> - Writing timeline and thesis introduction | |
+| **4** | **Mon 13/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting**  <br> - How to write a project thesis | **LP** |
+| **5** | w/b Mon 20/10 | **Suggested activities** <br> - Start Project Work <br> - Project planning discussion | |
+| **5** | **Mon 20/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **5** | **Tue 21/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting**  <br> - Project updates and discussion | **LP** |
+| **6** | w/b Mon 27/10 | **Suggested activities** <br> - Project work | |
+| **6** | **Mon 27/10** <br> 13:30-15:00 <br> HW323 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **7** | w/b Mon 3/11 | **Suggested activities** <br> - Project work | |
+| **7** | Mon 3/11 | Draft introduction and timeline feedback released | **LP** |
+| **7** | **Mon 3/11** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **8** | w/b Mon 10/11 | **Suggested activities** <br> Project work | |
+| **8** | **Mon 10/11** <br> 13:30-15:00 <br> HW323 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **9** | w/b Mon 17/11 | **Suggested activities** <br> - Project work | |
+| **9** | **Mon 17/11** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
+| **10** | w/b Mon 24/11 | **Suggested activities** <br> - Project work <br> - Presentation rehearsal | |
+| **10** | **Tue 25/11** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting** <br> - Project updates and discussion <br> | **LP** |
 | **11** | w/b Mon 2/12 | **Suggested activities** <br> Project work | |
-| **11** | **Mon 2/12** | **Submit presentation PowerPoint File** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **11** | **TBA** | **Project Presentations** | **Students** |
-| **11** | **Fri 6/12** <br> 12 noon <br> HW324 | **FINAL Project Group Meeting**  <br> - Project updates and discussion | **LP** |
+| **11** | **Mon 1/12** <br> 13:30-15:00 <br> HW324 | **FINAL Project Group Meeting**  <br> - Project updates and discussion | **LP** |
+| **12** | **Thu 11/12** | **Submit presentation PowerPoint File** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **12** | **TBA** | **Project Presentations** | **Students** |
 
 ### Semester 2
 
 | Week  | Date/Time    | Activity                               | Responsibility |
 | ----- | :----------- | :------------------------------------- | :------------: |
-| **3** | **Mon 3/2** | **Submit draft thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | **Mon 17/2** | Draft thesis feedback returned | **LP** |
-| **7** | **Mon 3/3** | **Submit final thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **3** | **Mon 2/2** | **Submit draft thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
+| **5** | **Mon 16/2** | Draft thesis feedback returned | **LP** |
+| **7** | **Mon 2/3** | **Submit final thesis**  <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
