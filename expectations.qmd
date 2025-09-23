@@ -28,8 +28,8 @@ Please read through these expectations and bring any questions or concerns that 
 
 ## Conducting Your Project
 
-- Some [general advice about the group {{< bi link >}}](https://sipbs-compbiol.github.io/student/so_youre_a_project_student/)
-- [How to avoid cognitive overload {{< bi link >}}](https://sipbs-compbiol.github.io/student/avoid-cognitive-overload/)
+- Some [general advice about the group {{< bi link >}}](https://sipbs-compbiol.github.io/posts/2022-09-18-so_youre_a_project_student.html)
+- [How to avoid cognitive overload {{< bi link >}}](https://sipbs-compbiol.github.io/posts/2022-06-02-avoid-cognitive-overload.html)
 
 
 ### Science:
@@ -40,7 +40,7 @@ Please read through these expectations and bring any questions or concerns that 
 
 ::: {.callout-important}
 - **Back up your work frequently and in more than one place** - you do not want to lose all of your data!
-  - It's a common view in computation biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.
+  - It's a common view in computational biology that, if there are not three copies of your data/work (ideally in two physical locations), it might as well not exist.
 :::
   
 - **At the end of the project, I expect you to provide me with the raw data files from your work.** For example:
@@ -49,7 +49,7 @@ Please read through these expectations and bring any questions or concerns that 
 
 ### Teamwork and collegiality:
 
-- [Group Code of Conduct {{< bi link >}}](https://sipbs-compbiol.github.io/group/code_of_conduct)
+- [Group Code of Conduct {{< bi link >}}](https://sipbs-compbiol.github.io/code_of_conduct.html)
 
 - **I expect you to help each other**. In particular, some of you will have more experience than others in the group, when using computational and bioinformatics tools. You are all doing different projects, but you are using similar tools and techniques. I expect you to share knowledge and understanding kindly with one another.
   - **Science is a team effort and it benefits from people working together in groups**. We can accomplish more together than one person working alone can. 
@@ -68,8 +68,8 @@ Please read through these expectations and bring any questions or concerns that 
 
 ### Good Communication:
 
-- [How to ask for feedback {{< bi link >}}](https://sipbs-compbiol.github.io/student/getting-good-feedback/)
-- [How to ask good questions {{< bi link >}}](https://sipbs-compbiol.github.io/student/asking-good-questions/)
+- [How to ask for feedback {{< bi link >}}](https://sipbs-compbiol.github.io/posts/2022-06-01-getting-good-feedback.html)
+- [How to ask good questions {{< bi link >}}](https://sipbs-compbiol.github.io/posts/2022-06-27-asking-good-questions.html)
 - **Be clear, open, and honest in your communication**
 
 ::: {.callout-caution}
@@ -87,7 +87,7 @@ I cannot help if you don't let me know that there's a problem.
   - Ask questions in your lectures/open office sessions
   - [Stack Overflow](https://stackoverflow.com/), [Bioinformatics Stack Exchange](https://bioinformatics.stackexchange.com/) and other specialist sites
   - Social Media (it can be a great place to crowdsource science questions, but it can also be a cesspool)
-- **Take ownership of your project**. I am here to help and to guide you, but this is not my thesis (I have already done one!)
+- **Take ownership of your project**. I am here to help and to guide you, but **this is not _my_ thesis** (I have already done one!)
   - Come to meetings prepared.
   - Think independently and critically
   - Read broadly 
@@ -101,9 +101,9 @@ All of the above contributes to your project performance mark
 :::
 
 - **Don't be afraid to tell me that you think I'm wrong.** I'm a scientist. I'm probably wrong at least half the time.
-  - Your data may contradict my hypotheses or ideas. That's how science works.
+  - Your data may contradict my hypotheses or ideas (or _yours_!). That's how science works. It's fine.
   - You will probably find something in the literature that I wasn't aware of. I'll be interested to hear about it.
-  - You may well have insights and clever thoughts that I won't have. You are closer to your project than I am, and that will generate insight.
+  - You may well have insights and clever thoughts that I won't have. You are closer to your project than I am, and that will generate insight for you.
   - Doing science can involve challenges to accepted dogma, and the Scientific Method requires us to prove ideas (usually our own ideas!) wrong. Be bold.
 
 ## What you should expect from me: 

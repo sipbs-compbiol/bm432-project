@@ -171,11 +171,13 @@ You can save the tree as a Newick file, to visualise in other software (like `De
 
 1. `File -> Save As -> Newick format`
 
-::: {.column-margin}
+::: {#fig-alignments layout-ncol=2}
 
-![JalView alignment](assets/images/jalview_aln.png){#fig-jalview_aln column="margin"}
+![JalView alignment](assets/images/jalview_aln.png){.lightbox #fig-jalview_aln column="margin"}
 
-![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png){#fig-jalview_nj column="margin"}
+![JalView Neighbour-Joining Tree](assets/images/jalview_nj.png){.lightbox #fig-jalview_nj column="margin"}
+
+Jalview alignment and neighbour-joining tree.
 
 :::
 
@@ -222,11 +224,7 @@ The tree will take a short while to be generated, and will produce five output f
 
 ![Settings for generating a protein phylogenetic tree with `RAxML` in Galaxy`](assets/images/galaxy_raxml.png){#fig-galaxy_raxml width=80%}
 
-::: {.column-margin}
-
 ![`RAxML` output on `Galaxy`](assets/images/galaxy_raxml_output.png){#fig-raxml_output}
-
-:::
 
 ## Visualising a phylogenetic tree
 
@@ -241,11 +239,8 @@ This generates a bitmap of the input tree (@fig-newick_display_output). It is a 
 
 ![Options for the `Newick Display` tool](assets/images/newick_display_options.png){#fig-newick_display_options width=80%}
 
-::: {.column-margin}
 
 ![`Newick Display` rendered output](assets/images/newick_display_output.svg){#fig-newick_display_output}
-
-:::
 
 Many alternative tree visualisation tools are available, including:
 
@@ -295,7 +290,7 @@ Midpoint rooting is a way of deciding upon a root point for an unrooted tree, wi
 
 ::: {.callout-tip}
 In `FigTree` the `Midpoint Root` option is in the `Tree` menu.
-
+:::
 
 ![Unrooted maximum likelihood tree, with midpoint rooting. Due to the visual presentation of this tree, the midpoint rooting appears to have no effect.](assets/images/midpoint_unrooted.png){#fig-midpoint_unrooted width=80%}
 

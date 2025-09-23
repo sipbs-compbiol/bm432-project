@@ -69,29 +69,34 @@ You have thoughts and ideas in your head, and the purpose of your writing is to 
 If you do not know what your thoughts and ideas are, you will not be able to communicate them to someone else. Spend time thinking about what you want to say before you write anything.
 :::
 
-
-### How to improve as a writer
+### How to improve as a writer: The Tao of Tea
 
 ::: { .callout-important title="You can only improve as a writer by writing" }
-We do not improve at things only by thinking about them. I cannot make a cup of tea by thinking about a kettle. If I want a better cup of tea I need to put the kettle on. If I want to improve my writing, I first have to write something.
+> We do not improve at things only by thinking about them. I cannot make a cup of tea by thinking about a kettle. If I want a better cup of tea I need to put the kettle on and make at least one cup. 
 
-It may not be very good, especially as a first draft. But if I do not write I cannot get better at writing.
+If I want to improve my writing, I first have to write something. It may not be very good, especially as a first draft. But if I do not write I cannot get better at writing.
 :::
 
 ::: { .callout-warning title="You can only improve as a writer if the writing is read" }
-It is not enough only to write. I do not know if my cup of tea is better than the last one unless it is tasted. I will not know if my writing is improving unless it is read. 
+> I do not know if my cup of tea is better than the last one unless it is tasted. 
+
+I will not know if my writing is improving unless it is read. It is not enough only to write, _someone_ has to read the writing.
 
 Just as I can taste my own cup of tea, I can read my own writing and form a judgement. Before sharing my writing with others, I should read it myself.
 :::
 
 ::: { .callout-note title="You can better judge your own writing if you have read other writing" }
-If I want to know that my writing is improving, I need to know what "improvement" means. If I want to know whether my cup of tea is good or bad, I can taste it and decide whether I like it. But if I have not tasted other good and bad cups of tea, I will not know how to eliminate the bad, or exaggerate the good. I need to have read good and bad writing to have a sense of direction for my own writing.
+> If I want to know whether my cup of tea is good or bad, I can taste it and decide whether I like it. But if I have not tasted other good and bad cups of tea, I will not know how to eliminate the bad, or accentuate the good. 
+
+If I want to know that my writing is improving, I need to know what "improvement" means. I need to have read good and bad writing to have a sense of direction for my own writing.
 
 I can always compare my tea to other cups I have made before, but I may never find a new flavour that way. If I only compare this writing to my previous efforts, I may never find a new way to express myself. It is good to try other people's tea, and to read other people's writing.
 :::
 
 ::: { .callout-tip title="Your writing will get better if you receive constructive feedback" }
-My perspective is limited by my experiences. My imagination of what a cup of tea could be is determined by which teas I have drunk before. If a friend who has drunk many more different teas tastes my tea and suggests a way to make it better, maybe they have a new perspective on what makes tea good that I could use. If a friend reads my writing and suggests a way to make it clearer and better, maybe they have a perspective on communication that I could benefit from.
+> My imagination of what a cup of tea could be is determined by which teas I have drunk before. If a friend who has drunk many more different teas tastes my tea and suggests a way to make it better, maybe they have a new perspective on what makes tea good that I could use. 
 
-You need someone who is not you to give an honest perspective on your writing through constructive feedback.
+My perspective is limited by my experiences. If a friend reads my writing and suggests a way to make it clearer and better, maybe they have a perspective on communication that I could benefit from. 
+
+You need someone _who is not you_ to give an honest perspective on your writing through constructive feedback.
 :::
