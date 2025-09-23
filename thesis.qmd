@@ -23,7 +23,7 @@ html:
 ## General Thesis Writing Guidance
 
 ::: {.callout-important}
-Please go through the [Thesis submission checklist](./assets/checklists/Thesis_submission_checklist.docx) and ensure that your thesis meets all the guidelines before submitting it.
+Please go through the [Thesis submission checklist](./assets/checklists/thesis_submission_checklist.docx) and ensure that your thesis meets all the guidelines before submitting it.
 :::
 
 - Slides for Dr Feeney's [writing tutorial](./assets/slides/writing_tutorial.pptx)
@@ -49,7 +49,7 @@ Please go through the [Thesis submission checklist](./assets/checklists/Thesis_s
 4. Write your results section, going through each of your results (figures) in a logical order.
 
 ::: {.callout-tip}
-**Organize your thoughts logically**
+## **Organize your thoughts logically**
 
 - For each experiment/result, explain:
   1. your aim (the reason why you did the experiment)
@@ -63,7 +63,7 @@ Please go through the [Thesis submission checklist](./assets/checklists/Thesis_s
 5. Write your discussion (what do your results mean?)
 
 ::: {.callout-tip}
-**Writing a Good Discussion Section**
+## **Writing a Good Discussion Section**
 
 - Can you create a model figure illustrating your results and placing them in the context of what was previously known?
 - Make sure that any information essential for understanding your results (context) was present in the introduction.
@@ -82,7 +82,7 @@ Please go through the [Thesis submission checklist](./assets/checklists/Thesis_s
 ## Three Common Scientific Writing Mistakes and How to Avoid Them
 
 ::: {.callout-note}
-**Problem:** Lack of attention to sentence structure
+## **Problem:** Lack of attention to sentence structure
 
 **Example:** "Some students have really excellent ideas and are putting those ideas in their theses and making sure that they reference other people's ideas from the literature correctly and using reference management software in appropriate ways and including a list of references at the end of their thesis. So great."
 
@@ -92,7 +92,7 @@ At one end of the extreme, you have long, convoluted sentences that try to do to
 :::
 
 ::: {.callout-note}
-**Problem**: Excessive use of scientific jargon, colloquialisms, and/or acronyms
+## **Problem**: Excessive use of scientific jargon, colloquialisms, and/or acronyms
 
 **Example:** "We spun down the cells and washed them with PBS."
 
@@ -100,7 +100,7 @@ At one end of the extreme, you have long, convoluted sentences that try to do to
 :::
 
 ::: {.callout-note}
-**Problem**: Lack of precision and/or attention to detail
+## **Problem**: Lack of precision and/or attention to detail
 
 **Example:** "The genes in E. coli were translated and cheY was well conserved."
 
