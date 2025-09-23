@@ -82,7 +82,7 @@ For each individual computer I:
 - [8 Time Management Tips for Students](https://summer.harvard.edu/blog/8-time-management-tips-for-students/)
   - _Really good general advice, from Harvard - LP_
 - [Kanban boards](https://en.wikipedia.org/wiki/Kanban_board)
-  - _Kanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn't require any particular tool or software (I used to use sticky notes), but Trello does a good job of this - LP_
+  - _Kanban is a flexible way to manage projects that allows for rearrangement and rescheduling in the middle of the work. It doesn't require any particular tool or software (I used to use sticky notes), but Trello and GitHub do a good job of this - LP_
 - [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)
   - _I use the Pomodoro technique (with BeFocused, see below) to help me focus when I need to get through long writing tasks. I find it most useful to avoid burning out on a large piece of work - LP_
 
