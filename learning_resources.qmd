@@ -20,7 +20,7 @@ html:
   anchor-sections: true
 ---
 
-Bioinformatics, computational biology, and coding are skills that you can learn and hone through regular practice. There are many online resources, tutorials, and learning platforms that can help you develop these skills independently. This page collects some of those resources together as a place for you to begin exploring this area.
+Bioinformatics, computational biology, and coding are skills that you can learn and hone through regular practice. You sadly won't likely be able to learn them by reading or watching videos alone. You really do have to put the time and practice in. There are many online resources, tutorials, and learning platforms that can help you develop these skills independently. This page collects some of those resources together as a place for you to begin exploring this area.
 
 ## Bioinformatics
 
