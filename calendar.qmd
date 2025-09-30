@@ -38,12 +38,12 @@ This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{
 | ----- | :----------- | :------------------------------------- | :------------: |
 | **1** | w/b Mon 22/9 | **Suggested activities** <br> - read papers in project description <br> - literature search <br> | |
 | **2** | w/b Mon 29/9 | **Suggested activities** <br> - Continue literature search <br> - Practice project management tools | |
-| **2** | **Tue 30/9** <br> 13:00-14:30 <br> **HW323** | **Project Group Meeting A** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> | **LP**
-| **2** | **Thu 2/10** <br> 10:30-12:00 <br> **HW324** | **Project Group Meeting B** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> | **LP**
+| **2** | **Tue 30/9** <br> 13:00-14:30 <br> **HW323** | **Project Group Meeting A** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> - Data Management Plan | **LP**
+| **2** | **Thu 2/10** <br> 10:30-12:00 <br> **HW324** | **Project Group Meeting B** <br> - Introductions <br> - Project descriptions <br> - Project expectations <br> - Learning agreement <br> - Project management resources <br> - Data Management Plan | **LP**
 | **3** | w/b Mon 6/10 | **Suggested activities** <br> - Continue literature search <br> - Outline thesis introduction <br> - Practice computational and bioinformatics tools | |
 | **3** | **Mon 6/10** | **Submit Learning Agreement** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **3** | **Mon 6/10** <br> 13:30-15:00 <br> **HW324** | **Project Group Meeting A** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools |**LP** |
-| **3** | **Thu 9/10** <br> 10:30-12:00 <br> **HW324** | **Project Group Meeting B** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools |**LP** |
+| **3** | **Mon 6/10** <br> 13:30-15:00 <br> **HW324** | **Project Group Meeting A** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools <br> - Return DMP/Learning Agreement |**LP** |
+| **3** | **Thu 9/10** <br> 10:30-12:00 <br> **HW324** | **Project Group Meeting B** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools <br> - Return DMP/Learning Agreement |**LP** |
 | **4** | w/b Mon 13/10 | **Suggested activities** <br> - Continue literature search <br> - Writing timeline and thesis introduction | |
 | **4** | **Mon 13/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - How to write a project thesis | **LP** |
 | **4** | **Thu 16/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - How to write a project thesis | **LP** |
