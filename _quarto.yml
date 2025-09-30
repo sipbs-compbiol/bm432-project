@@ -14,7 +14,7 @@ website:
   site-url: https://sipbs-compbiol.github.io/bm432-project
   navbar:
     logo: ./assets/images/sipbs_compbio.png
-    right:3
+    right:
       - text: "Home"
         file: index.qmd
       - text: "Project Guidance"
