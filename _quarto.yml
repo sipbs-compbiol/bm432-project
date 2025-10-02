@@ -7,7 +7,7 @@ project:
     - "assets/checklists/thesis_submission_checklist.docx"
     - assets/sequences/*
     - "assets/slides/writing_tutorial.pptx"
-    - "assets/slides/2025-09-30_BM432_pathogen_proteins_A.pdf"
+    - assets/slides/*
     - assets/trees/*
 
 website:
