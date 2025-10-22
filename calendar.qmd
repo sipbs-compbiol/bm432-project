@@ -49,7 +49,7 @@ This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{
 | **4** | **Thu 16/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - How to write a project thesis | **LP** |
 | **5** | w/b Mon 20/10 | **Suggested activities** <br> - Start Project Work <br> - Project planning discussion | |
 | **5** | **Mon 20/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
-| **5** | **Tue 21/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - Project updates and discussion | **LP** |
+| **5** | **Tue 21/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - Project updates and discussion <br> [(slides)](assets/slides/2025-10-21_BM432_pathogen_proteins_A.pdf)  | **LP** |
 | **5** | **Thu 24/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - Project updates and discussion | **LP** |
 | **6** | w/b Mon 27/10 | **Suggested activities** <br> - Project work | |
 | **6** | **Mon 27/10** <br> 13:30-15:00 <br> HW323 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
