@@ -45,12 +45,13 @@ This is an **indicative** calendar for SIPBS CompBiol Group BM432 projects in {{
 | **3** | **Mon 6/10** <br> 13:30-15:00 <br> **HW324** | **Project Group Meeting A** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools <br> - Return DMP/Learning Agreement <br> [(slides)](assets/slides/2025-10-06_BM432_pathogen_proteins_A.pdf) |**LP** |
 | **3** | **Thu 9/10** <br> 10:30-12:00 <br> **HW324** | **Project Group Meeting B** <br> - Feedback/discussion of thesis outlines <br> - Computational and bioinformatics tools <br> - Return DMP/Learning Agreement <br> [(slides)](assets/slides/2025-10-06_BM432_pathogen_proteins_B.pdf) |**LP** |
 | **4** | w/b Mon 13/10 | **Suggested activities** <br> - Continue literature search <br> - Writing timeline and thesis introduction | |
-| **4** | **Mon 13/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - How to write a project thesis | **LP** |
-| **4** | **Thu 16/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - How to write a project thesis | **LP** |
+| **4** | **Mon 13/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - How to write a project thesis <br> [(slides)](assets/slides/2025-10-13_BM432_pathogen_proteins_A.pdf)  | **LP** |
+| **4** | **Thu 16/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - How to write a project thesis <br> [(slides)](assets/slides/2025-10-06_BM432_pathogen_proteins_B.pdf)  | **LP** |
 | **5** | w/b Mon 20/10 | **Suggested activities** <br> - Start Project Work <br> - Project planning discussion | |
 | **5** | **Mon 20/10** | **Submit draft Introduction/Literature Review** <br> ([MyPlace]({{< var myplace.link >}})) | **Students** |
 | **5** | **Tue 21/10** <br> 13:30-15:00 <br> HW324 | **Project Group Meeting A**  <br> - Project updates and discussion <br> [(slides)](assets/slides/2025-10-21_BM432_pathogen_proteins_A.pdf)  | **LP** |
 | **5** | **Thu 24/10** <br> 10:30-12:00 <br> HW324 | **Project Group Meeting B**  <br> - Project updates and discussion | **LP** |
+| **5** | **Fri 25/10** <br> 11:00-11:30 <br> HW324 | **Project Group Meeting C**  <br> - Project updates and discussion | **LP** |
 | **6** | w/b Mon 27/10 | **Suggested activities** <br> - Project work | |
 | **6** | **Mon 27/10** <br> 13:30-15:00 <br> HW323 | **Project Group Meeting** <br> - Project updates and discussion | **LP** |
 | **7** | w/b Mon 3/11 | **Suggested activities** <br> - Project work | |
