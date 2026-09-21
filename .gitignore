@@ -11,3 +11,5 @@
 # Ignore macOS files
 .DS_Store
 
+
+**/*.quarto_ipynb
